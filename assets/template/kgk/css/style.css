@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* CONTENT: 
-01. GLOBALS             [21]
+01. GLOBALS             [23]
 02. HEADER              []
 03. SECTIONS            []
 04. FOOTER              []
@@ -120,6 +120,7 @@ body {
 .footline-top {
     padding: 0;
     margin: -1em 0 -.5em;
+	height: 40px;
 }
 
 .footline-bottom {
