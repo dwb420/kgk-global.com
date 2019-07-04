@@ -389,6 +389,7 @@ body {
     margin: 0 15px 30px;
     padding: 0;
     text-align: center;
+    letter-spacing: -.03em;
 }
 
 .section-4step__item-image {
@@ -421,10 +422,14 @@ body {
 .section-4step__item a {
     color: #005EC8;
     text-decoration: none;
+    -moz-transition: all .3s ease-in-out .1s;
+    -webkit-transition: all .3s ease-in-out .1s;
+    transition: all .3s ease-in-out .1s;
 }
 
 .section-4step__item a:focus,
 .section-4step__item a:hover {
+    color: #005EC8;
     text-decoration: underline;
 }
 
@@ -448,21 +453,28 @@ body {
 }
 
 .section-4step__item-image .circle1 {
-    stroke-dasharray: 90;
-    stroke-dashoffset: 100;
+    stroke-dasharray: 80 240;
+    stroke-dashoffset: 90;
 }
 
 .section-4step__item-image .circle2 {
-    stroke-dasharray: 180;
-    stroke-dashoffset: 100;
+    stroke-dasharray: 180 160;
+    stroke-dashoffset: 105;
 }
 
 .section-4step__item-image .circle3 {
-    stroke-dasharray: 270;
+    stroke-dasharray: 240 80;
+    stroke-dashoffset: 85;
 }
 
 .section-4step__item-image .circle4 {
-    stroke-dasharray: 360;
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+}
+
+.section-4step__item:focus>.section-4step__item-image circle,
+.section-4step__item:hover>.section-4step__item-image circle {
+    fill: #FDF415;
 }
 
 
