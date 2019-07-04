@@ -23,7 +23,7 @@
 /* 01. GLOBALS */
 
 * {
-    font: normal
+    font: normal 16px/120% 'OpenSans-Regular', sans-serif;
 }
 
 html,
@@ -398,6 +398,18 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 auto 30px;
+    position: relative;
+}
+
+.section-4step__item-image img {
+    position: absolute;
+}
+
+.section-4step__item-image p {
+    font: normal 20px/140% 'OpenSans-Regular', sans-serif;
+    position: absolute;
+    top: 5px;
+    left: 23%;
 }
 
 .section-4step__item-title {
@@ -440,6 +452,7 @@ body {
     -webkit-border-radius: 52px;
     border-radius: 52px;
     box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.06);
+    position: relative;
 }
 
 .section-4step__item-image circle {
@@ -475,6 +488,27 @@ body {
 .section-4step__item:focus>.section-4step__item-image circle,
 .section-4step__item:hover>.section-4step__item-image circle {
     fill: #FDF415;
+}
+
+
+/* section-advantage */
+
+.section-advantage {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section-advantage__title {
+    width: 100%;
+    margin: 90px auto 60px;
+    font: 600 36px/120% 'OpenSans-Regular', sans-serif;
+    text-align: center;
+}
+
+.section-advantage__items {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
 }
 
 
