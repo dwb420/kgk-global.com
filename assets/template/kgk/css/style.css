@@ -184,6 +184,7 @@ body {
 }
 
 .bottom-contacts span {
+    display: flex;
     font: normal 18px/125% 'OpenSans-Regular', sans-serif;
 }
 
@@ -464,9 +465,9 @@ body {
     stroke: #005EC8;
     stroke-width: 4px;
     stroke-miterlimit: 20;
-    -webkit-transition: 1s all;
-    -o-transition: 1s all;
-    transition: 1s all;
+    -webkit-transition: 2s all;
+    -o-transition: 2s all;
+    transition: 2s all;
 }
 
 .section-4step__item-image .circle1 {
@@ -517,19 +518,112 @@ body {
 
 .section-aboutplus__item {
     position: relative;
-    width: calc(100% / 2 - 30px);
-    margin: 0 15px 30px;
+    width: calc(100% / 2);
+    margin: 0 0 60px;
     padding: 0;
 }
 
 .section-aboutplus__item span {
-    font: 600 50px/140% 'OpenSans-Regular', sans-serif;
+    font: normal 50px/140% 'OpenSans-Bold', sans-serif;
     color: #005EC8;
 }
 
 .section-aboutplus__item p {
-    font: 600 18px/140% 'OpenSans-Regular', sans-serif;
+    font: normal 18px/140% 'OpenSans-Regular', sans-serif;
     color: #000000;
+}
+
+.section-aboutplus__review-items {
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    margin: 100px auto 30px;
+}
+
+.section-aboutplus__review-controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-aboutplus__review-item {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    justify-items: center;
+}
+
+.section-aboutplus__review-item-logo {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-items: flex-start;
+    height: 35px;
+    margin: 0 auto 25px 0;
+    padding: 0;
+}
+
+.section-aboutplus__review-item-quote {
+    font: normal 18px/140% 'OpenSans-Regular', sans-serif;
+}
+
+.section-aboutplus__review-item-title {
+    font: normal 16px/140% 'OpenSans-Bold', sans-serif;
+}
+
+.section-aboutplus__review-item-jobs {
+    font: normal 14px/140% 'OpenSans-Regular', sans-serif;
+}
+
+.section-aboutplus__read-all {
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    margin: 0 auto 110px;
+}
+
+.review-arrows {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.review-arrow-prev,
+.review-arrow-next {
+    background: #FFFFFF;
+    border: 1px solid #A7A7A7;
+    color: #A7A7A7;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-transition: all .3s ease-in-out .1s;
+    -webkit-transition: all .3s ease-in-out .1s;
+    transition: all .3s ease-in-out .1s;
+}
+
+.review-arrow-prev:focus,
+.review-arrow-prev:hover,
+.review-arrow-next:focus,
+.review-arrow-next:hover {
+    border: 1px solid #005EC8;
+    color: #005EC8;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+}
+
+.review-arrow-prev i,
+.review-arrow-next i {
+    font-size: 24px;
 }
 
 
