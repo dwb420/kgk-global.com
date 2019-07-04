@@ -453,8 +453,7 @@ body {
 
 /* 12. MEDIA QUERY RULES */
 
-@media screen and (min-width:1440px;
-) {
+@media screen and (min-width:1440px) {
     .container {
         width: 1440px;
     }
