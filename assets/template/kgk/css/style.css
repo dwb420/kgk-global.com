@@ -994,7 +994,7 @@ body {
 .section-choicevidget__controls {
     display: flex;
     flex-flow: column wrap;
-    padding: 0;
+    padding: 0 30px 0 0;
 }
 
 .section-choicevidget__counter {
@@ -1008,7 +1008,7 @@ body {
 }
 
 .section-choicevidget__question-title {
-    font: normal 25px/140% 'OpenSans-Regular', sans-serif;
+    font: 600 26px/140% 'OpenSans-Regular', sans-serif;
     color: #373737;
 }
 
@@ -1080,6 +1080,9 @@ body {
 }
 
 .section-choicevidget__choicefield {
+    display: flex;
+    align-content: center;
+    align-items: center;
     padding: 0 0 0 30px;
 }
 
@@ -1092,8 +1095,11 @@ body {
     display: flex;
     align-items: center;
     align-content: center;
+    position: relative;
+    width: 100%;
+    height: calc(100% / 3 - 15px);
     margin: 0 0 24px;
-    padding: 15px 20px;
+    padding: 0;
     border: 1px solid #D0D0D0;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -1103,29 +1109,154 @@ body {
     transition: all .3s ease-in-out .1s;
 }
 
-.section-choicevidget__variants-item input {
-    visibility: hidden;
+.section-choicevidget__variants-item:last-child {
+    margin: 0;
 }
 
-.section-choicevidget__variants-item label:before {
+.section-choicevidget__variants-item input[type=radio] {
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    margin: 0 0 0 30px;
+}
+
+.section-choicevidget__variants-item input[type=radio]+label {
     display: flex;
+    align-content: center;
+    align-items: center;
     position: relative;
+    padding: 15px 20px 15px 70px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.section-choicevidget__variants-item input[type=radio]:checked+label {
+    background: #005EC8;
+    color: #FFFFFF;
+}
+
+.section-choicevidget__variants-item input[type=radio]+label:before {
+    content: '';
+    position: absolute;
+    top: calc(100% / 2 - 15px);
+    left: 20px;
     width: 30px;
     height: 30px;
+    background: #FFFFFF;
     border: 1px solid #D0D0D0;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
+    text-align: center;
+}
+
+.section-choicevidget__variants-item input[type=radio]+label:after {
+    content: '';
+    position: absolute;
+    top: calc(100% / 2 - 15px);
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #D0D0D0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.section-choicevidget__variants-item input[type=radio]:checked+label:before {
+    content: '\2714';
+    background: #378FF2;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.section-choicevidget__variants-item input[type=radio]:checked+label:after {
+    content: '\2714';
+    background: #378FF2;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
 }
 
 .section-choicevidget__variants-item label {
-    margin: 0 0 0 24px;
+    margin: 0;
     font: normal 16px/140% 'OpenSans-Regular', sans-serif;
     color: #444444;
 }
 
 .section-choicevidget__send {
     display: none;
+}
+
+
+/* section complexchoice */
+
+.section-complexchoice {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section-complexchoice__title {
+    width: 100%;
+    margin: 100px auto 30px;
+    font: 600 36px/120% 'OpenSans-Regular', sans-serif;
+    text-align: center;
+}
+
+.section-complexchoice__descr {
+    width: 80%;
+    margin: 0 auto 40px;
+    font: normal 22px/140% 'OpenSans-Regular', sans-serif;
+    text-align: center;
+}
+
+.section-complexchoice__items {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+.section-complexchoice__item {
+    position: relative;
+    width: calc(100% / 3 - 30px);
+    margin: 0 15px 30px;
+    padding: 30px;
+    box-shadow: 0px 1px 16px rgba(204, 223, 244, 0.23);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.section-complexchoice__item-img {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-start;
+    justify-content: flex-start;
+    width: 85px;
+    height: 65px;
+}
+
+.section-complexchoice__item-title {
+    width: 100%;
+    margin: 20px 0;
+    font: normal 22px/120% 'OpenSans-Regular', sans-serif;
+}
+
+.section-complexchoice__item-descr {
+    width: 100%;
+    margin: 0;
+    font: normal 16px/140% 'OpenSans-Regular', sans-serif;
+}
+
+.section-complexchoice__item-readmore {
+    width: 100%;
+    margin: 25px 0 35px;
+    font: normal 22px/120% 'OpenSans-Regular', sans-serif;
 }
 
 
