@@ -1387,6 +1387,105 @@ body {
 }
 
 
+/* section devices all */
+
+.section-devicesall {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.section-devicesall__title {
+    width: 100%;
+    margin: 90px auto 20px;
+    font: 600 36px/120% 'OpenSans-Regular', sans-serif;
+    text-align: center;
+}
+
+.section-devicesall__descr {
+    width: 70%;
+    margin: 20px auto 40px;
+    font: normal 22px/140% 'OpenSans-Regular', sans-serif;
+    text-align: center;
+}
+
+.section-devicesall__items {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+.section-devicesall__item {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    height: 100%;
+    min-height: 300px;
+    margin: 15px;
+    padding: 25px 30px 35px;
+    background: #FFF;
+    box-shadow: 0px 1px 16px rgba(204, 223, 244, .23);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.section-devicesall__item-title {
+    font: normal 22px/120% 'OpenSans-Regular', sans-serif;
+    margin-bottom: 20px;
+}
+
+.section-devicesall__item-descr {
+    font: normal 16px/140% 'OpenSans-Regular', sans-serif;
+}
+
+.section-devicesall__item-readmore {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.section-devicesall__item-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.section-devicesall__item.item-has-img {
+    width: calc(100% / 3 * 2 - 30px);
+    background: url("/assets/template/kgk/img/devicesall-backimg.svg") right calc(-5%) center no-repeat;
+}
+
+.section-devicesall__item.item-no-img {
+    width: calc(100% / 3 - 30px);
+}
+
+.item-has-img>.section-devicesall__item-text,
+.item-has-img>.section-devicesall__item-img {
+    width: calc(100% / 2 - 10px);
+}
+
+.item-no-img>.section-devicesall__item-text {
+    width: 100%;
+}
+
+
+/* section devicesrekommend */
+
+.section-devicesrekomm {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+}
+
+
 /* 12. MEDIA QUERY RULES */
 
 @media screen and (min-width:1440px) {
