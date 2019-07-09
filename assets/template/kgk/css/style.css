@@ -115,6 +115,10 @@ body {
     background: #FFFFFF;
 }
 
+.row-between {
+    margin: 0 auto calc(6rem);
+}
+
 
 /* 04. FOOTER */
 
@@ -281,7 +285,7 @@ body {
 
 .button-xxl {
     height: 68px;
-    padding: 18px 36px;
+    padding: 18px 42px;
     -moz-border-radius: 34px;
     -webkit-border-radius: 34px;
     border-radius: 34px;
@@ -289,7 +293,7 @@ body {
 
 .button-xl {
     height: 48px;
-    padding: 12px 24px;
+    padding: 12px 30px;
     -moz-border-radius: 24px;
     -webkit-border-radius: 24px;
     border-radius: 24px;
@@ -1222,7 +1226,6 @@ body {
 }
 
 .section-complexchoice__item {
-    position: relative;
     width: calc(100% / 3 - 30px);
     margin: 0 15px 30px;
     padding: 30px;
@@ -1257,6 +1260,72 @@ body {
     width: 100%;
     margin: 25px 0 35px;
     font: normal 22px/120% 'OpenSans-Regular', sans-serif;
+}
+
+
+/* section complex-upgrade */
+
+.section-complexupgrade {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    margin: 70px auto calc(-6rem);
+    padding: 0 20px;
+    background: #FFFFFF;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 16px rgba(204, 223, 244, .23);
+}
+
+.section-complexupgrade__img {
+    background: #F5F7F9;
+    width: 100px;
+    height: 100px;
+    max-width: calc(10%);
+    margin: 0 20px;
+    padding: 30px 0;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.section-complexupgrade__text {
+    width: calc(65%);
+    padding: 30px 20px;
+    border: none;
+    border-right: 1px solid #DDDDDD;
+}
+
+.section-complexupgrade__text-title {
+    font: normal 30px/140% 'OpenSans-Bold', sans-serif;
+    color: rgba(0, 0, 0, .8);
+}
+
+.section-complexupgrade__text-title span {
+    font: normal 30px/140% 'OpenSans-Bold', sans-serif;
+    color: #005EC8;
+}
+
+.section-complexupgrade__text p {
+    font: normal 16px/140% 'OpenSans-Regular', sans-serif;
+    color: rgba(0, 0, 0, .8);
+}
+
+.section-complexupgrade__button {
+    width: calc(20%);
+    margin: 0 0 0 20px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.section-complexupgrade__button p {
+    margin: 1rem auto;
+    font: 300 14px/140% 'OpenSans-Regular', sans-serif;
+    color: rgba(0, 0, 0, .6);
 }
 
 
