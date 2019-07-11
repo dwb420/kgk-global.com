@@ -1600,7 +1600,7 @@ div.panel {
 }
 
 .panel p {
-    padding: 25px 35px;
+    padding: 25px 10px;
     margin: 0;
 }
 
@@ -1628,12 +1628,15 @@ div.panel {
 .section-faq__accordion>.icon {
     width: 30px;
     height: 30px;
-    position: relative;
+    position: absolute;
+    right: 10px;
     margin-right: 0;
     margin-left: auto;
 }
 
-.section-faq__accordion:before,
+
+/*.section-faq__accordion:before,*/
+
 .section-faq__accordion>.icon i {
     content: '';
     display: flex;
@@ -1646,7 +1649,9 @@ div.panel {
     transition: all .3s ease-in-out;
 }
 
-.section-faq__accordion.active:before,
+
+/*.section-faq__accordion.active:before,*/
+
 .section-faq__accordion.active>.icon i {
     transform: rotate(180deg);
 }
@@ -1675,6 +1680,7 @@ div.panel {
 }
 
 .section-faq__item .title {
+    margin-right: 40px;
     font: normal 22px/140% 'OpenSans-Regular', sans-serif;
     color: #005EC8;
 }
