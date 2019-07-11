@@ -1,4 +1,4 @@
-// Accordion for faq section
+// Accordion for 'faq' section
 
 var acc = document.getElementsByClassName("section-faq__accordion");
 var itm = document.getElementsByClassName("section-faq__item");
@@ -18,3 +18,16 @@ for (i = 0; i < acc.length; i++) {
         this.classList.toggle("chosen");
     }
 }
+
+// Slick slider for 'functions' section
+
+$('.slider-func').slick({
+    accessibility: true,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 9000,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
+});

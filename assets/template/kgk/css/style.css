@@ -1634,9 +1634,7 @@ div.panel {
     margin-left: auto;
 }
 
-
-/*.section-faq__accordion:before,*/
-
+.section-faq__accordion:before,
 .section-faq__accordion>.icon i {
     content: '';
     display: flex;
@@ -1649,9 +1647,7 @@ div.panel {
     transition: all .3s ease-in-out;
 }
 
-
-/*.section-faq__accordion.active:before,*/
-
+.section-faq__accordion.active:before,
 .section-faq__accordion.active>.icon i {
     transform: rotate(180deg);
 }
@@ -1686,6 +1682,53 @@ div.panel {
 }
 
 .section-faq__item p {
+    color: #000000;
+}
+
+
+/* section functions */
+
+.section-functions {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    margin: 90px auto;
+}
+
+.section-functions__items {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.section-functions__item {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.section-functions__img {
+    text-align: center;
+}
+
+.section-functions__text {
+    text-align: left;
+}
+
+.section-functions__title {
+    font: normal 32px/120% 'OpenSans-Regular', sans-serif;
+    color: #000000;
+}
+
+.section-functions__descr {
+    font: normal 18px/140% 'OpenSans-Regular', sans-serif;
     color: #000000;
 }
 
