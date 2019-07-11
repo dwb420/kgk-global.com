@@ -19,15 +19,16 @@ for (i = 0; i < acc.length; i++) {
     }
 }
 
-// Slick slider for 'functions' section
 
-$('.slider-func').slick({
-    accessibility: true,
-    dots: false,
-    autoplay: true,
-    autoplaySpeed: 9000,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear'
+// Slick slider for 'functions' section
+$(document).ready(function() {
+    $('.section-functions__items').slick({
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 9000,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+    });
 });

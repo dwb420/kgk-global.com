@@ -412,6 +412,26 @@ body {
     text-decoration: none;
 }
 
+.button-warning-inverse {
+    background: #FDF415;
+    border: 2px solid #FDF415;
+    box-sizing: border-box;
+    -moz-transition: all .3s ease-in-out .15s;
+    -webkit-transition: all .3s ease-in-out .15s;
+    transition: all .3s ease-in-out .15s;
+    color: #000000;
+    text-decoration: none;
+}
+
+.button-warning-inverse:focus,
+.button-warning-inverse:hover {
+    background: #FFFFFF);
+    border: 2px solid #FDF415;
+    box-shadow: 0 0 5px #FDF415, 0 0 15px #FDF415 inset;
+    color: #000000;
+    text-decoration: none;
+}
+
 
 /* 11. CUSTOM SECTIONS */
 
@@ -1702,6 +1722,7 @@ div.panel {
     align-content: center;
     align-items: center;
     justify-content: center;
+    width: 100%;
     padding: 0;
 }
 
@@ -1712,6 +1733,15 @@ div.panel {
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+.section-functions__img,
+.section-functions__text {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
 }
 
 .section-functions__img {
@@ -1730,6 +1760,74 @@ div.panel {
 .section-functions__descr {
     font: normal 18px/140% 'OpenSans-Regular', sans-serif;
     color: #000000;
+}
+
+
+/* section mainscreen */
+
+.row-mainscreen {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    position: relative;
+    margin-top: 20px;
+    background: url("/assets/template/kgk/img/mainscreen-bg.svg") center center no-repeat;
+    background-size: 100% auto;
+}
+
+.row-mainscreen__upper {
+    position: absolute;
+    right: 0;
+}
+
+.section-mainscreen {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 115px auto 120px;
+}
+
+.section-mainscreen__breaker {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.section-mainscreen__info {
+    padding: 0;
+    margin: 0;
+}
+
+.section-mainscreen__title {
+    width: 100%;
+    margin: 0 auto 25px;
+    font: normal 36px/120% 'OpenSans-Regular', sans-serif;
+}
+
+.section-mainscreen__descr {
+    width: 100%;
+    margin: 0 auto 25px;
+    font: normal 22px/140% 'OpenSans-Regular', sans-serif;
+}
+
+.section-mainscreen__buttons {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 auto 25px;
+    font: normal 22px/140% 'OpenSans-Regular', sans-serif;
+}
+
+.section-mainscreen__buttons>#join-now {
+    font: normal 24px/100% 'OpenSans-Regular', sans-serif;
+}
+
+.section-mainscreen__buttons>#calc-now {
+    font: normal 20px/100% 'OpenSans-Regular', sans-serif;
 }
 
 
