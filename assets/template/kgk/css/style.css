@@ -425,9 +425,9 @@ body {
 
 .button-warning-inverse:focus,
 .button-warning-inverse:hover {
-    background: #FFFFFF);
+    background: #FFFFFF;
     border: 2px solid #FDF415;
-    box-shadow: 0 0 5px #FDF415, 0 0 15px #FDF415 inset;
+    box-shadow: 0 0 15px #FDF415;
     color: #000000;
     text-decoration: none;
 }
@@ -1777,7 +1777,78 @@ div.panel {
 
 .row-mainscreen__upper {
     position: absolute;
+    left: 60%;
     right: 0;
+    height: 100%;
+    background: url("/assets/template/kgk/img/mainscreen-up.png") center right no-repeat;
+    background-size: 100% auto;
+    -moz-transition: all 2s ease-in-out 3s;
+    -webkit-transition: all 2s ease-in-out 3s;
+    transition: all 2s ease-in-out 3s;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.row-mainscreen__upper-point {
+    position: absolute;
+}
+
+.point-cyan {
+    top: 59%;
+    left: 60%;
+}
+
+.point-green {
+    top: 18%;
+    left: 76.5%;
+}
+
+.point-yellow {
+    top: 25%;
+    left: 27.5%;
 }
 
 .section-mainscreen {
