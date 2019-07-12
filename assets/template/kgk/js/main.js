@@ -56,6 +56,20 @@ $(document).ready(function() {
 });
 
 
+// Slick slider for 'reviews' section
+$(document).ready(function() {
+    $('.section-reviews__items').slick({
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 4500,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+    });
+});
+
+
 // Slick slider for 'functions' section
 $(document).ready(function() {
     $('.section-functions__items').slick({
@@ -63,7 +77,7 @@ $(document).ready(function() {
         autoplay: true,
         autoplaySpeed: 9000,
         infinite: true,
-        speed: 500,
+        speed: 300,
         fade: true,
         cssEase: 'linear'
     });
