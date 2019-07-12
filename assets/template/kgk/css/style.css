@@ -2025,6 +2025,8 @@ div.panel {
     align-items: center;
     justify-items: center;
     justify-content: space-around;
+    width: 100%;
+    margin: 0 auto 80px;
 }
 
 .section-opport__buttons {
@@ -2143,6 +2145,55 @@ div.panel {
     margin: 0 0 0 20px;
     padding: 30px 0;
     text-align: center;
+}
+
+
+/* section reports */
+
+.section-reports {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section-reports__title {
+    width: 100%;
+    margin: 60px auto;
+    font: 600 36px/120% 'OpenSans-Regular', sans-serif;
+    text-align: center;
+}
+
+.section-reports__items {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+.section-reports__item {
+    width: calc(100% / 3 - 30px);
+    margin: 0 15px 30px;
+    padding: 0;
+    text-align: center;
+}
+
+.section-reports__item-img {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    margin: 0 auto 20px;
+    position: relative;
+    width: 100%;
+}
+
+.section-reports__item-title {
+    font: normal 24px/140% 'OpenSans-Regular', sans-serif;
+    margin: 0 0 15px;
+}
+
+.section-reports__item-descr {
+    font: normal 16px/140% 'OpenSans-Regular', sans-serif;
+    margin: 0 0 40px;
 }
 
 
