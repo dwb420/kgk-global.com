@@ -1349,6 +1349,61 @@ body {
 }
 
 
+/* section contact-form */
+
+.section-contactform {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 45px auto 0;
+}
+
+.section-contactform__text {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: flex-start;
+    width: calc(100% / 2 - 30px);
+    padding: 0 30px 0 10px;
+    text-align: left;
+}
+
+.section-contactform__title {
+    width: 100%;
+    margin: 0 auto 50px;
+    font: 600 36px/120% 'OpenSans-Regular', sans-serif;
+}
+
+.section-contactform__descr {
+    margin: 0 auto 50px;
+    font: normal 18px/140% 'OpenSans-Regular', sans-serif;
+    color: rgba(0, 0, 0, .8);
+}
+
+.section-contactform__address {
+    width: 100%;
+    margin: 0 auto 20px;
+    font: 600 16px/140% 'OpenSans-Regular', sans-serif;
+    color: #000000;
+}
+
+.section-contactform__form {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 2 + 30px);
+    height: auto;
+    min-height: 400px;
+    padding: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.06);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+
 /* section controls */
 
 .section-controls {
@@ -1974,6 +2029,24 @@ div.panel {
     -webkit-border-radius: 4px;
     border-radius: 4px;
 }
+
+
+/* section order-form */
+
+.section-orderform {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section-orderform__text {}
+
+.section-orderform__title {}
+
+.section-orderform__descr {}
+
+.section-orderform__adress {}
+
+.section-orderform__form {}
 
 
 /* 12. MEDIA QUERY RULES */
