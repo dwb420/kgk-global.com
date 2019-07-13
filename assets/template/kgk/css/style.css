@@ -2248,6 +2248,55 @@ div.panel {
     font-weight: 700;
 }
 
+/* section survey */
+
+.section-survey {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.section-survey__body {
+	margin: 90px auto 50px;
+}
+.section-survey__title {
+	width: 100%;
+	margin-bottom: 40px;
+	font: normal 32px/120% 'OpenSans-Regular', sans-serif;
+	text-align: center;
+}
+.section-survey__descr {
+	width: 100%;
+	margin-bottom: 40px;
+	font: 300 18px/140% 'OpenSans-Regular', sans-serif;
+	text-align: center;
+}
+.section-survey__items {
+	display: flex;
+	flex-flow: column wrap;
+}
+.section-survey__item {
+	display: flex;
+	flex-flow: column wrap;
+	position: relative;
+	width: 100%;
+}
+.section-survey__item-heading {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: flex-start;
+}
+.section-survey__item-title {
+	font: normal 20px/140% 'OpenSans-Regular', sans-serif;
+	color: #000000;
+}
+.section-survey__item-panel {
+	font: 300 16px/140% 'OpenSans-Regular', sans-serif;
+}
+.section-survey__item-img {}
+
+
+
 
 /* 12. MEDIA QUERY RULES */
 
