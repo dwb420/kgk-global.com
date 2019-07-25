@@ -1,0 +1,54 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'fe80e5b3610879df25192f368e1c37bf' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":21,"event":"OnWebPagePrerender","priority":0,"propertyset":0}',
+        'guid' => '0925dd0b196a58efd6c8ce24f9e54a45',
+        'native_key' => 
+        array (
+          0 => 21,
+          1 => 'OnWebPagePrerender',
+        ),
+        'signature' => '6ed9f69daf53dddf7cbd9113f77f903a',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'lazyimage',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '83f1b83d96d921b668d89489add5efe2',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => 'b96cbbd8d14df5149c25661cd482ea5f',
+  'native_key' => 21,
+  'object' => '{"id":21,"source":1,"property_preprocess":0,"name":"lazy","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"if ($modx->event->name == \'OnWebPagePrerender\') {\\n    $hasLazy = false;\\n    $content = &$modx->resource->_output;\\n    preg_match_all(\'\\/<img[^>]+>\\/i\', $content, $images);\\n    if (count($images)) {\\n        foreach ($images[0] as $image) {\\n            preg_match(\'\\/(class)=(\\"[^\\"]*\\")\\/i\', $image, $classValue);\\n            $imageClasses = explode(\\" \\", str_replace(\'\\"\', \'\', $classValue[2]));\\n            if (in_array(\\"lazy\\", $imageClasses)) {\\n                $img_real = str_replace(\\" src=\\", \\" data-src=\\", $image);\\n                $content = str_replace($image, $img_real, $content);\\n                $hasLazy = true;\\n            }\\n        }\\n    }\\n    if ($hasLazy) {\\n        $lazyJs = \'<script>\\/*yall.js 2.3.0*\\/var yall=function(){\\"use strict\\";return function(e){e||(e={});var t=\\"IntersectionObserver\\"in window&&\\"IntersectionObserverEntry\\"in window&&\\"intersectionRatio\\"in window.IntersectionObserverEntry.prototype,n=\\"requestIdleCallback\\"in window,o=[[document,\\"scroll\\"],[document,\\"touchmove\\"],[window,\\"resize\\"],[window,\\"orientationchange\\"]],r=e.lazyClass||\\"lazy\\",i=e.lazyBackgroundClass||\\"lazy-bg\\",c=e.idleLoadTimeout||100,a=e.threshold||200,s=e.observeChanges||!1,l=\\"img.\\"+r+\\",video.\\"+r+\\",iframe.\\"+r+\\",.\\"+i,u=[\\"srcset\\",\\"src\\",\\"poster\\"],d={timeout:c},f=function(e){return[].slice.call(e)},v=function(t){switch(t.nodeName){case\\"IMG\\":var n=t.parentNode;\\"PICTURE\\"==n.nodeName&&f(n.querySelectorAll(\\"source\\")).forEach(function(e){b(e)}),b(t);break;case\\"VIDEO\\":f(t.querySelectorAll(\\"source\\")).forEach(function(e){b(e)}),b(t),t.autoplay&&t.load();break;case\\"IFRAME\\":b(t)}t.classList.contains(i)&&(t.classList.remove(i),t.classList.add(e.lazyBackgroundLoaded||\\"lazy-bg-loaded\\"))},b=function(e){u.forEach(function(t){t in e.dataset&&(e[t]=e.dataset[t])})},g=function yallBack(){var t=!1;!t&&h.length&&(t=!0,setTimeout(function(){h.forEach(function(e){e.getBoundingClientRect().top<=window.innerHeight+a&&e.getBoundingClientRect().bottom>=-a&&\\"none\\"!=getComputedStyle(e).display&&(n&&c?requestIdleCallback(function(){v(e)},d):v(e),e.classList.remove(r),h=h.filter(function(t){return t!=e}))}),t=!1,h.length||s||o.forEach(function(e){e[0].removeEventListener(e[1],yallBack)})},e.throttleTime||200))},h=f(document.querySelectorAll(l));if(\\/(google|bing|yandex|duckduck)bot\\/i.test(navigator.userAgent))h.forEach(function(e){v(e)});else{if(t){var m=new IntersectionObserver(function(e,t){e.forEach(function(e){if(e.isIntersecting){var o=e.target;n&&c?requestIdleCallback(function(){v(o)},d):v(o),o.classList.remove(r),t.unobserve(o),h=h.filter(function(e){return e!=o})}})},{rootMargin:a+\\"px 0%\\"});h.forEach(function(e){m.observe(e)})}else o.forEach(function(e){e[0].addEventListener(e[1],g)}),g();\\"MutationObserver\\"in window&&s&&new MutationObserver(function(e){e.forEach(function(){f(document.querySelectorAll(l)).forEach(function(e){-1==h.indexOf(e)&&(h.push(e),t?m.observe(e):g())})})}).observe(document.querySelector(e.observeRootSelector||\\"body\\"),e.mutationObserverOptions||{childList:!0,subtree:!0})}}}();document.addEventListener(\\"DOMContentLoaded\\", yall);<\\/script>\';\\n        $content = str_replace(\\"<\\/body\\", $lazyJs . \\"<\\/body\\", $content);\\n    }\\n}","locked":0,"properties":"a:0:{}","disabled":0,"moduleguid":"","static":0,"static_file":"","content":"if ($modx->event->name == \'OnWebPagePrerender\') {\\n    $hasLazy = false;\\n    $content = &$modx->resource->_output;\\n    preg_match_all(\'\\/<img[^>]+>\\/i\', $content, $images);\\n    if (count($images)) {\\n        foreach ($images[0] as $image) {\\n            preg_match(\'\\/(class)=(\\"[^\\"]*\\")\\/i\', $image, $classValue);\\n            $imageClasses = explode(\\" \\", str_replace(\'\\"\', \'\', $classValue[2]));\\n            if (in_array(\\"lazy\\", $imageClasses)) {\\n                $img_real = str_replace(\\" src=\\", \\" data-src=\\", $image);\\n                $content = str_replace($image, $img_real, $content);\\n                $hasLazy = true;\\n            }\\n        }\\n    }\\n    if ($hasLazy) {\\n        $lazyJs = \'<script>\\/*yall.js 2.3.0*\\/var yall=function(){\\"use strict\\";return function(e){e||(e={});var t=\\"IntersectionObserver\\"in window&&\\"IntersectionObserverEntry\\"in window&&\\"intersectionRatio\\"in window.IntersectionObserverEntry.prototype,n=\\"requestIdleCallback\\"in window,o=[[document,\\"scroll\\"],[document,\\"touchmove\\"],[window,\\"resize\\"],[window,\\"orientationchange\\"]],r=e.lazyClass||\\"lazy\\",i=e.lazyBackgroundClass||\\"lazy-bg\\",c=e.idleLoadTimeout||100,a=e.threshold||200,s=e.observeChanges||!1,l=\\"img.\\"+r+\\",video.\\"+r+\\",iframe.\\"+r+\\",.\\"+i,u=[\\"srcset\\",\\"src\\",\\"poster\\"],d={timeout:c},f=function(e){return[].slice.call(e)},v=function(t){switch(t.nodeName){case\\"IMG\\":var n=t.parentNode;\\"PICTURE\\"==n.nodeName&&f(n.querySelectorAll(\\"source\\")).forEach(function(e){b(e)}),b(t);break;case\\"VIDEO\\":f(t.querySelectorAll(\\"source\\")).forEach(function(e){b(e)}),b(t),t.autoplay&&t.load();break;case\\"IFRAME\\":b(t)}t.classList.contains(i)&&(t.classList.remove(i),t.classList.add(e.lazyBackgroundLoaded||\\"lazy-bg-loaded\\"))},b=function(e){u.forEach(function(t){t in e.dataset&&(e[t]=e.dataset[t])})},g=function yallBack(){var t=!1;!t&&h.length&&(t=!0,setTimeout(function(){h.forEach(function(e){e.getBoundingClientRect().top<=window.innerHeight+a&&e.getBoundingClientRect().bottom>=-a&&\\"none\\"!=getComputedStyle(e).display&&(n&&c?requestIdleCallback(function(){v(e)},d):v(e),e.classList.remove(r),h=h.filter(function(t){return t!=e}))}),t=!1,h.length||s||o.forEach(function(e){e[0].removeEventListener(e[1],yallBack)})},e.throttleTime||200))},h=f(document.querySelectorAll(l));if(\\/(google|bing|yandex|duckduck)bot\\/i.test(navigator.userAgent))h.forEach(function(e){v(e)});else{if(t){var m=new IntersectionObserver(function(e,t){e.forEach(function(e){if(e.isIntersecting){var o=e.target;n&&c?requestIdleCallback(function(){v(o)},d):v(o),o.classList.remove(r),t.unobserve(o),h=h.filter(function(e){return e!=o})}})},{rootMargin:a+\\"px 0%\\"});h.forEach(function(e){m.observe(e)})}else o.forEach(function(e){e[0].addEventListener(e[1],g)}),g();\\"MutationObserver\\"in window&&s&&new MutationObserver(function(e){e.forEach(function(){f(document.querySelectorAll(l)).forEach(function(e){-1==h.indexOf(e)&&(h.push(e),t?m.observe(e):g())})})}).observe(document.querySelector(e.observeRootSelector||\\"body\\"),e.mutationObserverOptions||{childList:!0,subtree:!0})}}}();document.addEventListener(\\"DOMContentLoaded\\", yall);<\\/script>\';\\n        $content = str_replace(\\"<\\/body\\", $lazyJs . \\"<\\/body\\", $content);\\n    }\\n}"}',
+);

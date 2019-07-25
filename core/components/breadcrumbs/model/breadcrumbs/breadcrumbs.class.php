@@ -112,14 +112,14 @@ class BreadCrumbs {
              *
              * @var string $homeCrumbTitle
              */
-            'homeCrumbTitle' => 'Home',
+            'homeCrumbTitle' => 'Главная',
             /**
              * In case you want to have a custom description of the home link.
              * Defaults to title of home link.
              *
              * @var string $homeCrumbDescription
              */
-            'homeCrumbDescription' => 'Home',
+            'homeCrumbDescription' => 'Главная',
             /**
              * To change default page field to be used as a breadcrumb title,
              * default is pagetitle.

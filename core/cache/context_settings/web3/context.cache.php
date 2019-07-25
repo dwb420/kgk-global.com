@@ -324,6 +324,8 @@ switch ($modx->event->name) {
           'policy' => 
           array (
             'load' => true,
+            'formit' => true,
+            'formit_encryptions' => false,
           ),
         ),
         1 => 
@@ -339,6 +341,8 @@ switch ($modx->event->name) {
             'remove' => true,
             'copy' => true,
             'view_unpublished' => true,
+            'formit' => true,
+            'formit_encryptions' => false,
           ),
         ),
       ),

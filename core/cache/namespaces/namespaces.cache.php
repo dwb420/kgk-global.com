@@ -17,6 +17,12 @@
     'path' => '/var/www/www-root/data/www/dev2.igornesov.ru/manager/',
     'assets_path' => '/var/www/www-root/data/www/dev2.igornesov.ru/manager/assets/',
   ),
+  'formit' => 
+  array (
+    'name' => 'formit',
+    'path' => '/var/www/www-root/data/www/dev2.igornesov.ru/core/components/formit/',
+    'assets_path' => '/var/www/www-root/data/www/dev2.igornesov.ru/assets/components/formit/',
+  ),
   'googlesitemap' => 
   array (
     'name' => 'googlesitemap',
