@@ -218,6 +218,26 @@
     array (
       0 => 
       array (
+        'text' => 'FormIt',
+        'parent' => 'components',
+        'action' => 'home',
+        'description' => 'Просмотреть все заполненные формы',
+        'icon' => '',
+        'menuindex' => 0,
+        'params' => '',
+        'handler' => '',
+        'permissions' => 'formit',
+        'namespace' => 'formit',
+        'action_controller' => NULL,
+        'action_namespace' => NULL,
+        'id' => 'formit',
+        'children' => 
+        array (
+        ),
+        'controller' => '',
+      ),
+      1 => 
+      array (
         'text' => 'Установщик',
         'parent' => 'components',
         'action' => 'workspaces',

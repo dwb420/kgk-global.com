@@ -344,3 +344,6 @@ Array
 [2019-07-25 13:03:42] (ERROR in modRestCurlClient::__construct @ /var/www/www-root/data/www/dev2.igornesov.ru/core/model/modx/rest/modrestcurlclient.class.php : 26) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
 [2019-07-25 13:04:17] (ERROR in xPDO::getService @ /var/www/www-root/data/www/dev2.igornesov.ru/core/xpdo/xpdo.class.php : 1234) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
 [2019-07-25 13:04:17] (ERROR in modRestCurlClient::__construct @ /var/www/www-root/data/www/dev2.igornesov.ru/core/model/modx/rest/modrestcurlclient.class.php : 26) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2019-07-26 00:50:13] (ERROR @ /var/www/www-root/data/www/dev2.igornesov.ru/core/model/modx/modcachemanager.class.php : 514) Error caching script elements/modplugin/3
+[2019-07-26 10:35:24] (ERROR @ /var/www/www-root/data/www/dev2.igornesov.ru/core/model/modx/modcachemanager.class.php : 514) Error caching script elements/modplugin/3
+[2019-07-26 11:22:29] (ERROR @ /var/www/www-root/data/www/dev2.igornesov.ru/core/model/modx/modcachemanager.class.php : 322) Could not cache resource 1

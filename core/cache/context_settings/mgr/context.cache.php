@@ -27,8 +27,8 @@
     ),
     'OnManagerPageBeforeRender' => 
     array (
-      1 => '1',
       4 => '4',
+      1 => '1',
     ),
     'OnMODXInit' => 
     array (
@@ -44,8 +44,8 @@
     ),
     'OnSiteRefresh' => 
     array (
-      3 => '3',
       2 => '2',
+      3 => '3',
     ),
     'OnSnipFormPrerender' => 
     array (

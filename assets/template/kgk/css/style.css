@@ -840,10 +840,12 @@ button#langMenu {
 }
 
 .section-aboutplus__read-all {
+    display: flex;
+    flex-flow: row wrap;
     width: 100%;
     text-align: left;
     padding: 0;
-    margin: 0 auto 110px;
+    margin: 0 auto;
 }
 
 .review-arrows {
@@ -1260,11 +1262,27 @@ button#langMenu {
     margin: 0 auto;
 }
 
+.section-articles__items-listbox {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    list-style: none inside;
+    margin: 0;
+    padding: 0;
+}
+
 .section-articles__item {
     position: relative;
     width: calc(100% / 4 - 30px);
     margin: 0 15px 30px;
-    padding: 0 15px;
+    padding: 0;
+    background: #FFF;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .23);
+    overflow: hidden
 }
 
 .section-articles__item-img {
@@ -1274,7 +1292,7 @@ button#langMenu {
     justify-content: space-around;
     width: auto;
     height: 180px;
-    margin: 0 -15px 15px;
+    margin: 0 auto 15px;
     padding: 0;
     overflow: hidden;
 }
@@ -1292,14 +1310,26 @@ button#langMenu {
 }
 
 .section-articles__item-title {
+    height: auto;
+    min-height: 150px;
+    padding: 0 15px;
     font: normal 18px/140% 'OpenSans-Regular', sans-serif;
     color: #000000;
-    padding: 0;
 }
 
 .section-articles__item-readmore {
     width: 100%;
     padding: 20px 0 30px;
+    margin: 0 -5px;
+}
+
+.section-articles__readmore {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 30px auto 0;
 }
 
 
@@ -2320,46 +2350,18 @@ button#langMenu {
 
 /* section mainscreen */
 
-.row-mainscreen {
+.row-mainscreen__upper {
     display: flex;
     flex-flow: row wrap;
-    align-content: center;
-    position: relative;
-    margin-top: 20px;
-    background: url("/assets/template/kgk/img/mainscreen-bg2.jpg") right bottom no-repeat #F7FAFD;
-    background-size: 60% auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .23);
-}
-
-.row-mainscreen__upper {
-    position: absolute;
-    left: 60%;
-    right: 0;
+    width: 100%;
     height: 100%;
-    background: url("/assets/template/kgk/img/mainscreen-up.png") center right no-repeat;
-    background-size: 100% auto;
-}
-
-.row-mainscreen__upper-point {
     position: absolute;
 }
 
-.point-cyan {
-    width: 120px;
-    top: 35%;
-    left: 46.5%;
-}
-
-.point-green {
-    width: 60px;
-    top: 18%;
-    left: 78.5%;
-}
-
-.point-yellow {
-    display: none;
-    top: 50%;
-    left: 50%;
+.row-mainscreen__upper-img {
+    position: absolute;
+    right: 0;
+    top: 100px;
 }
 
 .section-mainscreen {
@@ -2368,12 +2370,11 @@ button#langMenu {
     align-content: center;
     align-items: center;
     justify-content: center;
-    margin: 115px auto 120px;
+    margin: 50px auto;
 }
 
 .section-mainscreen__breaker {
-    padding: 50px;
-    background: rgba(0, 0, 0, 0);
+    padding: 0;
 }
 
 .section-mainscreen__info {
@@ -3009,7 +3010,7 @@ ul.section-survey__item-panlist li span {
 }
 
 .section-team__descr {
-    margin: 0 auto 60px;
+    margin: 0 auto 20px;
     font: normal 18px/140% 'OpenSans-Regular', sans-serif;
 }
 
@@ -3029,9 +3030,13 @@ ul.section-survey__item-panlist li span {
     align-content: center;
     align-items: center;
     justify-content: space-between;
-    width: calc(100% / 5 - 20px);
-    margin: 0 20px 40px;
+    width: calc(100% / 7 - 20px);
+    margin: 0 10px 40px;
     position: relative;
+}
+
+.section-team__item:nth-child(even) {
+    margin-top: 100px;
 }
 
 .section-team__item-front {
@@ -3045,13 +3050,18 @@ ul.section-survey__item-panlist li span {
 }
 
 .section-team__item-img {
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .36);
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
+    -moz-border-radius: 600px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
     overflow: hidden;
+}
+
+.section-team__item-img img {
+    width: 100%;
+    height: auto;
 }
 
 .section-team__item-back {
@@ -3066,12 +3076,12 @@ ul.section-survey__item-panlist li span {
 
 .section-team__item-title {
     margin: 0 auto 10px;
-    font: 600 20px/120% 'OpenSans-Regular', sans-serif;
+    font: 600 16px/120% 'OpenSans-Regular', sans-serif;
 }
 
 .section-team__item-descr {
     margin: 0 auto 30px;
-    font: normal 16px/120% 'OpenSans-Regular', sans-serif;
+    font: normal 13px/120% 'OpenSans-Regular', sans-serif;
 }
 
 .section-team__button {
@@ -3391,6 +3401,68 @@ ul.section-survey__item-panlist li span {
 
 .section-complexmain__buttons>#join-now {
     font: normal 24px/100% 'OpenSans-Regular', sans-serif;
+}
+
+
+/* section contacts */
+
+.section-contacts {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section-contacts__title {
+    width: 100%;
+    margin: 0 auto 30px;
+    font: 600 36px/120% 'OpenSans-Regular', sans-serif;
+    text-align: center;
+}
+
+.section-contacts__items {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.section-contacts__adress {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    width: calc(100% / 2 - 20px)
+}
+
+.section-contacts__adress p {
+    width: 100%;
+    margin: 0 auto 30px;
+    font: normal 16px/140% 'OpenSans-Regular', sans-serif;
+}
+
+.section-contacts__adress-title {
+    width: 100%;
+    margin: 0 auto 15px;
+    font: normal 22px/120% 'OpenSans-Regular', sans-serif;
+}
+
+.section-contacts__adress-section {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+}
+
+.section-contacts__adress-button {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.section-contacts__mappoint {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    width: calc(100% / 2 - 20px)
 }
 
 
@@ -3989,6 +4061,71 @@ ul.section-survey__item-panlist li span {
 }
 
 
+/* section mobile apps */
+
+.section-mobileapps {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.section-mobileapps.reverse {
+    flex-flow: row-reverse wrap;
+}
+
+.section-mobileapps__img {
+    width: calc(100% / 3);
+    display: flex;
+    position: relative;
+    margin: 0 0 -58px;
+}
+
+.section-mobileapps__text {
+    display: flex;
+    flex-flow: column wrap;
+    width: calc(100% / 3 * 2 - 50px);
+}
+
+.section-mobileapps__text p {
+    font: normal 22px/140% 'OpenSans-Regular', sans-serif;
+}
+
+.section-mobileapps__text ul {
+    list-style-image: url('/assets/template/kgk/img/done.svg');
+    list-style-position: outside;
+    padding: 0 0 0 35px;
+    margin: 0;
+}
+
+.section-mobileapps__text ul li {
+    font: normal 18px/140% 'OpenSans-Regular', sans-serif;
+    padding: 0 10px 15px 0;
+}
+
+.section-mobileapps__title {
+    width: 100%;
+    margin: 0 auto 40px;
+    font: normal 36px/120% 'OpenSans-Regular', sans-serif;
+}
+
+.section-mobileapps__buttons {
+    display: flex;
+    flex-flow: row wrap;
+    width: calc(100% / 3 * 2 - 20px);
+    margin: 25px 0 0;
+}
+
+.section-mobileapps__buttons a {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    width: auto;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
 /* section timeline */
 
 .section-timeline {
@@ -4234,8 +4371,41 @@ ul.section-survey__item-panlist li span {
 
 /* 12. MEDIA QUERY RULES */
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
     .container {
         width: 1440px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1439.98px) {
+    .container {
+        width: 1180px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1119.98px) {
+    .container {
+        width: 980px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        width: 98%;
+        margin: 30px auto;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        min-width: 98%;
+        margin: 25px auto;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .container {
+        min-width: 98%;
+        margin: 20px auto;
     }
 }

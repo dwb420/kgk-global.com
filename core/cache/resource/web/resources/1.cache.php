@@ -108,7 +108,6 @@
     <link href="./assets/template/kgk/css/animate.css" rel="stylesheet">
     <link href="./assets/template/kgk/css/style.css" rel="stylesheet">
     <!-- Libs JS -->
-	<!--<script async src="./assets/template/kgk/js/boostrap.min.js"></script>-->
 	<script src="./assets/template/kgk/js/jquery-3.4.1.min.js"></script>
 	<script src="./assets/template/kgk/js/jquery-migrate-1.4.1.min.js"></script>
 	<script src="./assets/template/kgk/js/jquery.lazy.min.js"></script>
@@ -179,18 +178,6 @@
             <div class="col-xl-8 col-lg-8 col-md-8 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-menu__desktop">
                 <ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=2" >Возможности</a></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=3" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Решения</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=4" >Грузоперевозки</a></li><li class="header-menu__item"><a href="index.php?id=5" >Такси</a></li><li class="header-menu__item"><a href="index.php?id=6" >Пассажирские перевозки</a></li><li class="header-menu__item"><a href="index.php?id=7" >Спецтехника ЖКХ</a></li></ul></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=8" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Оборудование</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=9" >GPS/GLONASS трекеры</a></li><li class="header-menu__item"><a href="index.php?id=10" >Датчики системы мониторинга</a></li><li class="header-menu__item"><a href="index.php?id=11" >Тахографы</a></li><li class="header-menu__item"><a href="index.php?id=12" >Карты для тахографа</a></li><li class="header-menu__item"><a href="index.php?id=13" >Автономный воздушный отопитель</a></li></ul></li><li class="header-menu__item"><a href="index.php?id=18" >О нас</a></li></ul>
             </div>
-                <!-- desktop -->
-            <!--
-            <div class="col-xl-8 col-lg-8 col-md-8 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-menu__desktop">
-                <ul class="header-menu__items">
-                    <li class="header-menu__item"><a href="#" rel="noopener">Возможности</a></li>
-                    <li class="header-menu__item item-has-child"><a href="#" rel="noopener">Решения</a></li>
-                    <li class="header-menu__item"><a href="#" rel="noopener">Расчет стоимости</a></li>
-                    <li class="header-menu__item item-has-child"><a href="#" rel="noopener">Оборудование</a></li>
-                    <li class="header-menu__item"><a href="#" rel="noopener">О нас</a></li>
-                </ul>
-            </div>
-            -->
                 <!-- mobile -->
             <div class="col-sm-6 col-xs-6 d-xl-none d-lg-none d-md-none d-sm-flex d-flex header-menu__mobile">
                 <div class="">
@@ -201,7 +188,7 @@
             <!-- recall form  -->
             <div class="col-xl-2 col-lg-2 col-md-2 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-recall">
                 <div class="header-bottom__button">
-                    <a class ="button-l button-primary button-animated__fall-in" href="#" rel="noopener">Обратный звонок</a>
+                    <a class ="button-l button-primary animated fadeInDown" href="#" rel="noopener">Обратный звонок</a>
                 </div>
             </div>
             <!-- recall form end -->
@@ -209,23 +196,24 @@
     </div>
 </header>
 <div class="row row-differ"></div>
-<div class="row row-mainscreen">
-    <div class="row-mainscreen__upper">
-        <img class="row-mainscreen__upper-point point-cyan animated bounce" src="./assets/template/kgk/img/mainscreen-upper-cyan.png" alt="point-cyan">
-        <img class="row-mainscreen__upper-point point-green animated bounce" src="./assets/template/kgk/img/mainscreen-upper-green.png" alt="point-green">
-    </div>
-    <div class="container">
-        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 section-mainscreen">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 section-mainscreen__info">
-                <h2 class="section-mainscreen__title">Мониторинг транспорта в режиме реального времени</h2>
-                <p class="section-mainscreen__descr">Контролируйте транспорт и сократите расходы до 30%, используя ГЛОНАСС\\GPS технологии с пожизненной гарантией оборудования.</p>
-                <div class="section-mainscreen__buttons">
-                    <a class="button-warning-inverse button-xxl" id="join-now" href="#" rel="noopener">Подключиться</a>
-                    <a class="button-normal button-xl" id="calc-now" href="#" rel="noopener">Рассчитать стоимость</a>
+<div class="row row-transparent">
+    <div class="container-fluid">
+        <div class="row-mainscreen__upper">
+            <img class="row-mainscreen__upper-img" src="./assets/template/kgk/img/mainscreen-bg.jpg" alt="block-bg">
+        </div>
+        <div class="container">
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 section-mainscreen">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 section-mainscreen__info">
+                    <h2 class="section-mainscreen__title">Мониторинг транспорта в режиме реального времени</h2>
+                    <p class="section-mainscreen__descr">Контролируйте транспорт и сократите расходы до 30%, используя ГЛОНАСС\\GPS технологии с пожизненной гарантией оборудования.</p>
+                    <div class="section-mainscreen__buttons">
+                        <a class="button-warning-inverse button-xxl animated bounce" id="join-now" href="#" rel="noopener">Подключиться</a>
+                        <a class="button-normal button-xl animated bounce" id="calc-now" href="#" rel="noopener">Рассчитать стоимость</a>
+                    </div>
                 </div>
             </div>
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 section-mainscreen__breaker"></div>
         </div>
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 section-mainscreen__breaker"></div>
     </div>
 </div>
 <div class="row row-white row-shadow">
@@ -270,30 +258,30 @@
                     <div class="section-advert__item-icon icon-temp animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль температуры</h3>
                     <p class="section-advert__item-descr">Штатный датчик температуры не всегда показывает точные сведения. Чтобы защитить двигатель и не платить за дорогой ремонт установите дополнительное устройство контроля температуры двигателя.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="index.php?id=34" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-block animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Блокировка двигателя</h3>
                     <p class="section-advert__item-descr">Предусмотрена возможность заблокировать/разблокировать двигатель транспортного средства. Эта функция позволяет, в частности, предотвратить угон либо нецелевое использование автомобиля.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="index.php?id=27" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-fuel animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль топлива</h3>
                     <p class="section-advert__item-descr">Водитель может ошибиться при заполнении путевого листа или обмануть компанию. Cлив топлива, накрутку одометра или недолив ГСМ на заправках можно контролировать с помощью датчика уровня топлива.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="index.php?id=29" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-hour animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль моточасов</h3>
                     <p class="section-advert__item-descr">Часто водители не выключают замок зажигания, а просто глушат двигатель . Установите датчик контроля моточасов для контроля времени работы двигателя транспортного средства.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="index.php?id=30" rel="noopener">Подробнее</a>
                 </div>
                 <!-- items grid end -->
             </div>
             <div class="section-advert__read-all">
-                <a class="button-xl button-primary" href="#" rel="noopener">Все функции системы</a>
+                <a class="button-xl button-primary" href="index.php?id=2" rel="noopener">Все функции системы</a>
             </div>
         </div>
         <div class="col-xl-1 col-lg-1 d-xl-flex d-lg-flex d-md-none d-sm-none d-none hided-block"></div>
@@ -310,21 +298,21 @@
                         <img src="./assets/template/kgk/img/advantage-smart.svg" alt="Мониторинг в смартфоне">
                     </div>
                     <h3 class="section-advantage__item-title">Мониторинг в смартфоне</h3>
-                    <p>Следите за траспортом где угодно. Мы разработали удобные мобильные приложения для <a href="#" rel="noopener">iOS</a> и <a href="#" rel="noopener">Android</a></p>
+                    <p>Следите за траспортом где угодно. Мы разработали удобные мобильные приложения для <a href="index.php?id=14" rel="noopener">iOS и Android</a></p>
                 </div>
                 <div class="section-advantage__item">
                     <div class="section-advantage__item-img">
                         <img src="./assets/template/kgk/img/advantage-run.svg" alt="Переходите на «КГК-Глобал»">
                     </div>
                     <h3 class="section-advantage__item-title">Переходите на «КГК-Глобал»</h3>
-                    <p>Не устраивает ваша система? Мы <a href="#" rel="noopener">бесплатно подключим ваши уcтройства</a> к нашей системе</p>
+                    <p>Не устраивает ваша система? Мы <a href="index.php?id=2" rel="noopener">бесплатно подключим ваши уcтройства</a> к нашей системе</p>
                 </div>
                 <div class="section-advantage__item">
                     <div class="section-advantage__item-img">
                         <img src="./assets/template/kgk/img/advantage-support.svg" alt="Всегда рады помочь">
                     </div>
                     <h3 class="section-advantage__item-title">Всегда рады помочь</h3>
-                    <p>Не любим хвастаться, но у нас много положительных <a href="#" rel="noopener">отзывов и благодарностей</a> от пользователей системы</p>
+                    <p>Не любим хвастаться, но у нас много положительных <a href="index.php?id=18" rel="noopener">отзывов и благодарностей</a> от пользователей системы</p>
                 </div>
                 <!-- items grid end -->
             </div>
@@ -359,7 +347,7 @@
                     <h3 class="section-complexchoice__item-title">Грузовой транспорт</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="index.php?id=4#">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -367,7 +355,7 @@
                     <h3 class="section-complexchoice__item-title">Пассажироперевозки</h3>
                     <p class="section-complexchoice__item-descr">Контроль местоположения, скорости, фактической работы, посещения контрольных точек и расхода топлива </p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="index.php?id=6">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -375,7 +363,7 @@
                     <h3 class="section-complexchoice__item-title">Легковой транспорт</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="index.php?id=5">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -383,7 +371,7 @@
                     <h3 class="section-complexchoice__item-title">Такси</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="index.php?id=5">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -391,7 +379,7 @@
                     <h3 class="section-complexchoice__item-title">ЖКХ</h3>
                     <p class="section-complexchoice__item-descr">Контроль местоположения, скорости, фактической работы, посещения контрольных точек и расхода топлива</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="index.php?id=7">Подробнее</a>
                     </div>
                 </div>
                 <!-- items grid end -->
@@ -495,7 +483,7 @@
                         <img src="./assets/template/kgk/img/4step/4step-needed.png" alt="Выявление потребности">
                     </div>
                     <h3 class="section-4step__item-title">Выявление потребности</h3>
-                    <p>Менеджер вас консультирует и подбирает <a href="#" rel="noopener">лучшее решение </a>для бизнеса</p>
+                    <p>Менеджер вас консультирует и подбирает <a href="index.php?id=3" rel="noopener">лучшее решение </a>для бизнеса</p>
                 </div>
                 <div class="section-4step__item">
                     <div class="section-4step__item-img">
@@ -536,11 +524,11 @@
                         <h3 class="section-devicesall__item-title">Трекеры GPS/GLONASS</h3>
                         <p class="section-devicesall__item-descr">Устройство приёма-передачи данных для спутникового контроля транспортных средств, использующее GPS и/или ГЛОНАСС для точного определения местонахождения объекта.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="index.php?id=9" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="#" rel="noopener">
+                        <a href="index.php?id=9" rel="noopener">
                             <img src="./assets/template/kgk/img/device-tracker.png" alt="">
                         </a>
                     </div>
@@ -551,7 +539,7 @@
                         <h3 class="section-devicesall__item-title">Терминал FORT-112EG-M</h3>
                         <p class="section-devicesall__item-descr">Терминал разработан специально для оснащения транспортных средств согласно 153 постановления  Правительства РФ.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="index.php?id=25" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -561,7 +549,7 @@
                         <h3 class="section-devicesall__item-title">Автономный воздушный отопитель</h3>
                         <p class="section-devicesall__item-descr">Автономный отопитель поддерживает заданную температуру в салоне даже с выключенным двигателем.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="index.php?id=13" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -571,11 +559,11 @@
                         <h3 class="section-devicesall__item-title">Датчики системы мониторинга</h3>
                         <p class="section-devicesall__item-descr">Система мониторинга позволяет подключать дополнительные датчики, которые добавляют новые функции и возможности устройств.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="index.php?id=10" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="#" rel="noopener">
+                        <a href="index.php?id=10" rel="noopener">
                             <img src="./assets/template/kgk/img/device-sensors.png" alt="">
                         </a>
                     </div>
@@ -586,11 +574,11 @@
                         <h3 class="section-devicesall__item-title">Тахографы</h3>
                         <p class="section-devicesall__item-descr">Устройства, обеспечивающее непрерывную, некорректируемую регистрацию данных о скорости и маршруте движения транспортного средства, а также времени работы водителя.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="index.php?id=11" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="#" rel="noopener">
+                        <a href="index.php?id=11" rel="noopener">
                             <img src="./assets/template/kgk/img/device-tahograf.png" alt="">
                         </a>
                     </div>
@@ -601,7 +589,7 @@
                         <h3 class="section-devicesall__item-title">Карты для тахографа</h3>
                         <p class="section-devicesall__item-descr">«Ключи», которые обеспечивают идентификацию и аутентификацию водителя с применением шифровальных средств.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="index.php?id=12" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -828,47 +816,56 @@
             <h2 class="section-articles__title">Статьи по теме</h2>
             <div class="section-articles__items">
                 <!-- items grid -->
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
+                <ul class="section-articles__items-listbox">
+                      <li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=60"><img src="" alt="Как контролировать работу сельхозтехники с помощью GPS?"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=60" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=59"><img src="" alt="Преимущества систем слежения за такси с блокировкой двигателя"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">Преимущества систем слежения за такси с блокировкой двигателя</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=59" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=58"><img src="" alt="Как отследить мотоцикл или скутер с помощью GPS устройства?"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">Как отследить мотоцикл или скутер с помощью GPS устройства?</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=58" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=57"><img src="" alt="С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=57" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+                </ul>
                 <!-- items grid end -->
+            </div>
+            <div class="section-articles__readmore">
+                <a class="button-primary button-l" href="index.php?id=19" rel="noopener">Все публикации</a>
             </div>
         </div>
     </div>
@@ -993,7 +990,7 @@
                     <li class="bottom-menu__item"><a href="index.php?id=5" rel="noopener">Такси</a></li>
                     <li class="bottom-menu__item"><a href="index.php?id=4" rel="noopener">Грузоперевозки</a></li>
                     <li class="bottom-menu__item"><a href="index.php?id=6" rel="noopener">Пассажироперевозки</a></li>
-                    <li class="bottom-menu__item"><a href="#" rel="noopener">Легковой транспорт</a></li>
+                    <li class="bottom-menu__item"><a href="index.php?id=5" rel="noopener">Легковой транспорт</a></li>
                     <li class="bottom-menu__item"><a href="index.php?id=7" rel="noopener">ЖКХ</a></li>
                 </ul>
             </div>
@@ -1045,6 +1042,16 @@
 <!-- Deleted: ru-counters chunk. Dont forget add this after develop is finished -->
 </body>',
     '_isForward' => false,
+    '_sjscripts' => 
+    array (
+      0 => '<link rel="canonical" href="http://dev2.igornesov.ru/index.php?id=1"/>',
+      1 => '<link rel="next" href="http://dev2.igornesov.ru/index.php?id=1&amp;page=2"/>',
+    ),
+    '_loadedjscripts' => 
+    array (
+      '<link rel="canonical" href="http://dev2.igornesov.ru/index.php?id=1"/>' => true,
+      '<link rel="next" href="http://dev2.igornesov.ru/index.php?id=1&amp;page=2"/>' => true,
+    ),
   ),
   'contentType' => 
   array (
@@ -1134,18 +1141,6 @@
             <div class="col-xl-8 col-lg-8 col-md-8 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-menu__desktop">
                 <ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=2" >Возможности</a></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=3" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Решения</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=4" >Грузоперевозки</a></li><li class="header-menu__item"><a href="index.php?id=5" >Такси</a></li><li class="header-menu__item"><a href="index.php?id=6" >Пассажирские перевозки</a></li><li class="header-menu__item"><a href="index.php?id=7" >Спецтехника ЖКХ</a></li></ul></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=8" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Оборудование</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=9" >GPS/GLONASS трекеры</a></li><li class="header-menu__item"><a href="index.php?id=10" >Датчики системы мониторинга</a></li><li class="header-menu__item"><a href="index.php?id=11" >Тахографы</a></li><li class="header-menu__item"><a href="index.php?id=12" >Карты для тахографа</a></li><li class="header-menu__item"><a href="index.php?id=13" >Автономный воздушный отопитель</a></li></ul></li><li class="header-menu__item"><a href="index.php?id=18" >О нас</a></li></ul>
             </div>
-                <!-- desktop -->
-            <!--
-            <div class="col-xl-8 col-lg-8 col-md-8 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-menu__desktop">
-                <ul class="header-menu__items">
-                    <li class="header-menu__item"><a href="#" rel="noopener">Возможности</a></li>
-                    <li class="header-menu__item item-has-child"><a href="#" rel="noopener">Решения</a></li>
-                    <li class="header-menu__item"><a href="#" rel="noopener">Расчет стоимости</a></li>
-                    <li class="header-menu__item item-has-child"><a href="#" rel="noopener">Оборудование</a></li>
-                    <li class="header-menu__item"><a href="#" rel="noopener">О нас</a></li>
-                </ul>
-            </div>
-            -->
                 <!-- mobile -->
             <div class="col-sm-6 col-xs-6 d-xl-none d-lg-none d-md-none d-sm-flex d-flex header-menu__mobile">
                 <div class="">
@@ -1156,7 +1151,7 @@
             <!-- recall form  -->
             <div class="col-xl-2 col-lg-2 col-md-2 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-recall">
                 <div class="header-bottom__button">
-                    <a class ="button-l button-primary button-animated__fall-in" href="#" rel="noopener">Обратный звонок</a>
+                    <a class ="button-l button-primary animated fadeInDown" href="#" rel="noopener">Обратный звонок</a>
                 </div>
             </div>
             <!-- recall form end -->
@@ -1201,7 +1196,6 @@
     <link href="./assets/template/kgk/css/animate.css" rel="stylesheet">
     <link href="./assets/template/kgk/css/style.css" rel="stylesheet">
     <!-- Libs JS -->
-	<!--<script async src="./assets/template/kgk/js/boostrap.min.js"></script>-->
 	<script src="./assets/template/kgk/js/jquery-3.4.1.min.js"></script>
 	<script src="./assets/template/kgk/js/jquery-migrate-1.4.1.min.js"></script>
 	<script src="./assets/template/kgk/js/jquery.lazy.min.js"></script>
@@ -1272,18 +1266,6 @@
             <div class="col-xl-8 col-lg-8 col-md-8 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-menu__desktop">
                 <ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=2" >Возможности</a></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=3" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Решения</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=4" >Грузоперевозки</a></li><li class="header-menu__item"><a href="index.php?id=5" >Такси</a></li><li class="header-menu__item"><a href="index.php?id=6" >Пассажирские перевозки</a></li><li class="header-menu__item"><a href="index.php?id=7" >Спецтехника ЖКХ</a></li></ul></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=8" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Оборудование</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=9" >GPS/GLONASS трекеры</a></li><li class="header-menu__item"><a href="index.php?id=10" >Датчики системы мониторинга</a></li><li class="header-menu__item"><a href="index.php?id=11" >Тахографы</a></li><li class="header-menu__item"><a href="index.php?id=12" >Карты для тахографа</a></li><li class="header-menu__item"><a href="index.php?id=13" >Автономный воздушный отопитель</a></li></ul></li><li class="header-menu__item"><a href="index.php?id=18" >О нас</a></li></ul>
             </div>
-                <!-- desktop -->
-            <!--
-            <div class="col-xl-8 col-lg-8 col-md-8 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-menu__desktop">
-                <ul class="header-menu__items">
-                    <li class="header-menu__item"><a href="#" rel="noopener">Возможности</a></li>
-                    <li class="header-menu__item item-has-child"><a href="#" rel="noopener">Решения</a></li>
-                    <li class="header-menu__item"><a href="#" rel="noopener">Расчет стоимости</a></li>
-                    <li class="header-menu__item item-has-child"><a href="#" rel="noopener">Оборудование</a></li>
-                    <li class="header-menu__item"><a href="#" rel="noopener">О нас</a></li>
-                </ul>
-            </div>
-            -->
                 <!-- mobile -->
             <div class="col-sm-6 col-xs-6 d-xl-none d-lg-none d-md-none d-sm-flex d-flex header-menu__mobile">
                 <div class="">
@@ -1294,30 +1276,31 @@
             <!-- recall form  -->
             <div class="col-xl-2 col-lg-2 col-md-2 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-recall">
                 <div class="header-bottom__button">
-                    <a class ="button-l button-primary button-animated__fall-in" href="#" rel="noopener">Обратный звонок</a>
+                    <a class ="button-l button-primary animated fadeInDown" href="#" rel="noopener">Обратный звонок</a>
                 </div>
             </div>
             <!-- recall form end -->
         </div>
     </div>
 </header>',
-    '[[$ru-mainscreen]]' => '<div class="row row-mainscreen">
-    <div class="row-mainscreen__upper">
-        <img class="row-mainscreen__upper-point point-cyan animated bounce" src="./assets/template/kgk/img/mainscreen-upper-cyan.png" alt="point-cyan">
-        <img class="row-mainscreen__upper-point point-green animated bounce" src="./assets/template/kgk/img/mainscreen-upper-green.png" alt="point-green">
-    </div>
-    <div class="container">
-        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 section-mainscreen">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 section-mainscreen__info">
-                <h2 class="section-mainscreen__title">Мониторинг транспорта в режиме реального времени</h2>
-                <p class="section-mainscreen__descr">Контролируйте транспорт и сократите расходы до 30%, используя ГЛОНАСС\\GPS технологии с пожизненной гарантией оборудования.</p>
-                <div class="section-mainscreen__buttons">
-                    <a class="button-warning-inverse button-xxl" id="join-now" href="#" rel="noopener">Подключиться</a>
-                    <a class="button-normal button-xl" id="calc-now" href="#" rel="noopener">Рассчитать стоимость</a>
+    '[[$ru-mainscreen]]' => '<div class="row row-transparent">
+    <div class="container-fluid">
+        <div class="row-mainscreen__upper">
+            <img class="row-mainscreen__upper-img" src="./assets/template/kgk/img/mainscreen-bg.jpg" alt="block-bg">
+        </div>
+        <div class="container">
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 section-mainscreen">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 section-mainscreen__info">
+                    <h2 class="section-mainscreen__title">Мониторинг транспорта в режиме реального времени</h2>
+                    <p class="section-mainscreen__descr">Контролируйте транспорт и сократите расходы до 30%, используя ГЛОНАСС\\GPS технологии с пожизненной гарантией оборудования.</p>
+                    <div class="section-mainscreen__buttons">
+                        <a class="button-warning-inverse button-xxl animated bounce" id="join-now" href="#" rel="noopener">Подключиться</a>
+                        <a class="button-normal button-xl animated bounce" id="calc-now" href="#" rel="noopener">Рассчитать стоимость</a>
+                    </div>
                 </div>
             </div>
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 section-mainscreen__breaker"></div>
         </div>
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 section-mainscreen__breaker"></div>
     </div>
 </div>',
     '[[$ru-clients]]' => '<div class="row row-white row-shadow">
@@ -1362,30 +1345,30 @@
                     <div class="section-advert__item-icon icon-temp animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль температуры</h3>
                     <p class="section-advert__item-descr">Штатный датчик температуры не всегда показывает точные сведения. Чтобы защитить двигатель и не платить за дорогой ремонт установите дополнительное устройство контроля температуры двигателя.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="index.php?id=34" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-block animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Блокировка двигателя</h3>
                     <p class="section-advert__item-descr">Предусмотрена возможность заблокировать/разблокировать двигатель транспортного средства. Эта функция позволяет, в частности, предотвратить угон либо нецелевое использование автомобиля.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="index.php?id=27" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-fuel animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль топлива</h3>
                     <p class="section-advert__item-descr">Водитель может ошибиться при заполнении путевого листа или обмануть компанию. Cлив топлива, накрутку одометра или недолив ГСМ на заправках можно контролировать с помощью датчика уровня топлива.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="index.php?id=29" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-hour animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль моточасов</h3>
                     <p class="section-advert__item-descr">Часто водители не выключают замок зажигания, а просто глушат двигатель . Установите датчик контроля моточасов для контроля времени работы двигателя транспортного средства.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="index.php?id=30" rel="noopener">Подробнее</a>
                 </div>
                 <!-- items grid end -->
             </div>
             <div class="section-advert__read-all">
-                <a class="button-xl button-primary" href="#" rel="noopener">Все функции системы</a>
+                <a class="button-xl button-primary" href="index.php?id=2" rel="noopener">Все функции системы</a>
             </div>
         </div>
         <div class="col-xl-1 col-lg-1 d-xl-flex d-lg-flex d-md-none d-sm-none d-none hided-block"></div>
@@ -1402,21 +1385,21 @@
                         <img src="./assets/template/kgk/img/advantage-smart.svg" alt="Мониторинг в смартфоне">
                     </div>
                     <h3 class="section-advantage__item-title">Мониторинг в смартфоне</h3>
-                    <p>Следите за траспортом где угодно. Мы разработали удобные мобильные приложения для <a href="#" rel="noopener">iOS</a> и <a href="#" rel="noopener">Android</a></p>
+                    <p>Следите за траспортом где угодно. Мы разработали удобные мобильные приложения для <a href="index.php?id=14" rel="noopener">iOS и Android</a></p>
                 </div>
                 <div class="section-advantage__item">
                     <div class="section-advantage__item-img">
                         <img src="./assets/template/kgk/img/advantage-run.svg" alt="Переходите на «КГК-Глобал»">
                     </div>
                     <h3 class="section-advantage__item-title">Переходите на «КГК-Глобал»</h3>
-                    <p>Не устраивает ваша система? Мы <a href="#" rel="noopener">бесплатно подключим ваши уcтройства</a> к нашей системе</p>
+                    <p>Не устраивает ваша система? Мы <a href="index.php?id=2" rel="noopener">бесплатно подключим ваши уcтройства</a> к нашей системе</p>
                 </div>
                 <div class="section-advantage__item">
                     <div class="section-advantage__item-img">
                         <img src="./assets/template/kgk/img/advantage-support.svg" alt="Всегда рады помочь">
                     </div>
                     <h3 class="section-advantage__item-title">Всегда рады помочь</h3>
-                    <p>Не любим хвастаться, но у нас много положительных <a href="#" rel="noopener">отзывов и благодарностей</a> от пользователей системы</p>
+                    <p>Не любим хвастаться, но у нас много положительных <a href="index.php?id=18" rel="noopener">отзывов и благодарностей</a> от пользователей системы</p>
                 </div>
                 <!-- items grid end -->
             </div>
@@ -1451,7 +1434,7 @@
                     <h3 class="section-complexchoice__item-title">Грузовой транспорт</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="index.php?id=4#">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -1459,7 +1442,7 @@
                     <h3 class="section-complexchoice__item-title">Пассажироперевозки</h3>
                     <p class="section-complexchoice__item-descr">Контроль местоположения, скорости, фактической работы, посещения контрольных точек и расхода топлива </p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="index.php?id=6">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -1467,7 +1450,7 @@
                     <h3 class="section-complexchoice__item-title">Легковой транспорт</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="index.php?id=5">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -1475,7 +1458,7 @@
                     <h3 class="section-complexchoice__item-title">Такси</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="index.php?id=5">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -1483,7 +1466,7 @@
                     <h3 class="section-complexchoice__item-title">ЖКХ</h3>
                     <p class="section-complexchoice__item-descr">Контроль местоположения, скорости, фактической работы, посещения контрольных точек и расхода топлива</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="index.php?id=7">Подробнее</a>
                     </div>
                 </div>
                 <!-- items grid end -->
@@ -1587,7 +1570,7 @@
                         <img src="./assets/template/kgk/img/4step/4step-needed.png" alt="Выявление потребности">
                     </div>
                     <h3 class="section-4step__item-title">Выявление потребности</h3>
-                    <p>Менеджер вас консультирует и подбирает <a href="#" rel="noopener">лучшее решение </a>для бизнеса</p>
+                    <p>Менеджер вас консультирует и подбирает <a href="index.php?id=3" rel="noopener">лучшее решение </a>для бизнеса</p>
                 </div>
                 <div class="section-4step__item">
                     <div class="section-4step__item-img">
@@ -1628,11 +1611,11 @@
                         <h3 class="section-devicesall__item-title">Трекеры GPS/GLONASS</h3>
                         <p class="section-devicesall__item-descr">Устройство приёма-передачи данных для спутникового контроля транспортных средств, использующее GPS и/или ГЛОНАСС для точного определения местонахождения объекта.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="index.php?id=9" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="#" rel="noopener">
+                        <a href="index.php?id=9" rel="noopener">
                             <img src="./assets/template/kgk/img/device-tracker.png" alt="">
                         </a>
                     </div>
@@ -1643,7 +1626,7 @@
                         <h3 class="section-devicesall__item-title">Терминал FORT-112EG-M</h3>
                         <p class="section-devicesall__item-descr">Терминал разработан специально для оснащения транспортных средств согласно 153 постановления  Правительства РФ.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="index.php?id=25" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1653,7 +1636,7 @@
                         <h3 class="section-devicesall__item-title">Автономный воздушный отопитель</h3>
                         <p class="section-devicesall__item-descr">Автономный отопитель поддерживает заданную температуру в салоне даже с выключенным двигателем.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="index.php?id=13" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1663,11 +1646,11 @@
                         <h3 class="section-devicesall__item-title">Датчики системы мониторинга</h3>
                         <p class="section-devicesall__item-descr">Система мониторинга позволяет подключать дополнительные датчики, которые добавляют новые функции и возможности устройств.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="index.php?id=10" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="#" rel="noopener">
+                        <a href="index.php?id=10" rel="noopener">
                             <img src="./assets/template/kgk/img/device-sensors.png" alt="">
                         </a>
                     </div>
@@ -1678,11 +1661,11 @@
                         <h3 class="section-devicesall__item-title">Тахографы</h3>
                         <p class="section-devicesall__item-descr">Устройства, обеспечивающее непрерывную, некорректируемую регистрацию данных о скорости и маршруте движения транспортного средства, а также времени работы водителя.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="index.php?id=11" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="#" rel="noopener">
+                        <a href="index.php?id=11" rel="noopener">
                             <img src="./assets/template/kgk/img/device-tahograf.png" alt="">
                         </a>
                     </div>
@@ -1693,7 +1676,7 @@
                         <h3 class="section-devicesall__item-title">Карты для тахографа</h3>
                         <p class="section-devicesall__item-descr">«Ключи», которые обеспечивают идентификацию и аутентификацию водителя с применением шифровальных средств.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="index.php?id=12" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1914,53 +1897,160 @@
         </div>
     </div>
 </div>',
+    '[[pdoResources?tpl=`articles-grid`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`4`&offset=`0`&depth=`10`&outputSeparator=`
+`&toPlaceholder=``&parents=`19`&includeContent=`1`&includeTVs=`images-header`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`0`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&ajax=``&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemRows=`#pdopage .rows`&ajaxElemWrapper=`#pdopage`&ajaxHistory=``&ajaxMode=``&ajaxTplMore=`@INLINE <button class="btn btn-primary btn-more">[[%pdopage_more]]</button>`&cache=``&cacheAnonymous=``&cacheTime=`3600`&element=`pdoResources`&maxLimit=`100`&page=`1`&pageCountVar=`pageCount`&pageLimit=`5`&pageLinkScheme=``&pageNavVar=`page.nav`&pageVarKey=`page`&plPrefix=``&setMeta=`1`&strictMode=`1`&tplPage=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">[[+pageNo]]</a></li>`&tplPageActive=`@INLINE <li class="page-item active"><a class="page-link" href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageFirstEmpty=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPageLastEmpty=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">[[%pdopage_last]]</a></li>`&tplPageNext=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">&raquo;</a></li>`&tplPageNextEmpty=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">&raquo;</a></li>`&tplPagePrev=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">&laquo;</a></li>`&tplPagePrevEmpty=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">&laquo;</a></li>`&tplPageSkip=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">...</a></li>`&tplPageWrapper=`@INLINE <ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul>`&request=`b6d7fd382139e72b72f435f7ef561703`&setTotal=`1`]]' => '<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=60"><img src="" alt="Как контролировать работу сельхозтехники с помощью GPS?"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=60" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=59"><img src="" alt="Преимущества систем слежения за такси с блокировкой двигателя"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">Преимущества систем слежения за такси с блокировкой двигателя</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=59" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=58"><img src="" alt="Как отследить мотоцикл или скутер с помощью GPS устройства?"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">Как отследить мотоцикл или скутер с помощью GPS устройства?</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=58" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=57"><img src="" alt="С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=57" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>',
+    '[[pdoPage?
+                        &parents=`19`
+                        &tpl=`articles-grid`
+                        &limit=`4`
+                        &sortby=`publishedon`
+                        &showHidden=`0`
+                        &sortdir=`DESC`
+                        &includeTVs=`images-header`
+                        &includeContent=`1`
+                      ]]' => '<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=60"><img src="" alt="Как контролировать работу сельхозтехники с помощью GPS?"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=60" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=59"><img src="" alt="Преимущества систем слежения за такси с блокировкой двигателя"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">Преимущества систем слежения за такси с блокировкой двигателя</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=59" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=58"><img src="" alt="Как отследить мотоцикл или скутер с помощью GPS устройства?"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">Как отследить мотоцикл или скутер с помощью GPS устройства?</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=58" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=57"><img src="" alt="С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=57" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>',
     '[[$ru-articles]]' => '<div class="row row-transparent">
     <div class="container">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 section-articles">
             <h2 class="section-articles__title">Статьи по теме</h2>
             <div class="section-articles__items">
                 <!-- items grid -->
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
+                <ul class="section-articles__items-listbox">
+                      <li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=60"><img src="" alt="Как контролировать работу сельхозтехники с помощью GPS?"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=60" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=59"><img src="" alt="Преимущества систем слежения за такси с блокировкой двигателя"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">Преимущества систем слежения за такси с блокировкой двигателя</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=59" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=58"><img src="" alt="Как отследить мотоцикл или скутер с помощью GPS устройства?"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">Как отследить мотоцикл или скутер с помощью GPS устройства?</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=58" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+<li class="section-articles__item">
+    <div class="section-articles__item-img">
+        <a href="index.php?id=57"><img src="" alt="С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?"></a>
+    </div>
+    <div class="section-articles__item-text">
+        <h3 class="section-articles__item-title">С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?</h3>
+        <div class="section-articles__item-readmore">
+            <a class="button-normal button-l" href="index.php?id=57" rel="noopener">Подробнее</a>
+        </div>
+    </div>
+</li>
+                </ul>
                 <!-- items grid end -->
+            </div>
+            <div class="section-articles__readmore">
+                <a class="button-primary button-l" href="index.php?id=19" rel="noopener">Все публикации</a>
             </div>
         </div>
     </div>
@@ -2085,7 +2175,7 @@
                     <li class="bottom-menu__item"><a href="index.php?id=5" rel="noopener">Такси</a></li>
                     <li class="bottom-menu__item"><a href="index.php?id=4" rel="noopener">Грузоперевозки</a></li>
                     <li class="bottom-menu__item"><a href="index.php?id=6" rel="noopener">Пассажироперевозки</a></li>
-                    <li class="bottom-menu__item"><a href="#" rel="noopener">Легковой транспорт</a></li>
+                    <li class="bottom-menu__item"><a href="index.php?id=5" rel="noopener">Легковой транспорт</a></li>
                     <li class="bottom-menu__item"><a href="index.php?id=7" rel="noopener">ЖКХ</a></li>
                 </ul>
             </div>
@@ -2156,7 +2246,7 @@
                     <li class="bottom-menu__item"><a href="index.php?id=5" rel="noopener">Такси</a></li>
                     <li class="bottom-menu__item"><a href="index.php?id=4" rel="noopener">Грузоперевозки</a></li>
                     <li class="bottom-menu__item"><a href="index.php?id=6" rel="noopener">Пассажироперевозки</a></li>
-                    <li class="bottom-menu__item"><a href="#" rel="noopener">Легковой транспорт</a></li>
+                    <li class="bottom-menu__item"><a href="index.php?id=5" rel="noopener">Легковой транспорт</a></li>
                     <li class="bottom-menu__item"><a href="index.php?id=7" rel="noopener">ЖКХ</a></li>
                 </ul>
             </div>
@@ -2262,7 +2352,6 @@
     <link href="./assets/template/kgk/css/animate.css" rel="stylesheet">
     <link href="./assets/template/kgk/css/style.css" rel="stylesheet">
     <!-- Libs JS -->
-	<!--<script async src="./assets/template/kgk/js/boostrap.min.js"></script>-->
 	<script src="./assets/template/kgk/js/jquery-3.4.1.min.js"></script>
 	<script src="./assets/template/kgk/js/jquery-migrate-1.4.1.min.js"></script>
 	<script src="./assets/template/kgk/js/jquery.lazy.min.js"></script>
@@ -2320,7 +2409,6 @@
     <link href="./assets/template/kgk/css/animate.css" rel="stylesheet">
     <link href="./assets/template/kgk/css/style.css" rel="stylesheet">
     <!-- Libs JS -->
-	<!--<script async src="./assets/template/kgk/js/boostrap.min.js"></script>-->
 	<script src="./assets/template/kgk/js/jquery-3.4.1.min.js"></script>
 	<script src="./assets/template/kgk/js/jquery-migrate-1.4.1.min.js"></script>
 	<script src="./assets/template/kgk/js/jquery.lazy.min.js"></script>
@@ -2337,9 +2425,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -2466,9 +2551,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -2520,18 +2602,6 @@
                     &tplinnerRow=`menu-tplInnerRow`
                 ]]
             </div>
-                <!-- desktop -->
-            <!--
-            <div class="col-xl-8 col-lg-8 col-md-8 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-menu__desktop">
-                <ul class="header-menu__items">
-                    <li class="header-menu__item"><a href="#" rel="noopener">Возможности</a></li>
-                    <li class="header-menu__item item-has-child"><a href="#" rel="noopener">Решения</a></li>
-                    <li class="header-menu__item"><a href="#" rel="noopener">Расчет стоимости</a></li>
-                    <li class="header-menu__item item-has-child"><a href="#" rel="noopener">Оборудование</a></li>
-                    <li class="header-menu__item"><a href="#" rel="noopener">О нас</a></li>
-                </ul>
-            </div>
-            -->
                 <!-- mobile -->
             <div class="col-sm-6 col-xs-6 d-xl-none d-lg-none d-md-none d-sm-flex d-flex header-menu__mobile">
                 <div class="">
@@ -2542,7 +2612,7 @@
             <!-- recall form  -->
             <div class="col-xl-2 col-lg-2 col-md-2 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-recall">
                 <div class="header-bottom__button">
-                    <a class ="button-l button-primary button-animated__fall-in" href="#" rel="noopener">Обратный звонок</a>
+                    <a class ="button-l button-primary animated fadeInDown" href="#" rel="noopener">Обратный звонок</a>
                 </div>
             </div>
             <!-- recall form end -->
@@ -2581,18 +2651,6 @@
                     &tplinnerRow=`menu-tplInnerRow`
                 ]]
             </div>
-                <!-- desktop -->
-            <!--
-            <div class="col-xl-8 col-lg-8 col-md-8 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-menu__desktop">
-                <ul class="header-menu__items">
-                    <li class="header-menu__item"><a href="#" rel="noopener">Возможности</a></li>
-                    <li class="header-menu__item item-has-child"><a href="#" rel="noopener">Решения</a></li>
-                    <li class="header-menu__item"><a href="#" rel="noopener">Расчет стоимости</a></li>
-                    <li class="header-menu__item item-has-child"><a href="#" rel="noopener">Оборудование</a></li>
-                    <li class="header-menu__item"><a href="#" rel="noopener">О нас</a></li>
-                </ul>
-            </div>
-            -->
                 <!-- mobile -->
             <div class="col-sm-6 col-xs-6 d-xl-none d-lg-none d-md-none d-sm-flex d-flex header-menu__mobile">
                 <div class="">
@@ -2603,7 +2661,7 @@
             <!-- recall form  -->
             <div class="col-xl-2 col-lg-2 col-md-2 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-recall">
                 <div class="header-bottom__button">
-                    <a class ="button-l button-primary button-animated__fall-in" href="#" rel="noopener">Обратный звонок</a>
+                    <a class ="button-l button-primary animated fadeInDown" href="#" rel="noopener">Обратный звонок</a>
                 </div>
             </div>
             <!-- recall form end -->
@@ -2613,9 +2671,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -2641,23 +2696,24 @@
           'editor_type' => 0,
           'category' => 5,
           'cache_type' => 0,
-          'snippet' => '<div class="row row-mainscreen">
-    <div class="row-mainscreen__upper">
-        <img class="row-mainscreen__upper-point point-cyan animated bounce" src="./assets/template/kgk/img/mainscreen-upper-cyan.png" alt="point-cyan">
-        <img class="row-mainscreen__upper-point point-green animated bounce" src="./assets/template/kgk/img/mainscreen-upper-green.png" alt="point-green">
-    </div>
-    <div class="container">
-        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 section-mainscreen">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 section-mainscreen__info">
-                <h2 class="section-mainscreen__title">Мониторинг транспорта в режиме реального времени</h2>
-                <p class="section-mainscreen__descr">Контролируйте транспорт и сократите расходы до 30%, используя ГЛОНАСС\\GPS технологии с пожизненной гарантией оборудования.</p>
-                <div class="section-mainscreen__buttons">
-                    <a class="button-warning-inverse button-xxl" id="join-now" href="#" rel="noopener">Подключиться</a>
-                    <a class="button-normal button-xl" id="calc-now" href="#" rel="noopener">Рассчитать стоимость</a>
+          'snippet' => '<div class="row row-transparent">
+    <div class="container-fluid">
+        <div class="row-mainscreen__upper">
+            <img class="row-mainscreen__upper-img" src="./assets/template/kgk/img/mainscreen-bg.jpg" alt="block-bg">
+        </div>
+        <div class="container">
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 section-mainscreen">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 section-mainscreen__info">
+                    <h2 class="section-mainscreen__title">Мониторинг транспорта в режиме реального времени</h2>
+                    <p class="section-mainscreen__descr">Контролируйте транспорт и сократите расходы до 30%, используя ГЛОНАСС\\GPS технологии с пожизненной гарантией оборудования.</p>
+                    <div class="section-mainscreen__buttons">
+                        <a class="button-warning-inverse button-xxl animated bounce" id="join-now" href="#" rel="noopener">Подключиться</a>
+                        <a class="button-normal button-xl animated bounce" id="calc-now" href="#" rel="noopener">Рассчитать стоимость</a>
+                    </div>
                 </div>
             </div>
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 section-mainscreen__breaker"></div>
         </div>
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 section-mainscreen__breaker"></div>
     </div>
 </div>',
           'locked' => false,
@@ -2666,31 +2722,29 @@
           ),
           'static' => false,
           'static_file' => '',
-          'content' => '<div class="row row-mainscreen">
-    <div class="row-mainscreen__upper">
-        <img class="row-mainscreen__upper-point point-cyan animated bounce" src="./assets/template/kgk/img/mainscreen-upper-cyan.png" alt="point-cyan">
-        <img class="row-mainscreen__upper-point point-green animated bounce" src="./assets/template/kgk/img/mainscreen-upper-green.png" alt="point-green">
-    </div>
-    <div class="container">
-        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 section-mainscreen">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 section-mainscreen__info">
-                <h2 class="section-mainscreen__title">Мониторинг транспорта в режиме реального времени</h2>
-                <p class="section-mainscreen__descr">Контролируйте транспорт и сократите расходы до 30%, используя ГЛОНАСС\\GPS технологии с пожизненной гарантией оборудования.</p>
-                <div class="section-mainscreen__buttons">
-                    <a class="button-warning-inverse button-xxl" id="join-now" href="#" rel="noopener">Подключиться</a>
-                    <a class="button-normal button-xl" id="calc-now" href="#" rel="noopener">Рассчитать стоимость</a>
+          'content' => '<div class="row row-transparent">
+    <div class="container-fluid">
+        <div class="row-mainscreen__upper">
+            <img class="row-mainscreen__upper-img" src="./assets/template/kgk/img/mainscreen-bg.jpg" alt="block-bg">
+        </div>
+        <div class="container">
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 section-mainscreen">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 section-mainscreen__info">
+                    <h2 class="section-mainscreen__title">Мониторинг транспорта в режиме реального времени</h2>
+                    <p class="section-mainscreen__descr">Контролируйте транспорт и сократите расходы до 30%, используя ГЛОНАСС\\GPS технологии с пожизненной гарантией оборудования.</p>
+                    <div class="section-mainscreen__buttons">
+                        <a class="button-warning-inverse button-xxl animated bounce" id="join-now" href="#" rel="noopener">Подключиться</a>
+                        <a class="button-normal button-xl animated bounce" id="calc-now" href="#" rel="noopener">Рассчитать стоимость</a>
+                    </div>
                 </div>
             </div>
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 section-mainscreen__breaker"></div>
         </div>
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 section-mainscreen__breaker"></div>
     </div>
 </div>',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -2787,9 +2841,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -2826,30 +2877,30 @@
                     <div class="section-advert__item-icon icon-temp animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль температуры</h3>
                     <p class="section-advert__item-descr">Штатный датчик температуры не всегда показывает точные сведения. Чтобы защитить двигатель и не платить за дорогой ремонт установите дополнительное устройство контроля температуры двигателя.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="[[~34]]" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-block animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Блокировка двигателя</h3>
                     <p class="section-advert__item-descr">Предусмотрена возможность заблокировать/разблокировать двигатель транспортного средства. Эта функция позволяет, в частности, предотвратить угон либо нецелевое использование автомобиля.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="[[~27]]" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-fuel animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль топлива</h3>
                     <p class="section-advert__item-descr">Водитель может ошибиться при заполнении путевого листа или обмануть компанию. Cлив топлива, накрутку одометра или недолив ГСМ на заправках можно контролировать с помощью датчика уровня топлива.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="[[~29]]" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-hour animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль моточасов</h3>
                     <p class="section-advert__item-descr">Часто водители не выключают замок зажигания, а просто глушат двигатель . Установите датчик контроля моточасов для контроля времени работы двигателя транспортного средства.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="[[~30]]" rel="noopener">Подробнее</a>
                 </div>
                 <!-- items grid end -->
             </div>
             <div class="section-advert__read-all">
-                <a class="button-xl button-primary" href="#" rel="noopener">Все функции системы</a>
+                <a class="button-xl button-primary" href="[[~2]]" rel="noopener">Все функции системы</a>
             </div>
         </div>
         <div class="col-xl-1 col-lg-1 d-xl-flex d-lg-flex d-md-none d-sm-none d-none hided-block"></div>
@@ -2872,30 +2923,30 @@
                     <div class="section-advert__item-icon icon-temp animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль температуры</h3>
                     <p class="section-advert__item-descr">Штатный датчик температуры не всегда показывает точные сведения. Чтобы защитить двигатель и не платить за дорогой ремонт установите дополнительное устройство контроля температуры двигателя.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="[[~34]]" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-block animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Блокировка двигателя</h3>
                     <p class="section-advert__item-descr">Предусмотрена возможность заблокировать/разблокировать двигатель транспортного средства. Эта функция позволяет, в частности, предотвратить угон либо нецелевое использование автомобиля.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="[[~27]]" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-fuel animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль топлива</h3>
                     <p class="section-advert__item-descr">Водитель может ошибиться при заполнении путевого листа или обмануть компанию. Cлив топлива, накрутку одометра или недолив ГСМ на заправках можно контролировать с помощью датчика уровня топлива.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="[[~29]]" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-hour animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль моточасов</h3>
                     <p class="section-advert__item-descr">Часто водители не выключают замок зажигания, а просто глушат двигатель . Установите датчик контроля моточасов для контроля времени работы двигателя транспортного средства.</p>
-                    <a class="button-readmore button-m" href="#" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="[[~30]]" rel="noopener">Подробнее</a>
                 </div>
                 <!-- items grid end -->
             </div>
             <div class="section-advert__read-all">
-                <a class="button-xl button-primary" href="#" rel="noopener">Все функции системы</a>
+                <a class="button-xl button-primary" href="[[~2]]" rel="noopener">Все функции системы</a>
             </div>
         </div>
         <div class="col-xl-1 col-lg-1 d-xl-flex d-lg-flex d-md-none d-sm-none d-none hided-block"></div>
@@ -2904,9 +2955,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -2943,21 +2991,21 @@
                         <img src="./assets/template/kgk/img/advantage-smart.svg" alt="Мониторинг в смартфоне">
                     </div>
                     <h3 class="section-advantage__item-title">Мониторинг в смартфоне</h3>
-                    <p>Следите за траспортом где угодно. Мы разработали удобные мобильные приложения для <a href="#" rel="noopener">iOS</a> и <a href="#" rel="noopener">Android</a></p>
+                    <p>Следите за траспортом где угодно. Мы разработали удобные мобильные приложения для <a href="[[~14]]" rel="noopener">iOS и Android</a></p>
                 </div>
                 <div class="section-advantage__item">
                     <div class="section-advantage__item-img">
                         <img src="./assets/template/kgk/img/advantage-run.svg" alt="Переходите на «КГК-Глобал»">
                     </div>
                     <h3 class="section-advantage__item-title">Переходите на «КГК-Глобал»</h3>
-                    <p>Не устраивает ваша система? Мы <a href="#" rel="noopener">бесплатно подключим ваши уcтройства</a> к нашей системе</p>
+                    <p>Не устраивает ваша система? Мы <a href="[[~2]]" rel="noopener">бесплатно подключим ваши уcтройства</a> к нашей системе</p>
                 </div>
                 <div class="section-advantage__item">
                     <div class="section-advantage__item-img">
                         <img src="./assets/template/kgk/img/advantage-support.svg" alt="Всегда рады помочь">
                     </div>
                     <h3 class="section-advantage__item-title">Всегда рады помочь</h3>
-                    <p>Не любим хвастаться, но у нас много положительных <a href="#" rel="noopener">отзывов и благодарностей</a> от пользователей системы</p>
+                    <p>Не любим хвастаться, но у нас много положительных <a href="[[~18]]" rel="noopener">отзывов и благодарностей</a> от пользователей системы</p>
                 </div>
                 <!-- items grid end -->
             </div>
@@ -2981,21 +3029,21 @@
                         <img src="./assets/template/kgk/img/advantage-smart.svg" alt="Мониторинг в смартфоне">
                     </div>
                     <h3 class="section-advantage__item-title">Мониторинг в смартфоне</h3>
-                    <p>Следите за траспортом где угодно. Мы разработали удобные мобильные приложения для <a href="#" rel="noopener">iOS</a> и <a href="#" rel="noopener">Android</a></p>
+                    <p>Следите за траспортом где угодно. Мы разработали удобные мобильные приложения для <a href="[[~14]]" rel="noopener">iOS и Android</a></p>
                 </div>
                 <div class="section-advantage__item">
                     <div class="section-advantage__item-img">
                         <img src="./assets/template/kgk/img/advantage-run.svg" alt="Переходите на «КГК-Глобал»">
                     </div>
                     <h3 class="section-advantage__item-title">Переходите на «КГК-Глобал»</h3>
-                    <p>Не устраивает ваша система? Мы <a href="#" rel="noopener">бесплатно подключим ваши уcтройства</a> к нашей системе</p>
+                    <p>Не устраивает ваша система? Мы <a href="[[~2]]" rel="noopener">бесплатно подключим ваши уcтройства</a> к нашей системе</p>
                 </div>
                 <div class="section-advantage__item">
                     <div class="section-advantage__item-img">
                         <img src="./assets/template/kgk/img/advantage-support.svg" alt="Всегда рады помочь">
                     </div>
                     <h3 class="section-advantage__item-title">Всегда рады помочь</h3>
-                    <p>Не любим хвастаться, но у нас много положительных <a href="#" rel="noopener">отзывов и благодарностей</a> от пользователей системы</p>
+                    <p>Не любим хвастаться, но у нас много положительных <a href="[[~18]]" rel="noopener">отзывов и благодарностей</a> от пользователей системы</p>
                 </div>
                 <!-- items grid end -->
             </div>
@@ -3005,9 +3053,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -3074,9 +3119,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -3114,7 +3156,7 @@
                     <h3 class="section-complexchoice__item-title">Грузовой транспорт</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="[[~4]]#">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -3122,7 +3164,7 @@
                     <h3 class="section-complexchoice__item-title">Пассажироперевозки</h3>
                     <p class="section-complexchoice__item-descr">Контроль местоположения, скорости, фактической работы, посещения контрольных точек и расхода топлива </p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="[[~6]]">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -3130,7 +3172,7 @@
                     <h3 class="section-complexchoice__item-title">Легковой транспорт</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="[[~5]]">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -3138,7 +3180,7 @@
                     <h3 class="section-complexchoice__item-title">Такси</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="[[~5]]">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -3146,7 +3188,7 @@
                     <h3 class="section-complexchoice__item-title">ЖКХ</h3>
                     <p class="section-complexchoice__item-descr">Контроль местоположения, скорости, фактической работы, посещения контрольных точек и расхода топлива</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="[[~7]]">Подробнее</a>
                     </div>
                 </div>
                 <!-- items grid end -->
@@ -3172,7 +3214,7 @@
                     <h3 class="section-complexchoice__item-title">Грузовой транспорт</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="[[~4]]#">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -3180,7 +3222,7 @@
                     <h3 class="section-complexchoice__item-title">Пассажироперевозки</h3>
                     <p class="section-complexchoice__item-descr">Контроль местоположения, скорости, фактической работы, посещения контрольных точек и расхода топлива </p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="[[~6]]">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -3188,7 +3230,7 @@
                     <h3 class="section-complexchoice__item-title">Легковой транспорт</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="[[~5]]">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -3196,7 +3238,7 @@
                     <h3 class="section-complexchoice__item-title">Такси</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="[[~5]]">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -3204,7 +3246,7 @@
                     <h3 class="section-complexchoice__item-title">ЖКХ</h3>
                     <p class="section-complexchoice__item-descr">Контроль местоположения, скорости, фактической работы, посещения контрольных точек и расхода топлива</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="#">Подробнее</a>
+                        <a class="button-readmore button-m" href="[[~7]]">Подробнее</a>
                     </div>
                 </div>
                 <!-- items grid end -->
@@ -3215,9 +3257,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -3288,9 +3327,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -3430,9 +3466,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -3484,7 +3517,7 @@
                         <img src="./assets/template/kgk/img/4step/4step-needed.png" alt="Выявление потребности">
                     </div>
                     <h3 class="section-4step__item-title">Выявление потребности</h3>
-                    <p>Менеджер вас консультирует и подбирает <a href="#" rel="noopener">лучшее решение </a>для бизнеса</p>
+                    <p>Менеджер вас консультирует и подбирает <a href="[[~3]]" rel="noopener">лучшее решение </a>для бизнеса</p>
                 </div>
                 <div class="section-4step__item">
                     <div class="section-4step__item-img">
@@ -3545,7 +3578,7 @@
                         <img src="./assets/template/kgk/img/4step/4step-needed.png" alt="Выявление потребности">
                     </div>
                     <h3 class="section-4step__item-title">Выявление потребности</h3>
-                    <p>Менеджер вас консультирует и подбирает <a href="#" rel="noopener">лучшее решение </a>для бизнеса</p>
+                    <p>Менеджер вас консультирует и подбирает <a href="[[~3]]" rel="noopener">лучшее решение </a>для бизнеса</p>
                 </div>
                 <div class="section-4step__item">
                     <div class="section-4step__item-img">
@@ -3577,9 +3610,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -3617,11 +3647,11 @@
                         <h3 class="section-devicesall__item-title">Трекеры GPS/GLONASS</h3>
                         <p class="section-devicesall__item-descr">Устройство приёма-передачи данных для спутникового контроля транспортных средств, использующее GPS и/или ГЛОНАСС для точного определения местонахождения объекта.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="[[~9]]" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="#" rel="noopener">
+                        <a href="[[~9]]" rel="noopener">
                             <img src="./assets/template/kgk/img/device-tracker.png" alt="">
                         </a>
                     </div>
@@ -3632,7 +3662,7 @@
                         <h3 class="section-devicesall__item-title">Терминал FORT-112EG-M</h3>
                         <p class="section-devicesall__item-descr">Терминал разработан специально для оснащения транспортных средств согласно 153 постановления  Правительства РФ.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="[[~25]]" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -3642,7 +3672,7 @@
                         <h3 class="section-devicesall__item-title">Автономный воздушный отопитель</h3>
                         <p class="section-devicesall__item-descr">Автономный отопитель поддерживает заданную температуру в салоне даже с выключенным двигателем.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="[[~13]]" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -3652,11 +3682,11 @@
                         <h3 class="section-devicesall__item-title">Датчики системы мониторинга</h3>
                         <p class="section-devicesall__item-descr">Система мониторинга позволяет подключать дополнительные датчики, которые добавляют новые функции и возможности устройств.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="[[~10]]" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="#" rel="noopener">
+                        <a href="[[~10]]" rel="noopener">
                             <img src="./assets/template/kgk/img/device-sensors.png" alt="">
                         </a>
                     </div>
@@ -3667,11 +3697,11 @@
                         <h3 class="section-devicesall__item-title">Тахографы</h3>
                         <p class="section-devicesall__item-descr">Устройства, обеспечивающее непрерывную, некорректируемую регистрацию данных о скорости и маршруте движения транспортного средства, а также времени работы водителя.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="[[~11]]" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="#" rel="noopener">
+                        <a href="[[~11]]" rel="noopener">
                             <img src="./assets/template/kgk/img/device-tahograf.png" alt="">
                         </a>
                     </div>
@@ -3682,7 +3712,7 @@
                         <h3 class="section-devicesall__item-title">Карты для тахографа</h3>
                         <p class="section-devicesall__item-descr">«Ключи», которые обеспечивают идентификацию и аутентификацию водителя с применением шифровальных средств.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="[[~12]]" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -3709,11 +3739,11 @@
                         <h3 class="section-devicesall__item-title">Трекеры GPS/GLONASS</h3>
                         <p class="section-devicesall__item-descr">Устройство приёма-передачи данных для спутникового контроля транспортных средств, использующее GPS и/или ГЛОНАСС для точного определения местонахождения объекта.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="[[~9]]" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="#" rel="noopener">
+                        <a href="[[~9]]" rel="noopener">
                             <img src="./assets/template/kgk/img/device-tracker.png" alt="">
                         </a>
                     </div>
@@ -3724,7 +3754,7 @@
                         <h3 class="section-devicesall__item-title">Терминал FORT-112EG-M</h3>
                         <p class="section-devicesall__item-descr">Терминал разработан специально для оснащения транспортных средств согласно 153 постановления  Правительства РФ.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="[[~25]]" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -3734,7 +3764,7 @@
                         <h3 class="section-devicesall__item-title">Автономный воздушный отопитель</h3>
                         <p class="section-devicesall__item-descr">Автономный отопитель поддерживает заданную температуру в салоне даже с выключенным двигателем.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="[[~13]]" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -3744,11 +3774,11 @@
                         <h3 class="section-devicesall__item-title">Датчики системы мониторинга</h3>
                         <p class="section-devicesall__item-descr">Система мониторинга позволяет подключать дополнительные датчики, которые добавляют новые функции и возможности устройств.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="[[~10]]" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="#" rel="noopener">
+                        <a href="[[~10]]" rel="noopener">
                             <img src="./assets/template/kgk/img/device-sensors.png" alt="">
                         </a>
                     </div>
@@ -3759,11 +3789,11 @@
                         <h3 class="section-devicesall__item-title">Тахографы</h3>
                         <p class="section-devicesall__item-descr">Устройства, обеспечивающее непрерывную, некорректируемую регистрацию данных о скорости и маршруте движения транспортного средства, а также времени работы водителя.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="[[~11]]" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="#" rel="noopener">
+                        <a href="[[~11]]" rel="noopener">
                             <img src="./assets/template/kgk/img/device-tahograf.png" alt="">
                         </a>
                     </div>
@@ -3774,7 +3804,7 @@
                         <h3 class="section-devicesall__item-title">Карты для тахографа</h3>
                         <p class="section-devicesall__item-descr">«Ключи», которые обеспечивают идентификацию и аутентификацию водителя с применением шифровальных средств.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="#" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="[[~12]]" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -3786,9 +3816,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -3853,9 +3880,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -4028,9 +4052,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -4169,9 +4190,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -4330,9 +4348,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -4395,9 +4410,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -4429,47 +4441,22 @@
             <h2 class="section-articles__title">Статьи по теме</h2>
             <div class="section-articles__items">
                 <!-- items grid -->
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
+                <ul class="section-articles__items-listbox">
+                      [[pdoPage?
+                        &parents=`19`
+                        &tpl=`articles-grid`
+                        &limit=`4`
+                        &sortby=`publishedon`
+                        &showHidden=`0`
+                        &sortdir=`DESC`
+                        &includeTVs=`images-header`
+                        &includeContent=`1`
+                      ]]
+                </ul>
                 <!-- items grid end -->
+            </div>
+            <div class="section-articles__readmore">
+                <a class="button-primary button-l" href="[[~19]]" rel="noopener">Все публикации</a>
             </div>
         </div>
     </div>
@@ -4486,47 +4473,22 @@
             <h2 class="section-articles__title">Статьи по теме</h2>
             <div class="section-articles__items">
                 <!-- items grid -->
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
-                    <div class="section-articles__item">
-                        <div class="section-articles__item-img">
-                            <img src="./assets/template/kgk/img/blog/blog-img.jpg" alt="">
-                        </div>
-                        <span class="section-articles__item-date">01.01.2019</span>
-                        <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
-                        <div class="section-articles__item-readmore">
-                            <a class="button-readmore button-m" href="#" rel="noopener">Узнать</a>
-                        </div>
-                    </div>
+                <ul class="section-articles__items-listbox">
+                      [[pdoPage?
+                        &parents=`19`
+                        &tpl=`articles-grid`
+                        &limit=`4`
+                        &sortby=`publishedon`
+                        &showHidden=`0`
+                        &sortdir=`DESC`
+                        &includeTVs=`images-header`
+                        &includeContent=`1`
+                      ]]
+                </ul>
                 <!-- items grid end -->
+            </div>
+            <div class="section-articles__readmore">
+                <a class="button-primary button-l" href="[[~19]]" rel="noopener">Все публикации</a>
             </div>
         </div>
     </div>
@@ -4534,9 +4496,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -4767,9 +4726,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -4812,9 +4768,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -4862,7 +4815,7 @@
                     <li class="bottom-menu__item"><a href="[[~5]]" rel="noopener">Такси</a></li>
                     <li class="bottom-menu__item"><a href="[[~4]]" rel="noopener">Грузоперевозки</a></li>
                     <li class="bottom-menu__item"><a href="[[~6]]" rel="noopener">Пассажироперевозки</a></li>
-                    <li class="bottom-menu__item"><a href="#" rel="noopener">Легковой транспорт</a></li>
+                    <li class="bottom-menu__item"><a href="[[~5]]" rel="noopener">Легковой транспорт</a></li>
                     <li class="bottom-menu__item"><a href="[[~7]]" rel="noopener">ЖКХ</a></li>
                 </ul>
             </div>
@@ -4929,7 +4882,7 @@
                     <li class="bottom-menu__item"><a href="[[~5]]" rel="noopener">Такси</a></li>
                     <li class="bottom-menu__item"><a href="[[~4]]" rel="noopener">Грузоперевозки</a></li>
                     <li class="bottom-menu__item"><a href="[[~6]]" rel="noopener">Пассажироперевозки</a></li>
-                    <li class="bottom-menu__item"><a href="#" rel="noopener">Легковой транспорт</a></li>
+                    <li class="bottom-menu__item"><a href="[[~5]]" rel="noopener">Легковой транспорт</a></li>
                     <li class="bottom-menu__item"><a href="[[~7]]" rel="noopener">ЖКХ</a></li>
                 </ul>
             </div>
@@ -4971,9 +4924,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -5028,9 +4978,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -6189,9 +6136,1181 @@ if (!empty($toPlaceholder)) {
         ),
         'policies' => 
         array (
-          'web' => 
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
           array (
           ),
+          'is_stream' => true,
+        ),
+      ),
+      'pdoPage' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 10,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'pdoPage',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 3,
+          'cache_type' => 0,
+          'snippet' => '/** @var array $scriptProperties */
+// Default variables
+if (empty($pageVarKey)) {
+    $pageVarKey = \'page\';
+}
+if (empty($pageNavVar)) {
+    $pageNavVar = \'page.nav\';
+}
+if (empty($pageCountVar)) {
+    $pageCountVar = \'pageCount\';
+}
+if (empty($totalVar)) {
+    $totalVar = \'total\';
+}
+if (empty($page)) {
+    $page = 1;
+}
+if (empty($pageLimit)) {
+    $pageLimit = 5;
+} else {
+    $pageLimit = (integer)$pageLimit;
+}
+if (!isset($plPrefix)) {
+    $plPrefix = \'\';
+}
+if (!empty($scriptProperties[\'ajaxMode\'])) {
+    $scriptProperties[\'ajax\'] = 1;
+}
+
+// Convert parameters from getPage if exists
+if (!empty($namespace)) {
+    $plPrefix = $namespace;
+}
+if (!empty($pageNavTpl)) {
+    $scriptProperties[\'tplPage\'] = $pageNavTpl;
+}
+if (!empty($pageNavOuterTpl)) {
+    $scriptProperties[\'tplPageWrapper\'] = $pageNavOuterTpl;
+}
+if (!empty($pageActiveTpl)) {
+    $scriptProperties[\'tplPageActive\'] = $pageActiveTpl;
+}
+if (!empty($pageFirstTpl)) {
+    $scriptProperties[\'tplPageFirst\'] = $pageFirstTpl;
+}
+if (!empty($pagePrevTpl)) {
+    $scriptProperties[\'tplPagePrev\'] = $pagePrevTpl;
+}
+if (!empty($pageNextTpl)) {
+    $scriptProperties[\'tplPageNext\'] = $pageNextTpl;
+}
+if (!empty($pageLastTpl)) {
+    $scriptProperties[\'tplPageLast\'] = $pageLastTpl;
+}
+if (!empty($pageSkipTpl)) {
+    $scriptProperties[\'tplPageSkip\'] = $pageSkipTpl;
+}
+if (!empty($pageNavScheme)) {
+    $scriptProperties[\'scheme\'] = $pageNavScheme;
+}
+if (!empty($cache_expires)) {
+    $scriptProperties[\'cacheTime\'] = $cache_expires;
+}
+//---
+$strictMode = !empty($strictMode);
+
+$isAjax = !empty($scriptProperties[\'ajax\']) && !empty($_SERVER[\'HTTP_X_REQUESTED_WITH\']) && $_SERVER[\'HTTP_X_REQUESTED_WITH\'] == \'XMLHttpRequest\';
+if ($isAjax && !isset($_REQUEST[$pageVarKey])) {
+    return;
+}
+
+/** @var pdoPage $pdoPage */
+$fqn = $modx->getOption(\'pdoPage.class\', null, \'pdotools.pdopage\', true);
+$path = $modx->getOption(\'pdopage_class_path\', null, MODX_CORE_PATH . \'components/pdotools/model/\', true);
+if ($pdoClass = $modx->loadClass($fqn, $path, false, true)) {
+    $pdoPage = new $pdoClass($modx, $scriptProperties);
+} else {
+    return false;
+}
+$pdoPage->pdoTools->addTime(\'pdoTools loaded\');
+
+// Script and styles
+if (!$isAjax && !empty($scriptProperties[\'ajaxMode\'])) {
+    $pdoPage->loadJsCss();
+}
+// Removing of default scripts and styles so they do not overwrote nested snippet parameters
+if ($snippet = $modx->getObject(\'modSnippet\', array(\'name\' => \'pdoPage\'))) {
+    $properties = $snippet->get(\'properties\');
+    if ($scriptProperties[\'frontend_js\'] == $properties[\'frontend_js\'][\'value\']) {
+        unset($scriptProperties[\'frontend_js\']);
+    }
+    if ($scriptProperties[\'frontend_css\'] == $properties[\'frontend_css\'][\'value\']) {
+        unset($scriptProperties[\'frontend_css\']);
+    }
+}
+
+// Page
+if (isset($_REQUEST[$pageVarKey]) && $strictMode && (!is_numeric($_REQUEST[$pageVarKey]) || ($_REQUEST[$pageVarKey] <= 1 && !$isAjax))) {
+    return $pdoPage->redirectToFirst($isAjax);
+} elseif (!empty($_REQUEST[$pageVarKey])) {
+    $page = (integer)$_REQUEST[$pageVarKey];
+}
+$scriptProperties[\'page\'] = $page;
+$scriptProperties[\'request\'] = $_REQUEST;
+$scriptProperties[\'setTotal\'] = true;
+
+// Limit
+if (isset($_REQUEST[\'limit\'])) {
+    if (is_numeric($_REQUEST[\'limit\']) && abs($_REQUEST[\'limit\']) > 0) {
+        $scriptProperties[\'limit\'] = abs($_REQUEST[\'limit\']);
+    } elseif ($strictMode) {
+        unset($_GET[\'limit\']);
+
+        return $pdoPage->redirectToFirst($isAjax);
+    }
+}
+if (!empty($maxLimit) && !empty($scriptProperties[\'limit\']) && $scriptProperties[\'limit\'] > $maxLimit) {
+    $scriptProperties[\'limit\'] = $maxLimit;
+}
+
+// Offset
+$offset = !empty($scriptProperties[\'offset\']) && $scriptProperties[\'offset\'] > 0
+    ? (int)$scriptProperties[\'offset\']
+    : 0;
+$scriptProperties[\'offset\'] = $page > 1
+    ? $scriptProperties[\'limit\'] * ($page - 1) + $offset
+    : $offset;
+if (!empty($scriptProperties[\'offset\']) && empty($scriptProperties[\'limit\'])) {
+    $scriptProperties[\'limit\'] = 10000000;
+}
+
+$cache = !empty($cache) || (!$modx->user->id && !empty($cacheAnonymous));
+$url = $pdoPage->getBaseUrl();
+$output = $pagination = $total = $pageCount = \'\';
+
+$data = $cache
+    ? $pdoPage->pdoTools->getCache($scriptProperties)
+    : array();
+
+if (empty($data)) {
+    $output = $pdoPage->pdoTools->runSnippet($scriptProperties[\'element\'], $scriptProperties);
+    if ($output === false) {
+        return \'\';
+    } elseif (!empty($toPlaceholder)) {
+        $output = $modx->getPlaceholder($toPlaceholder);
+    }
+
+    // Pagination
+    $total = (int)$modx->getPlaceholder($totalVar);
+    $pageCount = !empty($scriptProperties[\'limit\']) && $total > $offset
+        ? ceil(($total - $offset) / $scriptProperties[\'limit\'])
+        : 0;
+
+    // Redirect to start if somebody specified incorrect page
+    if ($page > 1 && $page > $pageCount && $strictMode) {
+        return $pdoPage->redirectToFirst($isAjax);
+    }
+    if (!empty($pageCount) && $pageCount > 1) {
+        $pagination = array(
+            \'first\' => $page > 1 && !empty($tplPageFirst)
+                ? $pdoPage->makePageLink($url, 1, $tplPageFirst)
+                : \'\',
+            \'prev\' => $page > 1 && !empty($tplPagePrev)
+                ? $pdoPage->makePageLink($url, $page - 1, $tplPagePrev)
+                : \'\',
+            \'pages\' => $pageLimit >= 7 && empty($disableModernPagination)
+                ? $pdoPage->buildModernPagination($page, $pageCount, $url)
+                : $pdoPage->buildClassicPagination($page, $pageCount, $url),
+            \'next\' => $page < $pageCount && !empty($tplPageNext)
+                ? $pdoPage->makePageLink($url, $page + 1, $tplPageNext)
+                : \'\',
+            \'last\' => $page < $pageCount && !empty($tplPageLast)
+                ? $pdoPage->makePageLink($url, $pageCount, $tplPageLast)
+                : \'\',
+        );
+
+        if (!empty($pageCount)) {
+            foreach (array(\'first\', \'prev\', \'next\', \'last\') as $v) {
+                $tpl = \'tplPage\' . ucfirst($v) . \'Empty\';
+                if (!empty(${$tpl}) && empty($pagination[$v])) {
+                    $pagination[$v] = $pdoPage->pdoTools->getChunk(${$tpl});
+                }
+            }
+        }
+    } else {
+        $pagination = array(
+            \'first\' => \'\',
+            \'prev\' => \'\',
+            \'pages\' => \'\',
+            \'next\' => \'\',
+            \'last\' => \'\'
+        );
+    }
+
+    $data = array(
+        \'output\' => $output,
+        $pageVarKey => $page,
+        $pageCountVar => $pageCount,
+        $pageNavVar => !empty($tplPageWrapper)
+            ? $pdoPage->pdoTools->getChunk($tplPageWrapper, $pagination)
+            : $pdoPage->pdoTools->parseChunk(\'\', $pagination),
+        $totalVar => $total,
+    );
+    if ($cache) {
+        $pdoPage->pdoTools->setCache($data, $scriptProperties);
+    }
+}
+
+if ($modx->user->hasSessionContext(\'mgr\') && !empty($showLog)) {
+    $data[\'output\'] .= \'<pre class="pdoPageLog">\' . print_r($pdoPage->pdoTools->getTime(), 1) . \'</pre>\';
+}
+
+if ($isAjax) {
+    if ($pageNavVar != \'pagination\') {
+        $data[\'pagination\'] = $data[$pageNavVar];
+        unset($data[$pageNavVar]);
+    }
+    if ($pageCountVar != \'pages\') {
+        $data[\'pages\'] = (int)$data[$pageCountVar];
+        unset($data[$pageCountVar]);
+    }
+    if ($pageVarKey != \'page\') {
+        $data[\'page\'] = (int)$data[$pageVarKey];
+        unset($data[$pageVarKey]);
+    }
+    if ($totalVar != \'total\') {
+        $data[\'total\'] = (int)$data[$totalVar];
+        unset($data[$totalVar]);
+    }
+
+    $maxIterations = (integer)$modx->getOption(\'parser_max_iterations\', null, 10);
+    $modx->getParser()->processElementTags(\'\', $data[\'output\'], false, false, \'[[\', \']]\', array(), $maxIterations);
+    $modx->getParser()->processElementTags(\'\', $data[\'output\'], true, true, \'[[\', \']]\', array(), $maxIterations);
+
+    @session_write_close();
+    exit(json_encode($data));
+} else {
+    if (!empty($setMeta)) {
+        $canurl = $pdoPage->pdoTools->config[\'scheme\'] !== \'full\'
+            ? $modx->getOption(\'url_scheme\') . rtrim($modx->getOption(\'http_host\'), \'/\') . \'/\' . ltrim($url, \'/\')
+            : $url;
+
+        $modx->regClientStartupHTMLBlock(\'<link rel="canonical" href="\' . $canurl . \'"/>\');
+        if ($data[$pageVarKey] > 1) {
+            $modx->regClientStartupHTMLBlock(
+                \'<link rel="prev" href="\' . $pdoPage->makePageLink($canurl, $data[$pageVarKey] - 1) . \'"/>\'
+            );
+        }
+        if ($data[$pageVarKey] < $data[$pageCountVar]) {
+            $modx->regClientStartupHTMLBlock(
+                \'<link rel="next" href="\' . $pdoPage->makePageLink($canurl, $data[$pageVarKey] + 1) . \'"/>\'
+            );
+        }
+    }
+
+    $modx->setPlaceholders($data, $plPrefix);
+    if (!empty($toPlaceholder)) {
+        $modx->setPlaceholder($toPlaceholder, $data[\'output\']);
+    } else {
+        return $data[\'output\'];
+    }
+}',
+          'locked' => false,
+          'properties' => 
+          array (
+            'ajax' => 
+            array (
+              'name' => 'ajax',
+              'desc' => 'pdotools_prop_ajax',
+              'type' => 'combo-boolean',
+              'options' => 
+              array (
+              ),
+              'value' => false,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Включить поддержку ajax запросов.',
+              'area_trans' => '',
+            ),
+            'ajaxElemLink' => 
+            array (
+              'name' => 'ajaxElemLink',
+              'desc' => 'pdotools_prop_ajaxElemLink',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '#pdopage .pagination a',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'jQuery селектор ссылки на страницу.',
+              'area_trans' => '',
+            ),
+            'ajaxElemMore' => 
+            array (
+              'name' => 'ajaxElemMore',
+              'desc' => 'pdotools_prop_ajaxElemMore',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '#pdopage .btn-more',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'jQuery селектор кнопки загрузки результатов при ajaxMode = button.',
+              'area_trans' => '',
+            ),
+            'ajaxElemPagination' => 
+            array (
+              'name' => 'ajaxElemPagination',
+              'desc' => 'pdotools_prop_ajaxElemPagination',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '#pdopage .pagination',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'jQuery селектор элемента с пагинацией.',
+              'area_trans' => '',
+            ),
+            'ajaxElemRows' => 
+            array (
+              'name' => 'ajaxElemRows',
+              'desc' => 'pdotools_prop_ajaxElemRows',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '#pdopage .rows',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'jQuery селектор элемента с результатами.',
+              'area_trans' => '',
+            ),
+            'ajaxElemWrapper' => 
+            array (
+              'name' => 'ajaxElemWrapper',
+              'desc' => 'pdotools_prop_ajaxElemWrapper',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '#pdopage',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'jQuery селектор элемента-обёртки с результатами и пагинацией.',
+              'area_trans' => '',
+            ),
+            'ajaxHistory' => 
+            array (
+              'name' => 'ajaxHistory',
+              'desc' => 'pdotools_prop_ajaxHistory',
+              'type' => 'list',
+              'options' => 
+              array (
+                0 => 
+                array (
+                  'text' => 'Auto',
+                  'value' => '',
+                  'name' => 'Auto',
+                ),
+                1 => 
+                array (
+                  'text' => 'Enabled',
+                  'value' => 1,
+                  'name' => 'Enabled',
+                ),
+                2 => 
+                array (
+                  'text' => 'Disabled',
+                  'value' => 0,
+                  'name' => 'Disabled',
+                ),
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Сохранять номер страницы в url при работе в режиме ajax.',
+              'area_trans' => '',
+            ),
+            'ajaxMode' => 
+            array (
+              'name' => 'ajaxMode',
+              'desc' => 'pdotools_prop_ajaxMode',
+              'type' => 'list',
+              'options' => 
+              array (
+                0 => 
+                array (
+                  'text' => 'None',
+                  'value' => '',
+                  'name' => 'None',
+                ),
+                1 => 
+                array (
+                  'text' => 'Default',
+                  'value' => 'default',
+                  'name' => 'Default',
+                ),
+                2 => 
+                array (
+                  'text' => 'Scroll',
+                  'value' => 'scroll',
+                  'name' => 'Scroll',
+                ),
+                3 => 
+                array (
+                  'text' => 'Button',
+                  'value' => 'button',
+                  'name' => 'Button',
+                ),
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Ajax пагинация "из коробки". Доступны 3 режима: "default", "button" и "scroll".',
+              'area_trans' => '',
+            ),
+            'ajaxTplMore' => 
+            array (
+              'name' => 'ajaxTplMore',
+              'desc' => 'pdotools_prop_ajaxTplMore',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <button class="btn btn-primary btn-more">[[%pdopage_more]]</button>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Шаблон кнопки для загрузки новых результатов при ajaxMode = button. Должен включать селектор, указанный в "ajaxElemMore".',
+              'area_trans' => '',
+            ),
+            'cache' => 
+            array (
+              'name' => 'cache',
+              'desc' => 'pdotools_prop_cache',
+              'type' => 'combo-boolean',
+              'options' => 
+              array (
+              ),
+              'value' => false,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Кэширование результатов работы сниппета.',
+              'area_trans' => '',
+            ),
+            'cacheAnonymous' => 
+            array (
+              'name' => 'cacheAnonymous',
+              'desc' => 'pdotools_prop_cacheAnonymous',
+              'type' => 'combo-boolean',
+              'options' => 
+              array (
+              ),
+              'value' => false,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Включить кэширование только для неавторизованных посетителей.',
+              'area_trans' => '',
+            ),
+            'cacheTime' => 
+            array (
+              'name' => 'cacheTime',
+              'desc' => 'pdotools_prop_cacheTime',
+              'type' => 'numberfield',
+              'options' => 
+              array (
+              ),
+              'value' => 3600,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Время актуальности кэша в секундах.',
+              'area_trans' => '',
+            ),
+            'element' => 
+            array (
+              'name' => 'element',
+              'desc' => 'pdotools_prop_element',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => 'pdoResources',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Имя сниппета для запуска.',
+              'area_trans' => '',
+            ),
+            'frontend_css' => 
+            array (
+              'name' => 'frontend_css',
+              'desc' => 'pdotools_prop_frontend_css',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '[[+assetsUrl]]css/pdopage.min.css',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Ссылка на css стили оформления для подключения сниппетом.',
+              'area_trans' => '',
+            ),
+            'frontend_js' => 
+            array (
+              'name' => 'frontend_js',
+              'desc' => 'pdotools_prop_frontend_js',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '[[+assetsUrl]]js/pdopage.min.js',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Ссылка на javascript для подключения сниппетом.',
+              'area_trans' => '',
+            ),
+            'limit' => 
+            array (
+              'name' => 'limit',
+              'desc' => 'pdotools_prop_limit',
+              'type' => 'numberfield',
+              'options' => 
+              array (
+              ),
+              'value' => 10,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Ограничение количества результатов выборки. Можно использовать "0".',
+              'area_trans' => '',
+            ),
+            'maxLimit' => 
+            array (
+              'name' => 'maxLimit',
+              'desc' => 'pdotools_prop_maxLimit',
+              'type' => 'numberfield',
+              'options' => 
+              array (
+              ),
+              'value' => 100,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Максимально возможный лимит выборки. Перекрывает лимит, указанный пользователем через url.',
+              'area_trans' => '',
+            ),
+            'offset' => 
+            array (
+              'name' => 'offset',
+              'desc' => 'pdotools_prop_offset',
+              'type' => 'numberfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Пропуск результатов от начала.',
+              'area_trans' => '',
+            ),
+            'page' => 
+            array (
+              'name' => 'page',
+              'desc' => 'pdotools_prop_page',
+              'type' => 'numberfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Номер страницы для вывода. Перекрывается номером, указанным пользователем через url.',
+              'area_trans' => '',
+            ),
+            'pageCountVar' => 
+            array (
+              'name' => 'pageCountVar',
+              'desc' => 'pdotools_prop_pageCountVar',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => 'pageCount',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Имя плейсхолдера для вывода количества страниц.',
+              'area_trans' => '',
+            ),
+            'pageLimit' => 
+            array (
+              'name' => 'pageLimit',
+              'desc' => 'pdotools_prop_pageLimit',
+              'type' => 'numberfield',
+              'options' => 
+              array (
+              ),
+              'value' => 5,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Количество ссылок на страницы. Если больше или равно 7 - включается продвинутый режим отображения.',
+              'area_trans' => '',
+            ),
+            'pageLinkScheme' => 
+            array (
+              'name' => 'pageLinkScheme',
+              'desc' => 'pdotools_prop_pageLinkScheme',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Схема генерации ссылки на страницу. Можно использовать плейсхолдеры [[+pageVarKey]] и [[+page]]',
+              'area_trans' => '',
+            ),
+            'pageNavVar' => 
+            array (
+              'name' => 'pageNavVar',
+              'desc' => 'pdotools_prop_pageNavVar',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => 'page.nav',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Имя плейсхолдера для вывода пагинации.',
+              'area_trans' => '',
+            ),
+            'pageVarKey' => 
+            array (
+              'name' => 'pageVarKey',
+              'desc' => 'pdotools_prop_pageVarKey',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => 'page',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Имя переменной для поиска номера страницы в url.',
+              'area_trans' => '',
+            ),
+            'plPrefix' => 
+            array (
+              'name' => 'plPrefix',
+              'desc' => 'pdotools_prop_plPrefix',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Префикс для выставляемых плейсхолдеров, по умолчанию "wf.".',
+              'area_trans' => '',
+            ),
+            'setMeta' => 
+            array (
+              'name' => 'setMeta',
+              'desc' => 'pdotools_prop_setMeta',
+              'type' => 'combo-boolean',
+              'options' => 
+              array (
+              ),
+              'value' => true,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Регистрация мета-тегов со ссылками на предыдущую и следующую страницу.',
+              'area_trans' => '',
+            ),
+            'strictMode' => 
+            array (
+              'name' => 'strictMode',
+              'desc' => 'pdotools_prop_strictMode',
+              'type' => 'combo-boolean',
+              'options' => 
+              array (
+              ),
+              'value' => true,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Строгий режим работы. pdoPage делает редиректы при загрузке несуществующих страниц.',
+              'area_trans' => '',
+            ),
+            'toPlaceholder' => 
+            array (
+              'name' => 'toPlaceholder',
+              'desc' => 'pdotools_prop_toPlaceholder',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Если не пусто, сниппет сохранит все данные в плейсхолдер с этим именем, вместо вывода не экран.',
+              'area_trans' => '',
+            ),
+            'totalVar' => 
+            array (
+              'name' => 'totalVar',
+              'desc' => 'pdotools_prop_totalVar',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => 'page.total',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Имя плейсхолдера для сохранения общего количества результатов.',
+              'area_trans' => '',
+            ),
+            'tplPage' => 
+            array (
+              'name' => 'tplPage',
+              'desc' => 'pdotools_prop_tplPage',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">[[+pageNo]]</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления обычной ссылки на страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageActive' => 
+            array (
+              'name' => 'tplPageActive',
+              'desc' => 'pdotools_prop_tplPageActive',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="page-item active"><a class="page-link" href="[[+href]]">[[+pageNo]]</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления ссылки на текущую страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageFirst' => 
+            array (
+              'name' => 'tplPageFirst',
+              'desc' => 'pdotools_prop_tplPageFirst',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">[[%pdopage_first]]</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления ссылки на первую страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageFirstEmpty' => 
+            array (
+              'name' => 'tplPageFirstEmpty',
+              'desc' => 'pdotools_prop_tplPageFirstEmpty',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="page-item disabled"><a class="page-link" href="#">[[%pdopage_first]]</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк, выводящийся при отсутствии ссылки на первую страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageLast' => 
+            array (
+              'name' => 'tplPageLast',
+              'desc' => 'pdotools_prop_tplPageLast',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">[[%pdopage_last]]</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления ссылки на последнюю страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageLastEmpty' => 
+            array (
+              'name' => 'tplPageLastEmpty',
+              'desc' => 'pdotools_prop_tplPageLastEmpty',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="page-item disabled"><a class="page-link" href="#">[[%pdopage_last]]</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк, выводящийся при отсутствии ссылки на последнюю страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageNext' => 
+            array (
+              'name' => 'tplPageNext',
+              'desc' => 'pdotools_prop_tplPageNext',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">&raquo;</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления ссылки на следующую страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageNextEmpty' => 
+            array (
+              'name' => 'tplPageNextEmpty',
+              'desc' => 'pdotools_prop_tplPageNextEmpty',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="page-item disabled"><a class="page-link" href="#">&raquo;</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк, выводящийся при отсутствии ссылки на следующую страницу.',
+              'area_trans' => '',
+            ),
+            'tplPagePrev' => 
+            array (
+              'name' => 'tplPagePrev',
+              'desc' => 'pdotools_prop_tplPagePrev',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">&laquo;</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления ссылки на предыдущую страницу.',
+              'area_trans' => '',
+            ),
+            'tplPagePrevEmpty' => 
+            array (
+              'name' => 'tplPagePrevEmpty',
+              'desc' => 'pdotools_prop_tplPagePrevEmpty',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="page-item disabled"><a class="page-link" href="#">&laquo;</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк, выводящийся при отсутствии ссылки на предыдущую страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageSkip' => 
+            array (
+              'name' => 'tplPageSkip',
+              'desc' => 'pdotools_prop_tplPageSkip',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="page-item disabled"><a class="page-link" href="#">...</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления пропущенных страниц при продвинутом режиме отображения (&pageLimit >= 7).',
+              'area_trans' => '',
+            ),
+            'tplPageWrapper' => 
+            array (
+              'name' => 'tplPageWrapper',
+              'desc' => 'pdotools_prop_tplPageWrapper',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления всего блока пагинации, содержит плейсхолдеры страниц.',
+              'area_trans' => '',
+            ),
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => 'core/components/pdotools/elements/snippets/snippet.pdopage.php',
+          'content' => '/** @var array $scriptProperties */
+// Default variables
+if (empty($pageVarKey)) {
+    $pageVarKey = \'page\';
+}
+if (empty($pageNavVar)) {
+    $pageNavVar = \'page.nav\';
+}
+if (empty($pageCountVar)) {
+    $pageCountVar = \'pageCount\';
+}
+if (empty($totalVar)) {
+    $totalVar = \'total\';
+}
+if (empty($page)) {
+    $page = 1;
+}
+if (empty($pageLimit)) {
+    $pageLimit = 5;
+} else {
+    $pageLimit = (integer)$pageLimit;
+}
+if (!isset($plPrefix)) {
+    $plPrefix = \'\';
+}
+if (!empty($scriptProperties[\'ajaxMode\'])) {
+    $scriptProperties[\'ajax\'] = 1;
+}
+
+// Convert parameters from getPage if exists
+if (!empty($namespace)) {
+    $plPrefix = $namespace;
+}
+if (!empty($pageNavTpl)) {
+    $scriptProperties[\'tplPage\'] = $pageNavTpl;
+}
+if (!empty($pageNavOuterTpl)) {
+    $scriptProperties[\'tplPageWrapper\'] = $pageNavOuterTpl;
+}
+if (!empty($pageActiveTpl)) {
+    $scriptProperties[\'tplPageActive\'] = $pageActiveTpl;
+}
+if (!empty($pageFirstTpl)) {
+    $scriptProperties[\'tplPageFirst\'] = $pageFirstTpl;
+}
+if (!empty($pagePrevTpl)) {
+    $scriptProperties[\'tplPagePrev\'] = $pagePrevTpl;
+}
+if (!empty($pageNextTpl)) {
+    $scriptProperties[\'tplPageNext\'] = $pageNextTpl;
+}
+if (!empty($pageLastTpl)) {
+    $scriptProperties[\'tplPageLast\'] = $pageLastTpl;
+}
+if (!empty($pageSkipTpl)) {
+    $scriptProperties[\'tplPageSkip\'] = $pageSkipTpl;
+}
+if (!empty($pageNavScheme)) {
+    $scriptProperties[\'scheme\'] = $pageNavScheme;
+}
+if (!empty($cache_expires)) {
+    $scriptProperties[\'cacheTime\'] = $cache_expires;
+}
+//---
+$strictMode = !empty($strictMode);
+
+$isAjax = !empty($scriptProperties[\'ajax\']) && !empty($_SERVER[\'HTTP_X_REQUESTED_WITH\']) && $_SERVER[\'HTTP_X_REQUESTED_WITH\'] == \'XMLHttpRequest\';
+if ($isAjax && !isset($_REQUEST[$pageVarKey])) {
+    return;
+}
+
+/** @var pdoPage $pdoPage */
+$fqn = $modx->getOption(\'pdoPage.class\', null, \'pdotools.pdopage\', true);
+$path = $modx->getOption(\'pdopage_class_path\', null, MODX_CORE_PATH . \'components/pdotools/model/\', true);
+if ($pdoClass = $modx->loadClass($fqn, $path, false, true)) {
+    $pdoPage = new $pdoClass($modx, $scriptProperties);
+} else {
+    return false;
+}
+$pdoPage->pdoTools->addTime(\'pdoTools loaded\');
+
+// Script and styles
+if (!$isAjax && !empty($scriptProperties[\'ajaxMode\'])) {
+    $pdoPage->loadJsCss();
+}
+// Removing of default scripts and styles so they do not overwrote nested snippet parameters
+if ($snippet = $modx->getObject(\'modSnippet\', array(\'name\' => \'pdoPage\'))) {
+    $properties = $snippet->get(\'properties\');
+    if ($scriptProperties[\'frontend_js\'] == $properties[\'frontend_js\'][\'value\']) {
+        unset($scriptProperties[\'frontend_js\']);
+    }
+    if ($scriptProperties[\'frontend_css\'] == $properties[\'frontend_css\'][\'value\']) {
+        unset($scriptProperties[\'frontend_css\']);
+    }
+}
+
+// Page
+if (isset($_REQUEST[$pageVarKey]) && $strictMode && (!is_numeric($_REQUEST[$pageVarKey]) || ($_REQUEST[$pageVarKey] <= 1 && !$isAjax))) {
+    return $pdoPage->redirectToFirst($isAjax);
+} elseif (!empty($_REQUEST[$pageVarKey])) {
+    $page = (integer)$_REQUEST[$pageVarKey];
+}
+$scriptProperties[\'page\'] = $page;
+$scriptProperties[\'request\'] = $_REQUEST;
+$scriptProperties[\'setTotal\'] = true;
+
+// Limit
+if (isset($_REQUEST[\'limit\'])) {
+    if (is_numeric($_REQUEST[\'limit\']) && abs($_REQUEST[\'limit\']) > 0) {
+        $scriptProperties[\'limit\'] = abs($_REQUEST[\'limit\']);
+    } elseif ($strictMode) {
+        unset($_GET[\'limit\']);
+
+        return $pdoPage->redirectToFirst($isAjax);
+    }
+}
+if (!empty($maxLimit) && !empty($scriptProperties[\'limit\']) && $scriptProperties[\'limit\'] > $maxLimit) {
+    $scriptProperties[\'limit\'] = $maxLimit;
+}
+
+// Offset
+$offset = !empty($scriptProperties[\'offset\']) && $scriptProperties[\'offset\'] > 0
+    ? (int)$scriptProperties[\'offset\']
+    : 0;
+$scriptProperties[\'offset\'] = $page > 1
+    ? $scriptProperties[\'limit\'] * ($page - 1) + $offset
+    : $offset;
+if (!empty($scriptProperties[\'offset\']) && empty($scriptProperties[\'limit\'])) {
+    $scriptProperties[\'limit\'] = 10000000;
+}
+
+$cache = !empty($cache) || (!$modx->user->id && !empty($cacheAnonymous));
+$url = $pdoPage->getBaseUrl();
+$output = $pagination = $total = $pageCount = \'\';
+
+$data = $cache
+    ? $pdoPage->pdoTools->getCache($scriptProperties)
+    : array();
+
+if (empty($data)) {
+    $output = $pdoPage->pdoTools->runSnippet($scriptProperties[\'element\'], $scriptProperties);
+    if ($output === false) {
+        return \'\';
+    } elseif (!empty($toPlaceholder)) {
+        $output = $modx->getPlaceholder($toPlaceholder);
+    }
+
+    // Pagination
+    $total = (int)$modx->getPlaceholder($totalVar);
+    $pageCount = !empty($scriptProperties[\'limit\']) && $total > $offset
+        ? ceil(($total - $offset) / $scriptProperties[\'limit\'])
+        : 0;
+
+    // Redirect to start if somebody specified incorrect page
+    if ($page > 1 && $page > $pageCount && $strictMode) {
+        return $pdoPage->redirectToFirst($isAjax);
+    }
+    if (!empty($pageCount) && $pageCount > 1) {
+        $pagination = array(
+            \'first\' => $page > 1 && !empty($tplPageFirst)
+                ? $pdoPage->makePageLink($url, 1, $tplPageFirst)
+                : \'\',
+            \'prev\' => $page > 1 && !empty($tplPagePrev)
+                ? $pdoPage->makePageLink($url, $page - 1, $tplPagePrev)
+                : \'\',
+            \'pages\' => $pageLimit >= 7 && empty($disableModernPagination)
+                ? $pdoPage->buildModernPagination($page, $pageCount, $url)
+                : $pdoPage->buildClassicPagination($page, $pageCount, $url),
+            \'next\' => $page < $pageCount && !empty($tplPageNext)
+                ? $pdoPage->makePageLink($url, $page + 1, $tplPageNext)
+                : \'\',
+            \'last\' => $page < $pageCount && !empty($tplPageLast)
+                ? $pdoPage->makePageLink($url, $pageCount, $tplPageLast)
+                : \'\',
+        );
+
+        if (!empty($pageCount)) {
+            foreach (array(\'first\', \'prev\', \'next\', \'last\') as $v) {
+                $tpl = \'tplPage\' . ucfirst($v) . \'Empty\';
+                if (!empty(${$tpl}) && empty($pagination[$v])) {
+                    $pagination[$v] = $pdoPage->pdoTools->getChunk(${$tpl});
+                }
+            }
+        }
+    } else {
+        $pagination = array(
+            \'first\' => \'\',
+            \'prev\' => \'\',
+            \'pages\' => \'\',
+            \'next\' => \'\',
+            \'last\' => \'\'
+        );
+    }
+
+    $data = array(
+        \'output\' => $output,
+        $pageVarKey => $page,
+        $pageCountVar => $pageCount,
+        $pageNavVar => !empty($tplPageWrapper)
+            ? $pdoPage->pdoTools->getChunk($tplPageWrapper, $pagination)
+            : $pdoPage->pdoTools->parseChunk(\'\', $pagination),
+        $totalVar => $total,
+    );
+    if ($cache) {
+        $pdoPage->pdoTools->setCache($data, $scriptProperties);
+    }
+}
+
+if ($modx->user->hasSessionContext(\'mgr\') && !empty($showLog)) {
+    $data[\'output\'] .= \'<pre class="pdoPageLog">\' . print_r($pdoPage->pdoTools->getTime(), 1) . \'</pre>\';
+}
+
+if ($isAjax) {
+    if ($pageNavVar != \'pagination\') {
+        $data[\'pagination\'] = $data[$pageNavVar];
+        unset($data[$pageNavVar]);
+    }
+    if ($pageCountVar != \'pages\') {
+        $data[\'pages\'] = (int)$data[$pageCountVar];
+        unset($data[$pageCountVar]);
+    }
+    if ($pageVarKey != \'page\') {
+        $data[\'page\'] = (int)$data[$pageVarKey];
+        unset($data[$pageVarKey]);
+    }
+    if ($totalVar != \'total\') {
+        $data[\'total\'] = (int)$data[$totalVar];
+        unset($data[$totalVar]);
+    }
+
+    $maxIterations = (integer)$modx->getOption(\'parser_max_iterations\', null, 10);
+    $modx->getParser()->processElementTags(\'\', $data[\'output\'], false, false, \'[[\', \']]\', array(), $maxIterations);
+    $modx->getParser()->processElementTags(\'\', $data[\'output\'], true, true, \'[[\', \']]\', array(), $maxIterations);
+
+    @session_write_close();
+    exit(json_encode($data));
+} else {
+    if (!empty($setMeta)) {
+        $canurl = $pdoPage->pdoTools->config[\'scheme\'] !== \'full\'
+            ? $modx->getOption(\'url_scheme\') . rtrim($modx->getOption(\'http_host\'), \'/\') . \'/\' . ltrim($url, \'/\')
+            : $url;
+
+        $modx->regClientStartupHTMLBlock(\'<link rel="canonical" href="\' . $canurl . \'"/>\');
+        if ($data[$pageVarKey] > 1) {
+            $modx->regClientStartupHTMLBlock(
+                \'<link rel="prev" href="\' . $pdoPage->makePageLink($canurl, $data[$pageVarKey] - 1) . \'"/>\'
+            );
+        }
+        if ($data[$pageVarKey] < $data[$pageCountVar]) {
+            $modx->regClientStartupHTMLBlock(
+                \'<link rel="next" href="\' . $pdoPage->makePageLink($canurl, $data[$pageVarKey] + 1) . \'"/>\'
+            );
+        }
+    }
+
+    $modx->setPlaceholders($data, $plPrefix);
+    if (!empty($toPlaceholder)) {
+        $modx->setPlaceholder($toPlaceholder, $data[\'output\']);
+    } else {
+        return $data[\'output\'];
+    }
+}',
+        ),
+        'policies' => 
+        array (
         ),
         'source' => 
         array (

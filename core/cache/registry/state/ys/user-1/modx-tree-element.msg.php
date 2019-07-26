@@ -9,6 +9,6 @@ return array (
   6 => '/root/n_type_snippet/n_snippet_category_1',
   7 => '/root/n_type_chunk',
   8 => '/root/n_type_chunk/n_chunk_category_10',
-  9 => '/root/n_type_chunk/n_chunk_category_5',
-  10 => '/root/n_type_template/n_template_category_5',
+  9 => '/root/n_type_template/n_template_category_5',
+  10 => '/root/n_type_chunk/n_chunk_category_5',
 );
