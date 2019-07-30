@@ -4,6 +4,9 @@
     'allow_tags_in_post' => '1',
     'modRequest.class' => 'modManagerRequest',
   ),
+  'aliasMap' => 
+  array (
+  ),
   'webLinkMap' => 
   array (
   ),
@@ -27,8 +30,8 @@
     ),
     'OnManagerPageBeforeRender' => 
     array (
-      4 => '4',
       1 => '1',
+      4 => '4',
     ),
     'OnMODXInit' => 
     array (
@@ -44,8 +47,8 @@
     ),
     'OnSiteRefresh' => 
     array (
-      2 => '2',
       3 => '3',
+      2 => '2',
     ),
     'OnSnipFormPrerender' => 
     array (

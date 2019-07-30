@@ -11,4 +11,5 @@ return array (
   8 => '/root/n_type_chunk/n_chunk_category_10',
   9 => '/root/n_type_template/n_template_category_5',
   10 => '/root/n_type_chunk/n_chunk_category_5',
+  11 => '/root/n_type_chunk/n_chunk_category_11',
 );

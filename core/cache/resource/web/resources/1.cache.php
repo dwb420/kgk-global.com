@@ -26,7 +26,7 @@
     'createdby' => 1,
     'createdon' => 1561986304,
     'editedby' => 1,
-    'editedon' => 1563951537,
+    'editedon' => 1564387914,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -41,7 +41,7 @@
     'class_key' => 'modDocument',
     'context_key' => 'web',
     'content_type' => 1,
-    'uri' => '',
+    'uri' => 'index.html',
     'uri_override' => 0,
     'hide_children_in_tree' => 0,
     'show_in_tree' => 1,
@@ -118,7 +118,36 @@
     <script src="https://kit.fontawesome.com/b541cd0433.js"></script>
 </head>
 <body>
-[[$ru-modals]]
+<!-- callback form -->
+<div class="modal fade" id="callBack">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">+</button>
+            <h4 class="modal-title">Запрос обратного звонка</h4>
+        </div>
+        <form id="callBack" method="post" action="" accept-charset="UTF-8">
+            <fieldset>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label class="input-group__label">Представьтесь, пожалуйста</label>
+                            <input type="text" id="callBackName" class="required form-control" placeholder="Ваше имя" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label class="input-group__label">На какой номер вам перезвонить</label>
+                            <input type="text" id="callBackPhone" class="required form-control" placeholder="Номер телефона" />
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div class="modal-footer">
+            <button type="submit" id="callBackSubmit" class="btn-primary btn-l">Перезвоните мне</button>
+        </div>
+    </div>
+</div> 
 <header class="headline">
     <div class="headline-top row">
         <div class="container">
@@ -142,10 +171,10 @@
                     <a class="button-warning button-sm animated pulse" href="#" rel="noopener">Войти</a>
                 </div>
                 <div class="header-top__button">
-                    <a class="button-normal" href="index.php?id=14" rel="noopener">Мобильные приложения</a>
+                    <a class="button-normal" href="mobile.html" rel="noopener">Мобильные приложения</a>
                 </div>
                 <div class="header-top__button">
-                    <a class="button-normal" href="index.php?id=20" rel="noopener">Контакты</a>
+                    <a class="button-normal" href="contacts.html" rel="noopener">Контакты</a>
                 </div>
             </div>
                 <!-- mobile -->
@@ -176,7 +205,7 @@
             <!-- logo end -->
             <!-- main menu -->
             <div class="col-xl-8 col-lg-8 col-md-8 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-menu__desktop">
-                <ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=2" >Возможности</a></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=3" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Решения</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=4" >Грузоперевозки</a></li><li class="header-menu__item"><a href="index.php?id=5" >Такси</a></li><li class="header-menu__item"><a href="index.php?id=6" >Пассажирские перевозки</a></li><li class="header-menu__item"><a href="index.php?id=7" >Спецтехника ЖКХ</a></li></ul></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=8" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Оборудование</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=9" >GPS/GLONASS трекеры</a></li><li class="header-menu__item"><a href="index.php?id=10" >Датчики системы мониторинга</a></li><li class="header-menu__item"><a href="index.php?id=11" >Тахографы</a></li><li class="header-menu__item"><a href="index.php?id=12" >Карты для тахографа</a></li><li class="header-menu__item"><a href="index.php?id=13" >Автономный воздушный отопитель</a></li></ul></li><li class="header-menu__item"><a href="index.php?id=18" >О нас</a></li></ul>
+                <ul class="header-menu__items"><li class="header-menu__item"><a href="monitoring.html" >Возможности</a></li><li class="header-menu__dropdown-menu-item"><a href="complexes.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Решения</a><ul class="header-menu__items"><li class="header-menu__item"><a href="cargo.html" >Грузоперевозки</a></li><li class="header-menu__item"><a href="taxi.html" >Такси</a></li><li class="header-menu__item"><a href="passengers.html" >Пассажирские перевозки</a></li><li class="header-menu__item"><a href="special.html" >Спецтехника ЖКХ</a></li></ul></li><li class="header-menu__dropdown-menu-item"><a href="products.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Оборудование</a><ul class="header-menu__items"><li class="header-menu__item"><a href="trackers.html" >GPS/GLONASS трекеры</a></li><li class="header-menu__item"><a href="sensors.html" >Датчики системы мониторинга</a></li><li class="header-menu__item"><a href="taho.html" >Тахографы</a></li><li class="header-menu__item"><a href="cart.html" >Карты для тахографа</a></li><li class="header-menu__item"><a href="eberspacher-airtronic.html" >Автономный воздушный отопитель</a></li></ul></li><li class="header-menu__item"><a href="kgkcompany.html" >О нас</a></li></ul>
             </div>
                 <!-- mobile -->
             <div class="col-sm-6 col-xs-6 d-xl-none d-lg-none d-md-none d-sm-flex d-flex header-menu__mobile">
@@ -188,7 +217,7 @@
             <!-- recall form  -->
             <div class="col-xl-2 col-lg-2 col-md-2 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-recall">
                 <div class="header-bottom__button">
-                    <a class ="button-l button-primary animated fadeInDown" href="#" rel="noopener">Обратный звонок</a>
+                    <button type="button" class ="button-l button-primary animated fadeInDown" data-toggle="modal" data-target="#callBack">Обратный звонок</button>
                 </div>
             </div>
             <!-- recall form end -->
@@ -258,30 +287,30 @@
                     <div class="section-advert__item-icon icon-temp animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль температуры</h3>
                     <p class="section-advert__item-descr">Штатный датчик температуры не всегда показывает точные сведения. Чтобы защитить двигатель и не платить за дорогой ремонт установите дополнительное устройство контроля температуры двигателя.</p>
-                    <a class="button-readmore button-m" href="index.php?id=34" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="sensor-temperature.html" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-block animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Блокировка двигателя</h3>
                     <p class="section-advert__item-descr">Предусмотрена возможность заблокировать/разблокировать двигатель транспортного средства. Эта функция позволяет, в частности, предотвратить угон либо нецелевое использование автомобиля.</p>
-                    <a class="button-readmore button-m" href="index.php?id=27" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="blocking.html" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-fuel animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль топлива</h3>
                     <p class="section-advert__item-descr">Водитель может ошибиться при заполнении путевого листа или обмануть компанию. Cлив топлива, накрутку одометра или недолив ГСМ на заправках можно контролировать с помощью датчика уровня топлива.</p>
-                    <a class="button-readmore button-m" href="index.php?id=29" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="sensor-fuel.html" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-hour animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль моточасов</h3>
                     <p class="section-advert__item-descr">Часто водители не выключают замок зажигания, а просто глушат двигатель . Установите датчик контроля моточасов для контроля времени работы двигателя транспортного средства.</p>
-                    <a class="button-readmore button-m" href="index.php?id=30" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="sensor-moto.html" rel="noopener">Подробнее</a>
                 </div>
                 <!-- items grid end -->
             </div>
             <div class="section-advert__read-all">
-                <a class="button-xl button-primary" href="index.php?id=2" rel="noopener">Все функции системы</a>
+                <a class="button-xl button-primary" href="monitoring.html" rel="noopener">Все функции системы</a>
             </div>
         </div>
         <div class="col-xl-1 col-lg-1 d-xl-flex d-lg-flex d-md-none d-sm-none d-none hided-block"></div>
@@ -298,21 +327,21 @@
                         <img src="./assets/template/kgk/img/advantage-smart.svg" alt="Мониторинг в смартфоне">
                     </div>
                     <h3 class="section-advantage__item-title">Мониторинг в смартфоне</h3>
-                    <p>Следите за траспортом где угодно. Мы разработали удобные мобильные приложения для <a href="index.php?id=14" rel="noopener">iOS и Android</a></p>
+                    <p>Следите за траспортом где угодно. Мы разработали удобные мобильные приложения для <a href="mobile.html" rel="noopener">iOS и Android</a></p>
                 </div>
                 <div class="section-advantage__item">
                     <div class="section-advantage__item-img">
                         <img src="./assets/template/kgk/img/advantage-run.svg" alt="Переходите на «КГК-Глобал»">
                     </div>
                     <h3 class="section-advantage__item-title">Переходите на «КГК-Глобал»</h3>
-                    <p>Не устраивает ваша система? Мы <a href="index.php?id=2" rel="noopener">бесплатно подключим ваши уcтройства</a> к нашей системе</p>
+                    <p>Не устраивает ваша система? Мы <a href="monitoring.html" rel="noopener">бесплатно подключим ваши уcтройства</a> к нашей системе</p>
                 </div>
                 <div class="section-advantage__item">
                     <div class="section-advantage__item-img">
                         <img src="./assets/template/kgk/img/advantage-support.svg" alt="Всегда рады помочь">
                     </div>
                     <h3 class="section-advantage__item-title">Всегда рады помочь</h3>
-                    <p>Не любим хвастаться, но у нас много положительных <a href="index.php?id=18" rel="noopener">отзывов и благодарностей</a> от пользователей системы</p>
+                    <p>Не любим хвастаться, но у нас много положительных <a href="kgkcompany.html" rel="noopener">отзывов и благодарностей</a> от пользователей системы</p>
                 </div>
                 <!-- items grid end -->
             </div>
@@ -347,7 +376,7 @@
                     <h3 class="section-complexchoice__item-title">Грузовой транспорт</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="index.php?id=4#">Подробнее</a>
+                        <a class="button-readmore button-m" href="cargo.html#">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -355,7 +384,7 @@
                     <h3 class="section-complexchoice__item-title">Пассажироперевозки</h3>
                     <p class="section-complexchoice__item-descr">Контроль местоположения, скорости, фактической работы, посещения контрольных точек и расхода топлива </p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="index.php?id=6">Подробнее</a>
+                        <a class="button-readmore button-m" href="passengers.html">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -363,7 +392,7 @@
                     <h3 class="section-complexchoice__item-title">Легковой транспорт</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="index.php?id=5">Подробнее</a>
+                        <a class="button-readmore button-m" href="taxi.html">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -371,7 +400,7 @@
                     <h3 class="section-complexchoice__item-title">Такси</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="index.php?id=5">Подробнее</a>
+                        <a class="button-readmore button-m" href="taxi.html">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -379,7 +408,7 @@
                     <h3 class="section-complexchoice__item-title">ЖКХ</h3>
                     <p class="section-complexchoice__item-descr">Контроль местоположения, скорости, фактической работы, посещения контрольных точек и расхода топлива</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="index.php?id=7">Подробнее</a>
+                        <a class="button-readmore button-m" href="special.html">Подробнее</a>
                     </div>
                 </div>
                 <!-- items grid end -->
@@ -483,7 +512,7 @@
                         <img src="./assets/template/kgk/img/4step/4step-needed.png" alt="Выявление потребности">
                     </div>
                     <h3 class="section-4step__item-title">Выявление потребности</h3>
-                    <p>Менеджер вас консультирует и подбирает <a href="index.php?id=3" rel="noopener">лучшее решение </a>для бизнеса</p>
+                    <p>Менеджер вас консультирует и подбирает <a href="complexes.html" rel="noopener">лучшее решение </a>для бизнеса</p>
                 </div>
                 <div class="section-4step__item">
                     <div class="section-4step__item-img">
@@ -524,11 +553,11 @@
                         <h3 class="section-devicesall__item-title">Трекеры GPS/GLONASS</h3>
                         <p class="section-devicesall__item-descr">Устройство приёма-передачи данных для спутникового контроля транспортных средств, использующее GPS и/или ГЛОНАСС для точного определения местонахождения объекта.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="index.php?id=9" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="trackers.html" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="index.php?id=9" rel="noopener">
+                        <a href="trackers.html" rel="noopener">
                             <img src="./assets/template/kgk/img/device-tracker.png" alt="">
                         </a>
                     </div>
@@ -539,7 +568,7 @@
                         <h3 class="section-devicesall__item-title">Терминал FORT-112EG-M</h3>
                         <p class="section-devicesall__item-descr">Терминал разработан специально для оснащения транспортных средств согласно 153 постановления  Правительства РФ.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="index.php?id=25" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="tracker-fort-112eg-m.html" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -549,7 +578,7 @@
                         <h3 class="section-devicesall__item-title">Автономный воздушный отопитель</h3>
                         <p class="section-devicesall__item-descr">Автономный отопитель поддерживает заданную температуру в салоне даже с выключенным двигателем.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="index.php?id=13" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="eberspacher-airtronic.html" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -559,11 +588,11 @@
                         <h3 class="section-devicesall__item-title">Датчики системы мониторинга</h3>
                         <p class="section-devicesall__item-descr">Система мониторинга позволяет подключать дополнительные датчики, которые добавляют новые функции и возможности устройств.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="index.php?id=10" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="sensors.html" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="index.php?id=10" rel="noopener">
+                        <a href="sensors.html" rel="noopener">
                             <img src="./assets/template/kgk/img/device-sensors.png" alt="">
                         </a>
                     </div>
@@ -574,11 +603,11 @@
                         <h3 class="section-devicesall__item-title">Тахографы</h3>
                         <p class="section-devicesall__item-descr">Устройства, обеспечивающее непрерывную, некорректируемую регистрацию данных о скорости и маршруте движения транспортного средства, а также времени работы водителя.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="index.php?id=11" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="taho.html" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="index.php?id=11" rel="noopener">
+                        <a href="taho.html" rel="noopener">
                             <img src="./assets/template/kgk/img/device-tahograf.png" alt="">
                         </a>
                     </div>
@@ -589,7 +618,7 @@
                         <h3 class="section-devicesall__item-title">Карты для тахографа</h3>
                         <p class="section-devicesall__item-descr">«Ключи», которые обеспечивают идентификацию и аутентификацию водителя с применением шифровальных средств.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="index.php?id=12" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="cart.html" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -648,7 +677,7 @@
                                         <p>Система мониторинга автотранспорта GPS/GLONASS позволяет контролировать местоположение наблюдаемых объектов, вести учет и записывать историю маршрутов. Вся информация о перемещении транспортного средства отображается
                                             на интерактивной карте в режиме реального времени. Все данные об объекте доступны удаленно.</p>
                                         <div class="section-applications__item-readmore">
-                                            <a class="button-primary button-l" href="index.php?id=14" rel="noopener">Подробнее</a>
+                                            <a class="button-primary button-l" href="mobile.html" rel="noopener">Подробнее</a>
                                         </div>
                                     </div>
                                 </li>
@@ -658,7 +687,7 @@
                                         <p>Система мониторинга автотранспорта GPS/GLONASS позволяет контролировать местоположение наблюдаемых объектов, вести учет и записывать историю маршрутов. Вся информация о перемещении транспортного средства отображается
                                             на интерактивной карте в режиме реального времени. Все данные об объекте доступны удаленно.</p>
                                         <div class="section-applications__item-readmore">
-                                            <a class="button-primary button-l" href="index.php?id=14" rel="noopener">Подробнее</a>
+                                            <a class="button-primary button-l" href="mobile.html" rel="noopener">Подробнее</a>
                                         </div>
                                     </div>
                                 </li>
@@ -668,7 +697,7 @@
                                         <p>Система мониторинга автотранспорта GPS/GLONASS позволяет контролировать местоположение наблюдаемых объектов, вести учет и записывать историю маршрутов. Вся информация о перемещении транспортного средства отображается
                                             на интерактивной карте в режиме реального времени. Все данные об объекте доступны удаленно.</p>
                                         <div class="section-applications__item-readmore">
-                                            <a class="button-primary button-l" href="index.php?id=14" rel="noopener">Подробнее</a>
+                                            <a class="button-primary button-l" href="mobile.html" rel="noopener">Подробнее</a>
                                         </div>
                                     </div>
                                 </li>
@@ -819,45 +848,45 @@
                 <ul class="section-articles__items-listbox">
                       <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=60"><img src="" alt="Как контролировать работу сельхозтехники с помощью GPS?"></a>
+        <a href="how-to-control-the-operation-of-agricultural-machinery-using-gps.html"><img src="" alt="Как контролировать работу сельхозтехники с помощью GPS?"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=60" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="how-to-control-the-operation-of-agricultural-machinery-using-gps.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
 <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=59"><img src="" alt="Преимущества систем слежения за такси с блокировкой двигателя"></a>
+        <a href="taxi-tracking-systems-with-engine-lockout.html"><img src="" alt="Преимущества систем слежения за такси с блокировкой двигателя"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">Преимущества систем слежения за такси с блокировкой двигателя</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=59" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="taxi-tracking-systems-with-engine-lockout.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
 <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=58"><img src="" alt="Как отследить мотоцикл или скутер с помощью GPS устройства?"></a>
+        <a href="sputnikovi-monitoring-motociklov-skuterov-kvadrociklov-gps-glonass.html"><img src="" alt="Как отследить мотоцикл или скутер с помощью GPS устройства?"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">Как отследить мотоцикл или скутер с помощью GPS устройства?</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=58" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="sputnikovi-monitoring-motociklov-skuterov-kvadrociklov-gps-glonass.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
 <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=57"><img src="" alt="С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?"></a>
+        <a href="s-kakimi-oshibkami-mogno-stolknytsya-pri-vubore-sistemi-monitoringa-transporta.html"><img src="" alt="С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=57" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="s-kakimi-oshibkami-mogno-stolknytsya-pri-vubore-sistemi-monitoringa-transporta.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
@@ -865,7 +894,7 @@
                 <!-- items grid end -->
             </div>
             <div class="section-articles__readmore">
-                <a class="button-primary button-l" href="index.php?id=19" rel="noopener">Все публикации</a>
+                <a class="button-primary button-l" href="articles.html" rel="noopener">Все публикации</a>
             </div>
         </div>
     </div>
@@ -975,11 +1004,11 @@
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 bottom-menu">
                 <h4 class="bottom-menu__title">Возможности</h4>
                 <ul class="bottom-menu__items">
-                    <li class="bottom-menu__main"><a href="index.php?id=1" rel="noopener">Калькулятор стоимости</a></li>
-                    <li class="bottom-menu__main"><a href="index.php?id=19" rel="noopener">Публикации</a></li>
-                    <li class="bottom-menu__main"><a href="index.php?id=14" rel="noopener">Мобильные приложения</a></li>
-                    <li class="bottom-menu__main"><a href="index.php?id=18" rel="noopener">О компании</a></li>
-                    <li class="bottom-menu__main"><a href="index.php?id=20" rel="noopener">Контакты</a></li>
+                    <li class="bottom-menu__main"><a href="http://dev2.igornesov.ru/" rel="noopener">Калькулятор стоимости</a></li>
+                    <li class="bottom-menu__main"><a href="articles.html" rel="noopener">Публикации</a></li>
+                    <li class="bottom-menu__main"><a href="mobile.html" rel="noopener">Мобильные приложения</a></li>
+                    <li class="bottom-menu__main"><a href="kgkcompany.html" rel="noopener">О компании</a></li>
+                    <li class="bottom-menu__main"><a href="contacts.html" rel="noopener">Контакты</a></li>
                 </ul>
             </div>
             <!-- bottom menu 1 end -->
@@ -987,11 +1016,11 @@
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 bottom-menu">
                 <h4 class="bottom-menu__title">Решения</h4>
                 <ul class="bottom-menu__items">
-                    <li class="bottom-menu__item"><a href="index.php?id=5" rel="noopener">Такси</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=4" rel="noopener">Грузоперевозки</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=6" rel="noopener">Пассажироперевозки</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=5" rel="noopener">Легковой транспорт</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=7" rel="noopener">ЖКХ</a></li>
+                    <li class="bottom-menu__item"><a href="taxi.html" rel="noopener">Такси</a></li>
+                    <li class="bottom-menu__item"><a href="cargo.html" rel="noopener">Грузоперевозки</a></li>
+                    <li class="bottom-menu__item"><a href="passengers.html" rel="noopener">Пассажироперевозки</a></li>
+                    <li class="bottom-menu__item"><a href="taxi.html" rel="noopener">Легковой транспорт</a></li>
+                    <li class="bottom-menu__item"><a href="special.html" rel="noopener">ЖКХ</a></li>
                 </ul>
             </div>
             <!-- bottom menu 2 end -->
@@ -999,11 +1028,11 @@
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 bottom-menu">
                 <h4 class="bottom-menu__title">Оборудование</h4>
                 <ul class="bottom-menu__items">
-                    <li class="bottom-menu__item"><a href="index.php?id=9" rel="noopener">Трекеры</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=10" rel="noopener">Тахографы</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=11" rel="noopener">Карты для тахографа</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=12" rel="noopener">Датчики мониторинга</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=13" rel="noopener">Автономный воздушный отопитель</a></li>
+                    <li class="bottom-menu__item"><a href="trackers.html" rel="noopener">Трекеры</a></li>
+                    <li class="bottom-menu__item"><a href="sensors.html" rel="noopener">Тахографы</a></li>
+                    <li class="bottom-menu__item"><a href="taho.html" rel="noopener">Карты для тахографа</a></li>
+                    <li class="bottom-menu__item"><a href="cart.html" rel="noopener">Датчики мониторинга</a></li>
+                    <li class="bottom-menu__item"><a href="eberspacher-airtronic.html" rel="noopener">Автономный воздушный отопитель</a></li>
                 </ul>
             </div>
             <!-- bottom menu 3 end -->
@@ -1023,7 +1052,7 @@
                     <p>117513, Москва, <br>Ленинский просп., д.137, к. 1</p>
                 </div>
                 <div class="bottom-contacts__item">
-                    <a href="index.php?id=1" rel="noopener">Политика обработки <br>персональных данных</a>
+                    <a href="http://dev2.igornesov.ru/" rel="noopener">Политика обработки <br>персональных данных</a>
                 </div>
             </div>
             <!-- contact block end -->
@@ -1044,13 +1073,13 @@
     '_isForward' => false,
     '_sjscripts' => 
     array (
-      0 => '<link rel="canonical" href="http://dev2.igornesov.ru/index.php?id=1"/>',
-      1 => '<link rel="next" href="http://dev2.igornesov.ru/index.php?id=1&amp;page=2"/>',
+      0 => '<link rel="canonical" href="http://dev2.igornesov.ru/"/>',
+      1 => '<link rel="next" href="http://dev2.igornesov.ru/?page=2"/>',
     ),
     '_loadedjscripts' => 
     array (
-      '<link rel="canonical" href="http://dev2.igornesov.ru/index.php?id=1"/>' => true,
-      '<link rel="next" href="http://dev2.igornesov.ru/index.php?id=1&amp;page=2"/>' => true,
+      '<link rel="canonical" href="http://dev2.igornesov.ru/"/>' => true,
+      '<link rel="next" href="http://dev2.igornesov.ru/?page=2"/>' => true,
     ),
   ),
   'contentType' => 
@@ -1068,6 +1097,36 @@
   ),
   'elementCache' => 
   array (
+    '[[$ru-modals]]' => '<!-- callback form -->
+<div class="modal fade" id="callBack">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">+</button>
+            <h4 class="modal-title">Запрос обратного звонка</h4>
+        </div>
+        <form id="callBack" method="post" action="" accept-charset="UTF-8">
+            <fieldset>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label class="input-group__label">Представьтесь, пожалуйста</label>
+                            <input type="text" id="callBackName" class="required form-control" placeholder="Ваше имя" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label class="input-group__label">На какой номер вам перезвонить</label>
+                            <input type="text" id="callBackPhone" class="required form-control" placeholder="Номер телефона" />
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div class="modal-footer">
+            <button type="submit" id="callBackSubmit" class="btn-primary btn-l">Перезвоните мне</button>
+        </div>
+    </div>
+</div> ',
     '[[$ru-header-top]]' => '<header class="headline">
     <div class="headline-top row">
         <div class="container">
@@ -1091,10 +1150,10 @@
                     <a class="button-warning button-sm animated pulse" href="#" rel="noopener">Войти</a>
                 </div>
                 <div class="header-top__button">
-                    <a class="button-normal" href="index.php?id=14" rel="noopener">Мобильные приложения</a>
+                    <a class="button-normal" href="mobile.html" rel="noopener">Мобильные приложения</a>
                 </div>
                 <div class="header-top__button">
-                    <a class="button-normal" href="index.php?id=20" rel="noopener">Контакты</a>
+                    <a class="button-normal" href="contacts.html" rel="noopener">Контакты</a>
                 </div>
             </div>
                 <!-- mobile -->
@@ -1127,7 +1186,7 @@
                     &tpl=`menu-tpl`
                     &tplinner=`menu-tplInner`
                     &tplinnerRow=`menu-tplInnerRow`
-                ]]' => '<ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=2" >Возможности</a></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=3" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Решения</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=4" >Грузоперевозки</a></li><li class="header-menu__item"><a href="index.php?id=5" >Такси</a></li><li class="header-menu__item"><a href="index.php?id=6" >Пассажирские перевозки</a></li><li class="header-menu__item"><a href="index.php?id=7" >Спецтехника ЖКХ</a></li></ul></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=8" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Оборудование</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=9" >GPS/GLONASS трекеры</a></li><li class="header-menu__item"><a href="index.php?id=10" >Датчики системы мониторинга</a></li><li class="header-menu__item"><a href="index.php?id=11" >Тахографы</a></li><li class="header-menu__item"><a href="index.php?id=12" >Карты для тахографа</a></li><li class="header-menu__item"><a href="index.php?id=13" >Автономный воздушный отопитель</a></li></ul></li><li class="header-menu__item"><a href="index.php?id=18" >О нас</a></li></ul>',
+                ]]' => '<ul class="header-menu__items"><li class="header-menu__item"><a href="monitoring.html" >Возможности</a></li><li class="header-menu__dropdown-menu-item"><a href="complexes.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Решения</a><ul class="header-menu__items"><li class="header-menu__item"><a href="cargo.html" >Грузоперевозки</a></li><li class="header-menu__item"><a href="taxi.html" >Такси</a></li><li class="header-menu__item"><a href="passengers.html" >Пассажирские перевозки</a></li><li class="header-menu__item"><a href="special.html" >Спецтехника ЖКХ</a></li></ul></li><li class="header-menu__dropdown-menu-item"><a href="products.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Оборудование</a><ul class="header-menu__items"><li class="header-menu__item"><a href="trackers.html" >GPS/GLONASS трекеры</a></li><li class="header-menu__item"><a href="sensors.html" >Датчики системы мониторинга</a></li><li class="header-menu__item"><a href="taho.html" >Тахографы</a></li><li class="header-menu__item"><a href="cart.html" >Карты для тахографа</a></li><li class="header-menu__item"><a href="eberspacher-airtronic.html" >Автономный воздушный отопитель</a></li></ul></li><li class="header-menu__item"><a href="kgkcompany.html" >О нас</a></li></ul>',
     '[[$ru-header-bottom]]' => '    <div class="headline-bottom row">
         <div class="container">
             <!-- logo -->
@@ -1139,7 +1198,7 @@
             <!-- logo end -->
             <!-- main menu -->
             <div class="col-xl-8 col-lg-8 col-md-8 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-menu__desktop">
-                <ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=2" >Возможности</a></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=3" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Решения</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=4" >Грузоперевозки</a></li><li class="header-menu__item"><a href="index.php?id=5" >Такси</a></li><li class="header-menu__item"><a href="index.php?id=6" >Пассажирские перевозки</a></li><li class="header-menu__item"><a href="index.php?id=7" >Спецтехника ЖКХ</a></li></ul></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=8" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Оборудование</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=9" >GPS/GLONASS трекеры</a></li><li class="header-menu__item"><a href="index.php?id=10" >Датчики системы мониторинга</a></li><li class="header-menu__item"><a href="index.php?id=11" >Тахографы</a></li><li class="header-menu__item"><a href="index.php?id=12" >Карты для тахографа</a></li><li class="header-menu__item"><a href="index.php?id=13" >Автономный воздушный отопитель</a></li></ul></li><li class="header-menu__item"><a href="index.php?id=18" >О нас</a></li></ul>
+                <ul class="header-menu__items"><li class="header-menu__item"><a href="monitoring.html" >Возможности</a></li><li class="header-menu__dropdown-menu-item"><a href="complexes.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Решения</a><ul class="header-menu__items"><li class="header-menu__item"><a href="cargo.html" >Грузоперевозки</a></li><li class="header-menu__item"><a href="taxi.html" >Такси</a></li><li class="header-menu__item"><a href="passengers.html" >Пассажирские перевозки</a></li><li class="header-menu__item"><a href="special.html" >Спецтехника ЖКХ</a></li></ul></li><li class="header-menu__dropdown-menu-item"><a href="products.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Оборудование</a><ul class="header-menu__items"><li class="header-menu__item"><a href="trackers.html" >GPS/GLONASS трекеры</a></li><li class="header-menu__item"><a href="sensors.html" >Датчики системы мониторинга</a></li><li class="header-menu__item"><a href="taho.html" >Тахографы</a></li><li class="header-menu__item"><a href="cart.html" >Карты для тахографа</a></li><li class="header-menu__item"><a href="eberspacher-airtronic.html" >Автономный воздушный отопитель</a></li></ul></li><li class="header-menu__item"><a href="kgkcompany.html" >О нас</a></li></ul>
             </div>
                 <!-- mobile -->
             <div class="col-sm-6 col-xs-6 d-xl-none d-lg-none d-md-none d-sm-flex d-flex header-menu__mobile">
@@ -1151,7 +1210,7 @@
             <!-- recall form  -->
             <div class="col-xl-2 col-lg-2 col-md-2 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-recall">
                 <div class="header-bottom__button">
-                    <a class ="button-l button-primary animated fadeInDown" href="#" rel="noopener">Обратный звонок</a>
+                    <button type="button" class ="button-l button-primary animated fadeInDown" data-toggle="modal" data-target="#callBack">Обратный звонок</button>
                 </div>
             </div>
             <!-- recall form end -->
@@ -1206,7 +1265,36 @@
     <script src="https://kit.fontawesome.com/b541cd0433.js"></script>
 </head>
 <body>
-[[$ru-modals]]
+<!-- callback form -->
+<div class="modal fade" id="callBack">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">+</button>
+            <h4 class="modal-title">Запрос обратного звонка</h4>
+        </div>
+        <form id="callBack" method="post" action="" accept-charset="UTF-8">
+            <fieldset>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label class="input-group__label">Представьтесь, пожалуйста</label>
+                            <input type="text" id="callBackName" class="required form-control" placeholder="Ваше имя" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label class="input-group__label">На какой номер вам перезвонить</label>
+                            <input type="text" id="callBackPhone" class="required form-control" placeholder="Номер телефона" />
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div class="modal-footer">
+            <button type="submit" id="callBackSubmit" class="btn-primary btn-l">Перезвоните мне</button>
+        </div>
+    </div>
+</div> 
 <header class="headline">
     <div class="headline-top row">
         <div class="container">
@@ -1230,10 +1318,10 @@
                     <a class="button-warning button-sm animated pulse" href="#" rel="noopener">Войти</a>
                 </div>
                 <div class="header-top__button">
-                    <a class="button-normal" href="index.php?id=14" rel="noopener">Мобильные приложения</a>
+                    <a class="button-normal" href="mobile.html" rel="noopener">Мобильные приложения</a>
                 </div>
                 <div class="header-top__button">
-                    <a class="button-normal" href="index.php?id=20" rel="noopener">Контакты</a>
+                    <a class="button-normal" href="contacts.html" rel="noopener">Контакты</a>
                 </div>
             </div>
                 <!-- mobile -->
@@ -1264,7 +1352,7 @@
             <!-- logo end -->
             <!-- main menu -->
             <div class="col-xl-8 col-lg-8 col-md-8 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-menu__desktop">
-                <ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=2" >Возможности</a></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=3" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Решения</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=4" >Грузоперевозки</a></li><li class="header-menu__item"><a href="index.php?id=5" >Такси</a></li><li class="header-menu__item"><a href="index.php?id=6" >Пассажирские перевозки</a></li><li class="header-menu__item"><a href="index.php?id=7" >Спецтехника ЖКХ</a></li></ul></li><li class="header-menu__dropdown-menu-item"><a href="index.php?id=8" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Оборудование</a><ul class="header-menu__items"><li class="header-menu__item"><a href="index.php?id=9" >GPS/GLONASS трекеры</a></li><li class="header-menu__item"><a href="index.php?id=10" >Датчики системы мониторинга</a></li><li class="header-menu__item"><a href="index.php?id=11" >Тахографы</a></li><li class="header-menu__item"><a href="index.php?id=12" >Карты для тахографа</a></li><li class="header-menu__item"><a href="index.php?id=13" >Автономный воздушный отопитель</a></li></ul></li><li class="header-menu__item"><a href="index.php?id=18" >О нас</a></li></ul>
+                <ul class="header-menu__items"><li class="header-menu__item"><a href="monitoring.html" >Возможности</a></li><li class="header-menu__dropdown-menu-item"><a href="complexes.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Решения</a><ul class="header-menu__items"><li class="header-menu__item"><a href="cargo.html" >Грузоперевозки</a></li><li class="header-menu__item"><a href="taxi.html" >Такси</a></li><li class="header-menu__item"><a href="passengers.html" >Пассажирские перевозки</a></li><li class="header-menu__item"><a href="special.html" >Спецтехника ЖКХ</a></li></ul></li><li class="header-menu__dropdown-menu-item"><a href="products.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" >Оборудование</a><ul class="header-menu__items"><li class="header-menu__item"><a href="trackers.html" >GPS/GLONASS трекеры</a></li><li class="header-menu__item"><a href="sensors.html" >Датчики системы мониторинга</a></li><li class="header-menu__item"><a href="taho.html" >Тахографы</a></li><li class="header-menu__item"><a href="cart.html" >Карты для тахографа</a></li><li class="header-menu__item"><a href="eberspacher-airtronic.html" >Автономный воздушный отопитель</a></li></ul></li><li class="header-menu__item"><a href="kgkcompany.html" >О нас</a></li></ul>
             </div>
                 <!-- mobile -->
             <div class="col-sm-6 col-xs-6 d-xl-none d-lg-none d-md-none d-sm-flex d-flex header-menu__mobile">
@@ -1276,7 +1364,7 @@
             <!-- recall form  -->
             <div class="col-xl-2 col-lg-2 col-md-2 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-recall">
                 <div class="header-bottom__button">
-                    <a class ="button-l button-primary animated fadeInDown" href="#" rel="noopener">Обратный звонок</a>
+                    <button type="button" class ="button-l button-primary animated fadeInDown" data-toggle="modal" data-target="#callBack">Обратный звонок</button>
                 </div>
             </div>
             <!-- recall form end -->
@@ -1345,30 +1433,30 @@
                     <div class="section-advert__item-icon icon-temp animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль температуры</h3>
                     <p class="section-advert__item-descr">Штатный датчик температуры не всегда показывает точные сведения. Чтобы защитить двигатель и не платить за дорогой ремонт установите дополнительное устройство контроля температуры двигателя.</p>
-                    <a class="button-readmore button-m" href="index.php?id=34" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="sensor-temperature.html" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-block animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Блокировка двигателя</h3>
                     <p class="section-advert__item-descr">Предусмотрена возможность заблокировать/разблокировать двигатель транспортного средства. Эта функция позволяет, в частности, предотвратить угон либо нецелевое использование автомобиля.</p>
-                    <a class="button-readmore button-m" href="index.php?id=27" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="blocking.html" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-fuel animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль топлива</h3>
                     <p class="section-advert__item-descr">Водитель может ошибиться при заполнении путевого листа или обмануть компанию. Cлив топлива, накрутку одометра или недолив ГСМ на заправках можно контролировать с помощью датчика уровня топлива.</p>
-                    <a class="button-readmore button-m" href="index.php?id=29" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="sensor-fuel.html" rel="noopener">Подробнее</a>
                 </div>
                 <div class="section-advert__item">
                     <div class="section-advert__item-icon icon-hour animated fadeInDown"></div>
                     <h3 class="section-advert__item-title">Контроль моточасов</h3>
                     <p class="section-advert__item-descr">Часто водители не выключают замок зажигания, а просто глушат двигатель . Установите датчик контроля моточасов для контроля времени работы двигателя транспортного средства.</p>
-                    <a class="button-readmore button-m" href="index.php?id=30" rel="noopener">Подробнее</a>
+                    <a class="button-readmore button-m" href="sensor-moto.html" rel="noopener">Подробнее</a>
                 </div>
                 <!-- items grid end -->
             </div>
             <div class="section-advert__read-all">
-                <a class="button-xl button-primary" href="index.php?id=2" rel="noopener">Все функции системы</a>
+                <a class="button-xl button-primary" href="monitoring.html" rel="noopener">Все функции системы</a>
             </div>
         </div>
         <div class="col-xl-1 col-lg-1 d-xl-flex d-lg-flex d-md-none d-sm-none d-none hided-block"></div>
@@ -1385,21 +1473,21 @@
                         <img src="./assets/template/kgk/img/advantage-smart.svg" alt="Мониторинг в смартфоне">
                     </div>
                     <h3 class="section-advantage__item-title">Мониторинг в смартфоне</h3>
-                    <p>Следите за траспортом где угодно. Мы разработали удобные мобильные приложения для <a href="index.php?id=14" rel="noopener">iOS и Android</a></p>
+                    <p>Следите за траспортом где угодно. Мы разработали удобные мобильные приложения для <a href="mobile.html" rel="noopener">iOS и Android</a></p>
                 </div>
                 <div class="section-advantage__item">
                     <div class="section-advantage__item-img">
                         <img src="./assets/template/kgk/img/advantage-run.svg" alt="Переходите на «КГК-Глобал»">
                     </div>
                     <h3 class="section-advantage__item-title">Переходите на «КГК-Глобал»</h3>
-                    <p>Не устраивает ваша система? Мы <a href="index.php?id=2" rel="noopener">бесплатно подключим ваши уcтройства</a> к нашей системе</p>
+                    <p>Не устраивает ваша система? Мы <a href="monitoring.html" rel="noopener">бесплатно подключим ваши уcтройства</a> к нашей системе</p>
                 </div>
                 <div class="section-advantage__item">
                     <div class="section-advantage__item-img">
                         <img src="./assets/template/kgk/img/advantage-support.svg" alt="Всегда рады помочь">
                     </div>
                     <h3 class="section-advantage__item-title">Всегда рады помочь</h3>
-                    <p>Не любим хвастаться, но у нас много положительных <a href="index.php?id=18" rel="noopener">отзывов и благодарностей</a> от пользователей системы</p>
+                    <p>Не любим хвастаться, но у нас много положительных <a href="kgkcompany.html" rel="noopener">отзывов и благодарностей</a> от пользователей системы</p>
                 </div>
                 <!-- items grid end -->
             </div>
@@ -1434,7 +1522,7 @@
                     <h3 class="section-complexchoice__item-title">Грузовой транспорт</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="index.php?id=4#">Подробнее</a>
+                        <a class="button-readmore button-m" href="cargo.html#">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -1442,7 +1530,7 @@
                     <h3 class="section-complexchoice__item-title">Пассажироперевозки</h3>
                     <p class="section-complexchoice__item-descr">Контроль местоположения, скорости, фактической работы, посещения контрольных точек и расхода топлива </p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="index.php?id=6">Подробнее</a>
+                        <a class="button-readmore button-m" href="passengers.html">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -1450,7 +1538,7 @@
                     <h3 class="section-complexchoice__item-title">Легковой транспорт</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="index.php?id=5">Подробнее</a>
+                        <a class="button-readmore button-m" href="taxi.html">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -1458,7 +1546,7 @@
                     <h3 class="section-complexchoice__item-title">Такси</h3>
                     <p class="section-complexchoice__item-descr">Ваше предприятие в качестве дополнительных услуг сможет предоставлять своим клиентам информацию о местоположении их груза и его состоянии.</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="index.php?id=5">Подробнее</a>
+                        <a class="button-readmore button-m" href="taxi.html">Подробнее</a>
                     </div>
                 </div>
                 <div class="section-complexchoice__item">
@@ -1466,7 +1554,7 @@
                     <h3 class="section-complexchoice__item-title">ЖКХ</h3>
                     <p class="section-complexchoice__item-descr">Контроль местоположения, скорости, фактической работы, посещения контрольных точек и расхода топлива</p>
                     <div class="section-complexchoice__item-readmore">
-                        <a class="button-readmore button-m" href="index.php?id=7">Подробнее</a>
+                        <a class="button-readmore button-m" href="special.html">Подробнее</a>
                     </div>
                 </div>
                 <!-- items grid end -->
@@ -1570,7 +1658,7 @@
                         <img src="./assets/template/kgk/img/4step/4step-needed.png" alt="Выявление потребности">
                     </div>
                     <h3 class="section-4step__item-title">Выявление потребности</h3>
-                    <p>Менеджер вас консультирует и подбирает <a href="index.php?id=3" rel="noopener">лучшее решение </a>для бизнеса</p>
+                    <p>Менеджер вас консультирует и подбирает <a href="complexes.html" rel="noopener">лучшее решение </a>для бизнеса</p>
                 </div>
                 <div class="section-4step__item">
                     <div class="section-4step__item-img">
@@ -1611,11 +1699,11 @@
                         <h3 class="section-devicesall__item-title">Трекеры GPS/GLONASS</h3>
                         <p class="section-devicesall__item-descr">Устройство приёма-передачи данных для спутникового контроля транспортных средств, использующее GPS и/или ГЛОНАСС для точного определения местонахождения объекта.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="index.php?id=9" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="trackers.html" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="index.php?id=9" rel="noopener">
+                        <a href="trackers.html" rel="noopener">
                             <img src="./assets/template/kgk/img/device-tracker.png" alt="">
                         </a>
                     </div>
@@ -1626,7 +1714,7 @@
                         <h3 class="section-devicesall__item-title">Терминал FORT-112EG-M</h3>
                         <p class="section-devicesall__item-descr">Терминал разработан специально для оснащения транспортных средств согласно 153 постановления  Правительства РФ.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="index.php?id=25" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="tracker-fort-112eg-m.html" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1636,7 +1724,7 @@
                         <h3 class="section-devicesall__item-title">Автономный воздушный отопитель</h3>
                         <p class="section-devicesall__item-descr">Автономный отопитель поддерживает заданную температуру в салоне даже с выключенным двигателем.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="index.php?id=13" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="eberspacher-airtronic.html" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1646,11 +1734,11 @@
                         <h3 class="section-devicesall__item-title">Датчики системы мониторинга</h3>
                         <p class="section-devicesall__item-descr">Система мониторинга позволяет подключать дополнительные датчики, которые добавляют новые функции и возможности устройств.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="index.php?id=10" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="sensors.html" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="index.php?id=10" rel="noopener">
+                        <a href="sensors.html" rel="noopener">
                             <img src="./assets/template/kgk/img/device-sensors.png" alt="">
                         </a>
                     </div>
@@ -1661,11 +1749,11 @@
                         <h3 class="section-devicesall__item-title">Тахографы</h3>
                         <p class="section-devicesall__item-descr">Устройства, обеспечивающее непрерывную, некорректируемую регистрацию данных о скорости и маршруте движения транспортного средства, а также времени работы водителя.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="index.php?id=11" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="taho.html" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="section-devicesall__item-img">
-                        <a href="index.php?id=11" rel="noopener">
+                        <a href="taho.html" rel="noopener">
                             <img src="./assets/template/kgk/img/device-tahograf.png" alt="">
                         </a>
                     </div>
@@ -1676,7 +1764,7 @@
                         <h3 class="section-devicesall__item-title">Карты для тахографа</h3>
                         <p class="section-devicesall__item-descr">«Ключи», которые обеспечивают идентификацию и аутентификацию водителя с применением шифровальных средств.</p>
                         <div class="section-devicesall__item-readmore">
-                            <a class="button-primary button-l" href="index.php?id=12" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
+                            <a class="button-primary button-l" href="cart.html" rel="noopener">Перейти <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1735,7 +1823,7 @@
                                         <p>Система мониторинга автотранспорта GPS/GLONASS позволяет контролировать местоположение наблюдаемых объектов, вести учет и записывать историю маршрутов. Вся информация о перемещении транспортного средства отображается
                                             на интерактивной карте в режиме реального времени. Все данные об объекте доступны удаленно.</p>
                                         <div class="section-applications__item-readmore">
-                                            <a class="button-primary button-l" href="index.php?id=14" rel="noopener">Подробнее</a>
+                                            <a class="button-primary button-l" href="mobile.html" rel="noopener">Подробнее</a>
                                         </div>
                                     </div>
                                 </li>
@@ -1745,7 +1833,7 @@
                                         <p>Система мониторинга автотранспорта GPS/GLONASS позволяет контролировать местоположение наблюдаемых объектов, вести учет и записывать историю маршрутов. Вся информация о перемещении транспортного средства отображается
                                             на интерактивной карте в режиме реального времени. Все данные об объекте доступны удаленно.</p>
                                         <div class="section-applications__item-readmore">
-                                            <a class="button-primary button-l" href="index.php?id=14" rel="noopener">Подробнее</a>
+                                            <a class="button-primary button-l" href="mobile.html" rel="noopener">Подробнее</a>
                                         </div>
                                     </div>
                                 </li>
@@ -1755,7 +1843,7 @@
                                         <p>Система мониторинга автотранспорта GPS/GLONASS позволяет контролировать местоположение наблюдаемых объектов, вести учет и записывать историю маршрутов. Вся информация о перемещении транспортного средства отображается
                                             на интерактивной карте в режиме реального времени. Все данные об объекте доступны удаленно.</p>
                                         <div class="section-applications__item-readmore">
-                                            <a class="button-primary button-l" href="index.php?id=14" rel="noopener">Подробнее</a>
+                                            <a class="button-primary button-l" href="mobile.html" rel="noopener">Подробнее</a>
                                         </div>
                                     </div>
                                 </li>
@@ -1898,47 +1986,47 @@
     </div>
 </div>',
     '[[pdoResources?tpl=`articles-grid`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`4`&offset=`0`&depth=`10`&outputSeparator=`
-`&toPlaceholder=``&parents=`19`&includeContent=`1`&includeTVs=`images-header`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`0`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&ajax=``&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemRows=`#pdopage .rows`&ajaxElemWrapper=`#pdopage`&ajaxHistory=``&ajaxMode=``&ajaxTplMore=`@INLINE <button class="btn btn-primary btn-more">[[%pdopage_more]]</button>`&cache=``&cacheAnonymous=``&cacheTime=`3600`&element=`pdoResources`&maxLimit=`100`&page=`1`&pageCountVar=`pageCount`&pageLimit=`5`&pageLinkScheme=``&pageNavVar=`page.nav`&pageVarKey=`page`&plPrefix=``&setMeta=`1`&strictMode=`1`&tplPage=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">[[+pageNo]]</a></li>`&tplPageActive=`@INLINE <li class="page-item active"><a class="page-link" href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageFirstEmpty=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPageLastEmpty=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">[[%pdopage_last]]</a></li>`&tplPageNext=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">&raquo;</a></li>`&tplPageNextEmpty=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">&raquo;</a></li>`&tplPagePrev=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">&laquo;</a></li>`&tplPagePrevEmpty=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">&laquo;</a></li>`&tplPageSkip=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">...</a></li>`&tplPageWrapper=`@INLINE <ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul>`&request=`b6d7fd382139e72b72f435f7ef561703`&setTotal=`1`]]' => '<li class="section-articles__item">
+`&toPlaceholder=``&parents=`19`&includeContent=`1`&includeTVs=`images-header`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`0`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&ajax=``&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemRows=`#pdopage .rows`&ajaxElemWrapper=`#pdopage`&ajaxHistory=``&ajaxMode=``&ajaxTplMore=`@INLINE <button class="btn btn-primary btn-more">[[%pdopage_more]]</button>`&cache=``&cacheAnonymous=``&cacheTime=`3600`&element=`pdoResources`&maxLimit=`100`&page=`1`&pageCountVar=`pageCount`&pageLimit=`5`&pageLinkScheme=``&pageNavVar=`page.nav`&pageVarKey=`page`&plPrefix=``&setMeta=`1`&strictMode=`1`&tplPage=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">[[+pageNo]]</a></li>`&tplPageActive=`@INLINE <li class="page-item active"><a class="page-link" href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageFirstEmpty=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPageLastEmpty=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">[[%pdopage_last]]</a></li>`&tplPageNext=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">&raquo;</a></li>`&tplPageNextEmpty=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">&raquo;</a></li>`&tplPagePrev=`@INLINE <li class="page-item"><a class="page-link" href="[[+href]]">&laquo;</a></li>`&tplPagePrevEmpty=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">&laquo;</a></li>`&tplPageSkip=`@INLINE <li class="page-item disabled"><a class="page-link" href="#">...</a></li>`&tplPageWrapper=`@INLINE <ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul>`&request=`971ac8318a0d72c6ef794762a9204ec5`&setTotal=`1`]]' => '<li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=60"><img src="" alt="Как контролировать работу сельхозтехники с помощью GPS?"></a>
+        <a href="how-to-control-the-operation-of-agricultural-machinery-using-gps.html"><img src="" alt="Как контролировать работу сельхозтехники с помощью GPS?"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=60" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="how-to-control-the-operation-of-agricultural-machinery-using-gps.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
 <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=59"><img src="" alt="Преимущества систем слежения за такси с блокировкой двигателя"></a>
+        <a href="taxi-tracking-systems-with-engine-lockout.html"><img src="" alt="Преимущества систем слежения за такси с блокировкой двигателя"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">Преимущества систем слежения за такси с блокировкой двигателя</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=59" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="taxi-tracking-systems-with-engine-lockout.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
 <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=58"><img src="" alt="Как отследить мотоцикл или скутер с помощью GPS устройства?"></a>
+        <a href="sputnikovi-monitoring-motociklov-skuterov-kvadrociklov-gps-glonass.html"><img src="" alt="Как отследить мотоцикл или скутер с помощью GPS устройства?"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">Как отследить мотоцикл или скутер с помощью GPS устройства?</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=58" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="sputnikovi-monitoring-motociklov-skuterov-kvadrociklov-gps-glonass.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
 <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=57"><img src="" alt="С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?"></a>
+        <a href="s-kakimi-oshibkami-mogno-stolknytsya-pri-vubore-sistemi-monitoringa-transporta.html"><img src="" alt="С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=57" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="s-kakimi-oshibkami-mogno-stolknytsya-pri-vubore-sistemi-monitoringa-transporta.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>',
@@ -1953,45 +2041,45 @@
                         &includeContent=`1`
                       ]]' => '<li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=60"><img src="" alt="Как контролировать работу сельхозтехники с помощью GPS?"></a>
+        <a href="how-to-control-the-operation-of-agricultural-machinery-using-gps.html"><img src="" alt="Как контролировать работу сельхозтехники с помощью GPS?"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=60" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="how-to-control-the-operation-of-agricultural-machinery-using-gps.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
 <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=59"><img src="" alt="Преимущества систем слежения за такси с блокировкой двигателя"></a>
+        <a href="taxi-tracking-systems-with-engine-lockout.html"><img src="" alt="Преимущества систем слежения за такси с блокировкой двигателя"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">Преимущества систем слежения за такси с блокировкой двигателя</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=59" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="taxi-tracking-systems-with-engine-lockout.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
 <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=58"><img src="" alt="Как отследить мотоцикл или скутер с помощью GPS устройства?"></a>
+        <a href="sputnikovi-monitoring-motociklov-skuterov-kvadrociklov-gps-glonass.html"><img src="" alt="Как отследить мотоцикл или скутер с помощью GPS устройства?"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">Как отследить мотоцикл или скутер с помощью GPS устройства?</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=58" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="sputnikovi-monitoring-motociklov-skuterov-kvadrociklov-gps-glonass.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
 <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=57"><img src="" alt="С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?"></a>
+        <a href="s-kakimi-oshibkami-mogno-stolknytsya-pri-vubore-sistemi-monitoringa-transporta.html"><img src="" alt="С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=57" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="s-kakimi-oshibkami-mogno-stolknytsya-pri-vubore-sistemi-monitoringa-transporta.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>',
@@ -2004,45 +2092,45 @@
                 <ul class="section-articles__items-listbox">
                       <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=60"><img src="" alt="Как контролировать работу сельхозтехники с помощью GPS?"></a>
+        <a href="how-to-control-the-operation-of-agricultural-machinery-using-gps.html"><img src="" alt="Как контролировать работу сельхозтехники с помощью GPS?"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">Как контролировать работу сельхозтехники с помощью GPS?</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=60" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="how-to-control-the-operation-of-agricultural-machinery-using-gps.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
 <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=59"><img src="" alt="Преимущества систем слежения за такси с блокировкой двигателя"></a>
+        <a href="taxi-tracking-systems-with-engine-lockout.html"><img src="" alt="Преимущества систем слежения за такси с блокировкой двигателя"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">Преимущества систем слежения за такси с блокировкой двигателя</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=59" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="taxi-tracking-systems-with-engine-lockout.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
 <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=58"><img src="" alt="Как отследить мотоцикл или скутер с помощью GPS устройства?"></a>
+        <a href="sputnikovi-monitoring-motociklov-skuterov-kvadrociklov-gps-glonass.html"><img src="" alt="Как отследить мотоцикл или скутер с помощью GPS устройства?"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">Как отследить мотоцикл или скутер с помощью GPS устройства?</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=58" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="sputnikovi-monitoring-motociklov-skuterov-kvadrociklov-gps-glonass.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
 <li class="section-articles__item">
     <div class="section-articles__item-img">
-        <a href="index.php?id=57"><img src="" alt="С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?"></a>
+        <a href="s-kakimi-oshibkami-mogno-stolknytsya-pri-vubore-sistemi-monitoringa-transporta.html"><img src="" alt="С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?"></a>
     </div>
     <div class="section-articles__item-text">
         <h3 class="section-articles__item-title">С какими ошибками можно столкнуться при выборе системы мониторинга транспорта?</h3>
         <div class="section-articles__item-readmore">
-            <a class="button-normal button-l" href="index.php?id=57" rel="noopener">Подробнее</a>
+            <a class="button-normal button-l" href="s-kakimi-oshibkami-mogno-stolknytsya-pri-vubore-sistemi-monitoringa-transporta.html" rel="noopener">Подробнее</a>
         </div>
     </div>
 </li>
@@ -2050,7 +2138,7 @@
                 <!-- items grid end -->
             </div>
             <div class="section-articles__readmore">
-                <a class="button-primary button-l" href="index.php?id=19" rel="noopener">Все публикации</a>
+                <a class="button-primary button-l" href="articles.html" rel="noopener">Все публикации</a>
             </div>
         </div>
     </div>
@@ -2160,11 +2248,11 @@
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 bottom-menu">
                 <h4 class="bottom-menu__title">Возможности</h4>
                 <ul class="bottom-menu__items">
-                    <li class="bottom-menu__main"><a href="index.php?id=1" rel="noopener">Калькулятор стоимости</a></li>
-                    <li class="bottom-menu__main"><a href="index.php?id=19" rel="noopener">Публикации</a></li>
-                    <li class="bottom-menu__main"><a href="index.php?id=14" rel="noopener">Мобильные приложения</a></li>
-                    <li class="bottom-menu__main"><a href="index.php?id=18" rel="noopener">О компании</a></li>
-                    <li class="bottom-menu__main"><a href="index.php?id=20" rel="noopener">Контакты</a></li>
+                    <li class="bottom-menu__main"><a href="http://dev2.igornesov.ru/" rel="noopener">Калькулятор стоимости</a></li>
+                    <li class="bottom-menu__main"><a href="articles.html" rel="noopener">Публикации</a></li>
+                    <li class="bottom-menu__main"><a href="mobile.html" rel="noopener">Мобильные приложения</a></li>
+                    <li class="bottom-menu__main"><a href="kgkcompany.html" rel="noopener">О компании</a></li>
+                    <li class="bottom-menu__main"><a href="contacts.html" rel="noopener">Контакты</a></li>
                 </ul>
             </div>
             <!-- bottom menu 1 end -->
@@ -2172,11 +2260,11 @@
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 bottom-menu">
                 <h4 class="bottom-menu__title">Решения</h4>
                 <ul class="bottom-menu__items">
-                    <li class="bottom-menu__item"><a href="index.php?id=5" rel="noopener">Такси</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=4" rel="noopener">Грузоперевозки</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=6" rel="noopener">Пассажироперевозки</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=5" rel="noopener">Легковой транспорт</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=7" rel="noopener">ЖКХ</a></li>
+                    <li class="bottom-menu__item"><a href="taxi.html" rel="noopener">Такси</a></li>
+                    <li class="bottom-menu__item"><a href="cargo.html" rel="noopener">Грузоперевозки</a></li>
+                    <li class="bottom-menu__item"><a href="passengers.html" rel="noopener">Пассажироперевозки</a></li>
+                    <li class="bottom-menu__item"><a href="taxi.html" rel="noopener">Легковой транспорт</a></li>
+                    <li class="bottom-menu__item"><a href="special.html" rel="noopener">ЖКХ</a></li>
                 </ul>
             </div>
             <!-- bottom menu 2 end -->
@@ -2184,11 +2272,11 @@
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 bottom-menu">
                 <h4 class="bottom-menu__title">Оборудование</h4>
                 <ul class="bottom-menu__items">
-                    <li class="bottom-menu__item"><a href="index.php?id=9" rel="noopener">Трекеры</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=10" rel="noopener">Тахографы</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=11" rel="noopener">Карты для тахографа</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=12" rel="noopener">Датчики мониторинга</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=13" rel="noopener">Автономный воздушный отопитель</a></li>
+                    <li class="bottom-menu__item"><a href="trackers.html" rel="noopener">Трекеры</a></li>
+                    <li class="bottom-menu__item"><a href="sensors.html" rel="noopener">Тахографы</a></li>
+                    <li class="bottom-menu__item"><a href="taho.html" rel="noopener">Карты для тахографа</a></li>
+                    <li class="bottom-menu__item"><a href="cart.html" rel="noopener">Датчики мониторинга</a></li>
+                    <li class="bottom-menu__item"><a href="eberspacher-airtronic.html" rel="noopener">Автономный воздушный отопитель</a></li>
                 </ul>
             </div>
             <!-- bottom menu 3 end -->
@@ -2208,7 +2296,7 @@
                     <p>117513, Москва, <br>Ленинский просп., д.137, к. 1</p>
                 </div>
                 <div class="bottom-contacts__item">
-                    <a href="index.php?id=1" rel="noopener">Политика обработки <br>персональных данных</a>
+                    <a href="http://dev2.igornesov.ru/" rel="noopener">Политика обработки <br>персональных данных</a>
                 </div>
             </div>
             <!-- contact block end -->
@@ -2231,11 +2319,11 @@
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 bottom-menu">
                 <h4 class="bottom-menu__title">Возможности</h4>
                 <ul class="bottom-menu__items">
-                    <li class="bottom-menu__main"><a href="index.php?id=1" rel="noopener">Калькулятор стоимости</a></li>
-                    <li class="bottom-menu__main"><a href="index.php?id=19" rel="noopener">Публикации</a></li>
-                    <li class="bottom-menu__main"><a href="index.php?id=14" rel="noopener">Мобильные приложения</a></li>
-                    <li class="bottom-menu__main"><a href="index.php?id=18" rel="noopener">О компании</a></li>
-                    <li class="bottom-menu__main"><a href="index.php?id=20" rel="noopener">Контакты</a></li>
+                    <li class="bottom-menu__main"><a href="http://dev2.igornesov.ru/" rel="noopener">Калькулятор стоимости</a></li>
+                    <li class="bottom-menu__main"><a href="articles.html" rel="noopener">Публикации</a></li>
+                    <li class="bottom-menu__main"><a href="mobile.html" rel="noopener">Мобильные приложения</a></li>
+                    <li class="bottom-menu__main"><a href="kgkcompany.html" rel="noopener">О компании</a></li>
+                    <li class="bottom-menu__main"><a href="contacts.html" rel="noopener">Контакты</a></li>
                 </ul>
             </div>
             <!-- bottom menu 1 end -->
@@ -2243,11 +2331,11 @@
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 bottom-menu">
                 <h4 class="bottom-menu__title">Решения</h4>
                 <ul class="bottom-menu__items">
-                    <li class="bottom-menu__item"><a href="index.php?id=5" rel="noopener">Такси</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=4" rel="noopener">Грузоперевозки</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=6" rel="noopener">Пассажироперевозки</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=5" rel="noopener">Легковой транспорт</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=7" rel="noopener">ЖКХ</a></li>
+                    <li class="bottom-menu__item"><a href="taxi.html" rel="noopener">Такси</a></li>
+                    <li class="bottom-menu__item"><a href="cargo.html" rel="noopener">Грузоперевозки</a></li>
+                    <li class="bottom-menu__item"><a href="passengers.html" rel="noopener">Пассажироперевозки</a></li>
+                    <li class="bottom-menu__item"><a href="taxi.html" rel="noopener">Легковой транспорт</a></li>
+                    <li class="bottom-menu__item"><a href="special.html" rel="noopener">ЖКХ</a></li>
                 </ul>
             </div>
             <!-- bottom menu 2 end -->
@@ -2255,11 +2343,11 @@
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 bottom-menu">
                 <h4 class="bottom-menu__title">Оборудование</h4>
                 <ul class="bottom-menu__items">
-                    <li class="bottom-menu__item"><a href="index.php?id=9" rel="noopener">Трекеры</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=10" rel="noopener">Тахографы</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=11" rel="noopener">Карты для тахографа</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=12" rel="noopener">Датчики мониторинга</a></li>
-                    <li class="bottom-menu__item"><a href="index.php?id=13" rel="noopener">Автономный воздушный отопитель</a></li>
+                    <li class="bottom-menu__item"><a href="trackers.html" rel="noopener">Трекеры</a></li>
+                    <li class="bottom-menu__item"><a href="sensors.html" rel="noopener">Тахографы</a></li>
+                    <li class="bottom-menu__item"><a href="taho.html" rel="noopener">Карты для тахографа</a></li>
+                    <li class="bottom-menu__item"><a href="cart.html" rel="noopener">Датчики мониторинга</a></li>
+                    <li class="bottom-menu__item"><a href="eberspacher-airtronic.html" rel="noopener">Автономный воздушный отопитель</a></li>
                 </ul>
             </div>
             <!-- bottom menu 3 end -->
@@ -2279,7 +2367,7 @@
                     <p>117513, Москва, <br>Ленинский просп., д.137, к. 1</p>
                 </div>
                 <div class="bottom-contacts__item">
-                    <a href="index.php?id=1" rel="noopener">Политика обработки <br>персональных данных</a>
+                    <a href="http://dev2.igornesov.ru/" rel="noopener">Политика обработки <br>персональных данных</a>
                 </div>
             </div>
             <!-- contact block end -->
@@ -2422,6 +2510,100 @@
 [[$ru-modals]]
 [[$ru-header-top]]
 [[$ru-header-bottom]]',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'ru-modals' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 54,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'RU-modals',
+          'description' => 'Форма обратного звонка. Используется по всему ресурсу.',
+          'editor_type' => 0,
+          'category' => 5,
+          'cache_type' => 0,
+          'snippet' => '<!-- callback form -->
+<div class="modal fade" id="callBack">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">+</button>
+            <h4 class="modal-title">Запрос обратного звонка</h4>
+        </div>
+        <form id="callBack" method="post" action="" accept-charset="UTF-8">
+            <fieldset>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label class="input-group__label">Представьтесь, пожалуйста</label>
+                            <input type="text" id="callBackName" class="required form-control" placeholder="Ваше имя" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label class="input-group__label">На какой номер вам перезвонить</label>
+                            <input type="text" id="callBackPhone" class="required form-control" placeholder="Номер телефона" />
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div class="modal-footer">
+            <button type="submit" id="callBackSubmit" class="btn-primary btn-l">Перезвоните мне</button>
+        </div>
+    </div>
+</div> ',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '<!-- callback form -->
+<div class="modal fade" id="callBack">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">+</button>
+            <h4 class="modal-title">Запрос обратного звонка</h4>
+        </div>
+        <form id="callBack" method="post" action="" accept-charset="UTF-8">
+            <fieldset>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label class="input-group__label">Представьтесь, пожалуйста</label>
+                            <input type="text" id="callBackName" class="required form-control" placeholder="Ваше имя" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label class="input-group__label">На какой номер вам перезвонить</label>
+                            <input type="text" id="callBackPhone" class="required form-control" placeholder="Номер телефона" />
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div class="modal-footer">
+            <button type="submit" id="callBackSubmit" class="btn-primary btn-l">Перезвоните мне</button>
+        </div>
+    </div>
+</div> ',
         ),
         'policies' => 
         array (
@@ -2612,7 +2794,7 @@
             <!-- recall form  -->
             <div class="col-xl-2 col-lg-2 col-md-2 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-recall">
                 <div class="header-bottom__button">
-                    <a class ="button-l button-primary animated fadeInDown" href="#" rel="noopener">Обратный звонок</a>
+                    <button type="button" class ="button-l button-primary animated fadeInDown" data-toggle="modal" data-target="#callBack">Обратный звонок</button>
                 </div>
             </div>
             <!-- recall form end -->
@@ -2661,7 +2843,7 @@
             <!-- recall form  -->
             <div class="col-xl-2 col-lg-2 col-md-2 d-xl-flex d-lg-flex d-md-flex d-sm-none d-none header-recall">
                 <div class="header-bottom__button">
-                    <a class ="button-l button-primary animated fadeInDown" href="#" rel="noopener">Обратный звонок</a>
+                    <button type="button" class ="button-l button-primary animated fadeInDown" data-toggle="modal" data-target="#callBack">Обратный звонок</button>
                 </div>
             </div>
             <!-- recall form end -->

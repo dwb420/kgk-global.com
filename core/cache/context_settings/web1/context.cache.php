@@ -2,6 +2,9 @@
   'config' => 
   array (
   ),
+  'aliasMap' => 
+  array (
+  ),
   'webLinkMap' => 
   array (
   ),
@@ -37,8 +40,8 @@
     ),
     'OnSiteRefresh' => 
     array (
-      3 => '3',
       2 => '2',
+      3 => '3',
     ),
     'OnSnipFormPrerender' => 
     array (
