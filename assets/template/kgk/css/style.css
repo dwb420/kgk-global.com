@@ -12,8 +12,8 @@
 06. LINKS               []
 07. LISTS & GRIDS       []
 08. BUTTONS             []
-09. FORMS               []
-10. TABLES              []
+09. FORMS & TABLES      []
+10. MODALS              []
 11. CUSTOM SECTIONS     []
 12. CONTENT             []
 13. MEDIA QUERY RULES   []
@@ -617,6 +617,106 @@ button#langMenu {
     text-decoration: none;
 }
 
+/* 9. FORMS & TABLES */
+
+form {}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group .input-group {
+	display: flex;
+}
+
+.form-group .input-group label {
+	width: 100%;
+	margin: 0 auto 10px;
+	font: normal 16px/120% 'OpenSans-Regular', sans-serif;
+}
+
+.form-group .input-group input {
+	padding: 30px;
+}
+
+.form-group .checkbox-group {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.form-group .checkbox-group label {
+	width: auto;
+	margin: 0;
+	font: normal 14px/120% 'OpenSans-Regular', sans-serif;
+}
+
+.form-group .checkbox-group input {
+	width: auto;
+	max-width: calc(100% - 50px);
+	margin: auto 20px auto 0;
+}
+
+
+
+
+/* 10. MODALS */
+
+.modal-content {
+	max-width: 700px;
+	margin: 5% auto;
+	padding: 50px;
+	box-shadow: 0 0 10px #000000;
+}
+
+.modal-header {
+	border: none;
+}
+
+.modal-header .close {
+	position: absolute;
+	right: 24px;
+	top: 24px;
+	width: 48px;
+	height: 48px;
+	padding: 0;
+	opacity: 1;
+	background: #FFFFFF;
+	color: #000000;
+	font: normal 48px/100% 'OpenSans-Thin', sans-serif;
+	-moz-border-radius: 24px;
+	-webkit-border-radius: 24px;
+	border-radius: 24px;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	transition: all .3s ease-in-out;
+}
+
+.modal-header .close:focus,
+.modal-header .close:hover {
+	opacity: 1;
+	color: #005EC8;
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.modal-title {
+	width: 100%;
+	font: 600 30px/120% 'OpenSans-Regular', sans-serif;
+	text-align: center;
+}
+
+.modal-footer {
+	justify-content: center;
+	margin: 20px auto 0;
+	border: none;
+}
+
+.modal-footer .button {
+	font: 600 22px/140% 'OpenSans-Regular', sans-serif;
+}
 
 /* 11. CUSTOM SECTIONS */
 
@@ -1560,7 +1660,7 @@ button#langMenu {
     width: 100%;
     height: 100%;
     -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
@@ -2113,7 +2213,7 @@ button#langMenu {
 }
 
 .section-devicesrekomm__item-descr {
-    font: 300al 16px/140% 'OpenSans-Regular', sans-serif;
+    font: 300 16px/140% 'OpenSans-Regular', sans-serif;
     padding-bottom: 50px;
 }
 
