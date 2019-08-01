@@ -1233,7 +1233,7 @@ form {}
     display: flex;
     flex-flow: row wrap;
     width: auto;
-    min-width: calc(100% / 3 - 1px);
+    min-width: calc(100% / 3 - 2px);
     height: 40px;
     position: relative;
     cursor: pointer;
@@ -4507,4 +4507,30 @@ ul.section-survey__item-panlist li span {
         min-width: 98%;
         margin: 20px auto;
     }
+	
+	.headline {
+		position: relative;
+	}
+	
+	.row-differ {
+		height: 10px;
+	}
+	
+	.bottom-menu {
+		flex-direction: column;
+		margin: 0;
+		padding: 0 5px 10px;
+		border-bottom: 1px solid rgba(255,255,255,.15);
+	}
+	
+	.bottom-menu__main, .bottom-menu__main a {
+		font: normal 14px/125% 'OpenSans-Regular', sans-serif;
+		margin: 0 0 15px;
+	}
+	
+	.bottom-contacts {
+		flex-direction: column;
+		margin-top: 0;
+		padding: 0 5px;
+	}
 }
