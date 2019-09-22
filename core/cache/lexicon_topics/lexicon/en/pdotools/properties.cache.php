@@ -1,4 +1,4 @@
-<?php  return array (
+<?php if(time() > 1569182271){return null;} return array (
   'pdotools_prop_context' => 'Which Context should be searched in.',
   'pdotools_prop_field_context' => 'Context of resource for selecting its parents. Needed for work of parameters "&top" and "&topLevel".',
   'pdotools_prop_depth' => 'Integer value indicating depth to search for resources from each parent. First level of resources below parent has a depth of 1.',

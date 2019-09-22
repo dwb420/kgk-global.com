@@ -1,4 +1,4 @@
-<?php  return '/** @var modX $modx */
+<?php if(time() > 1568822449){return null;} return '/** @var modX $modx */
 switch ($modx->event->name) {
 
     case \'OnMODXInit\':

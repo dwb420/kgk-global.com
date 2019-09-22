@@ -1,4 +1,4 @@
-<?php  return array (
+<?php if(time() > 1569182271){return null;} return array (
   'pdotools_prop_context' => 'Ограничение выборки по контексту ресурсов.',
   'pdotools_prop_field_context' => 'Контекст ресурса, для выборки его родителей. Нужен для работы параметров "&top" и "&topLevel".',
   'pdotools_prop_depth' => 'Глубина поиска дочерних ресурсов от родителя.',

@@ -1,9 +1,155 @@
-<?php  return array (
+<?php if(time() > 1569182271){return null;} return array (
   'config' => 
   array (
+    'base_url' => '/en/',
+    'cultureKey' => 'en',
+    'error_page' => '101',
+    'friendly_alias_translit' => 'english',
+    'http_host' => 'dev2.igornesov.ru',
+    'site_name' => 'KGK - GPS/GLONASS monitoring',
+    'site_start' => '92',
+    'site_url' => 'http://dev2.igornesov.ru/en/',
   ),
   'aliasMap' => 
   array (
+    'index' => 92,
+    'monitoring' => 93,
+    'complexes' => 94,
+    'devices' => 95,
+    'company' => 96,
+    'mobile' => 97,
+    'contacts' => 98,
+    'articles' => 99,
+    403 => 100,
+    404 => 101,
+    'cargo' => 136,
+    'taxi' => 137,
+    'сorporate' => 138,
+    'passengers' => 139,
+    'special' => 140,
+    'trackers' => 131,
+    'sensors' => 132,
+    'taho' => 133,
+    'cart' => 134,
+    'eberspacher-airtronic-b4/d4' => 135,
+    'how-to-extend-the-life-of-the-fuel-level-sensor' => 157,
+    'glonass-on-a-car-since-2018-voluntarily-or-forcibly' => 158,
+    'installing-glonass-on-a-personal-car-as-a-guarantee-of-safety' => 159,
+    'employee-tracking-system-at-transport-enterprises' => 160,
+    'how-much-does-it-cost-to-install-a-tachograph-on-a-truck' => 161,
+    'rules-for-the-use-of-tachographs-in-russia' => 162,
+    'advantages-of-a-monitoring-device-through-external-sensors-on-mobile-special-equipment' => 163,
+    'what-tachographs-to-install-and-can-they-be-fooled' => 164,
+    'how-to-control-fuel-consumption-in-transport-enterprises' => 165,
+    'popularization-of-satellite-navigation-equipment' => 166,
+    'how-to-find-out-the-timing-of-tachograph-calibration' => 167,
+    'requirements-for-installing-tachographs-on-trucks' => 168,
+    'gps-sensor-as-a-means-of-tracking-a-car-during-theft' => 169,
+    'the-cost-of-installing-glonass-on-a-car' => 170,
+    'how-to-unlock-an-enterprise-card-for-a-tachograph' => 171,
+    'truck-control-system' => 172,
+    'how-to-choose-a-gps-tracker-for-a-car' => 173,
+    'what-errors-can-be-encountered-when-choosing-a-vehicle-monitoring-system' => 174,
+    'how-to-track-a-motorcycle-or-scooter-using-a-gps-device' => 175,
+    'advantages-of-an-engine-lock-taxi-tracking-system' => 176,
+    'how-to-control-the-operation-of-agricultural-machinery-using-gps' => 177,
+    'tracker' => 141,
+    'tracker-fort-112eg-m' => 142,
+    'over-speed-sounder' => 143,
+    'blocking' => 144,
+    'alarm' => 145,
+    'sensor-fuel' => 146,
+    'sensor-moto' => 147,
+    'sensor-rotate' => 148,
+    'sensor-angle' => 149,
+    'sensor-passenger' => 150,
+    'sensor-temperature' => 151,
+    'sensor-door-control' => 152,
+    'plug-cigarette-lighter' => 153,
+    'handsfree-kit' => 154,
+    'taho-atol' => 155,
+    'taho-shtrih' => 156,
+  ),
+  'resourceMap' => 
+  array (
+    0 => 
+    array (
+      0 => 92,
+      1 => 93,
+      2 => 94,
+      3 => 95,
+      4 => 96,
+      5 => 97,
+      6 => 98,
+      7 => 99,
+      8 => 100,
+      9 => 101,
+    ),
+    94 => 
+    array (
+      0 => 136,
+      1 => 137,
+      2 => 138,
+      3 => 139,
+      4 => 140,
+    ),
+    95 => 
+    array (
+      0 => 131,
+      1 => 132,
+      2 => 133,
+      3 => 134,
+      4 => 135,
+    ),
+    99 => 
+    array (
+      0 => 157,
+      1 => 158,
+      2 => 159,
+      3 => 160,
+      4 => 161,
+      5 => 162,
+      6 => 163,
+      7 => 164,
+      8 => 165,
+      9 => 166,
+      10 => 167,
+      11 => 168,
+      12 => 169,
+      13 => 170,
+      14 => 171,
+      15 => 172,
+      16 => 173,
+      17 => 174,
+      18 => 175,
+      19 => 176,
+      20 => 177,
+    ),
+    131 => 
+    array (
+      0 => 141,
+      1 => 142,
+    ),
+    132 => 
+    array (
+      0 => 143,
+      1 => 144,
+      2 => 145,
+      3 => 146,
+      4 => 147,
+      5 => 148,
+      6 => 149,
+      7 => 150,
+      8 => 151,
+      9 => 152,
+      10 => 153,
+      11 => 154,
+    ),
+    133 => 
+    array (
+      0 => 155,
+      1 => 156,
+    ),
   ),
   'webLinkMap' => 
   array (
@@ -14,9 +160,22 @@
     array (
       1 => '1',
     ),
+    'OnContextRemove' => 
+    array (
+      8 => '8',
+    ),
     'OnDocFormPrerender' => 
     array (
+      8 => '8',
       1 => '1',
+    ),
+    'OnDocFormSave' => 
+    array (
+      8 => '8',
+    ),
+    'OnEmptyTrash' => 
+    array (
+      8 => '8',
     ),
     'OnFileCreateFormPrerender' => 
     array (
@@ -26,6 +185,10 @@
     array (
       1 => '1',
     ),
+    'OnHandleRequest' => 
+    array (
+      5 => '5',
+    ),
     'OnMODXInit' => 
     array (
       3 => '3',
@@ -34,14 +197,23 @@
     array (
       1 => '1',
     ),
+    'OnResourceDuplicate' => 
+    array (
+      8 => '8',
+    ),
+    'OnResourceSort' => 
+    array (
+      8 => '8',
+    ),
     'OnRichTextEditorRegister' => 
     array (
       1 => '1',
     ),
     'OnSiteRefresh' => 
     array (
-      2 => '2',
       3 => '3',
+      8 => '8',
+      2 => '2',
     ),
     'OnSnipFormPrerender' => 
     array (
@@ -313,6 +485,232 @@ switch ($modx->event->name) {
       'static' => '0',
       'static_file' => 'core/components/pdotools/elements/plugins/plugin.pdotools.php',
     ),
+    5 => 
+    array (
+      'id' => '5',
+      'source' => '1',
+      'property_preprocess' => '0',
+      'name' => 'Switchlang',
+      'description' => '',
+      'editor_type' => '0',
+      'category' => '0',
+      'cache_type' => '0',
+      'plugincode' => '/* Запускаем плагин только на фронтенде и с включенными sef-url */
+if ($modx->context->key == \'mgr\' || !$modx->getOption(\'friendly_urls\') || $modx->event->name != \'OnHandleRequest\') {
+return;
+}
+/* Определяем текущий язык в cultureKey */
+switch ($_REQUEST[\'cultureKey\']) {
+/* Переключаем контекст */
+case \'en\':
+$modx->switchContext(\'web1\');
+break;
+case \'pt\':
+$modx->switchContext(\'web2\');
+break;
+case \'ua\':
+$modx->switchContext(\'web3\');
+break;
+case \'ur\':
+$modx->switchContext(\'web4\');
+break;
+/* Устанавливаем контекст по умолчанию */
+default:
+$modx->switchContext(\'web\');
+break;
+}
+/* Очищаем GET-параметр чтобы не допустить появлении ссылки вида cultureKey=xy при генерации URL других компонентов */
+unset($_GET[\'cultureKey\']);',
+      'locked' => '0',
+      'properties' => 'a:0:{}',
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => '',
+    ),
+    8 => 
+    array (
+      'id' => '8',
+      'source' => '0',
+      'property_preprocess' => '0',
+      'name' => 'Babel',
+      'description' => 'Links and synchronizes multilingual resources.',
+      'editor_type' => '0',
+      'category' => '0',
+      'cache_type' => '0',
+      'plugincode' => '/**
+ * Babel
+ *
+ * Copyright 2010 by Jakob Class <jakob.class@class-zec.de>
+ *
+ * This file is part of Babel.
+ *
+ * Babel is free software; you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software
+ * Foundation; either version 2 of the License, or (at your option) any later
+ * version.
+ *
+ * Babel is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * Babel; if not, write to the Free Software Foundation, Inc., 59 Temple Place,
+ * Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package babel
+ */
+/**
+ * Babel Plugin to link and synchronize multilingual resources
+ *
+ * Based on ideas of Sylvain Aerni <enzyms@gmail.com>
+ *
+ * Events:
+ * OnDocFormPrerender,OnDocFormSave,OnEmptyTrash,OnContextRemove,OnResourceDuplicate
+ *
+ * @author Jakob Class <jakob.class@class-zec.de>
+ *         goldsky <goldsky@virtudraft.com>
+ *
+ * @package babel
+ *
+ */
+$babel = $modx->getService(\'babel\', \'Babel\', $modx->getOption(\'babel.core_path\', null, $modx->getOption(\'core_path\').\'components/babel/\').\'model/babel/\');
+
+/* be sure babel TV is loaded */
+if (!($babel instanceof Babel) || !$babel->babelTv)
+    return;
+
+switch ($modx->event->name) {
+    case \'OnDocFormPrerender\':
+        $output       = \'\';
+        $errorMessage = \'\';
+        $resource     = & $modx->event->params[\'resource\'];
+        if (!$resource) {
+            /* a new resource is being to created
+             * -> skip rendering the babel box */
+            break;
+        }
+        $linkedResources = $babel->getLinkedResources($resource->get(\'id\'));
+        if (empty($linkedResources)) {
+            /* always be sure that the Babel TV is set */
+            $babel->initBabelTv($resource);
+        }
+
+        /* create babel-box with links to translations */
+        $outputLanguageItems = \'\';
+        if (!$modx->lexicon) {
+            $modx->getService(\'lexicon\', \'modLexicon\');
+        }
+        $languagesStore = array();
+        $contextKeys    = $babel->getGroupContextKeys($resource->get(\'context_key\'));
+        foreach ($contextKeys as $contextKey) {
+            /* for each (valid/existing) context of the context group a button will be displayed */
+            $context = $modx->getObject(\'modContext\', array(\'key\' => $contextKey));
+            if (!$context) {
+                $modx->log(modX::LOG_LEVEL_ERROR, \'Could not load context: \'.$contextKey);
+                continue;
+            }
+            $context->prepare();
+            $cultureKey       = $context->getOption(\'cultureKey\', $modx->getOption(\'cultureKey\'));
+            $languagesStore[] = array($modx->lexicon(\'babel.language_\'.$cultureKey)." ($contextKey)", $contextKey);
+        }
+
+        $babel->config[\'context_key\']    = $resource->get(\'context_key\');
+        $babel->config[\'languagesStore\'] = $languagesStore;
+        $babel->config[\'menu\']           = $babel->getMenu($resource);
+        if (empty($babel->config[\'menu\'])) {
+            $modx->log(modX::LOG_LEVEL_ERROR, \'[Babel] Could not load menu for context key: "\'.$babel->config[\'context_key\'].\'". Try to check "babel.contextKeys" in System Settings. If this is intended, you can ignore this warning.\');
+            return;
+        }
+        $version         = str_replace(\' \', \'\', $babel->config[\'version\']);
+        $isCSSCompressed = $modx->getOption(\'compress_css\');
+        $withVersion     = $isCSSCompressed ? \'\' : \'?v=\'.$version;
+        $modx->controller->addCss($babel->config[\'cssUrl\'].\'babel.css\'.$withVersion);
+
+        $modx->controller->addLexiconTopic(\'babel:default\');
+        $isJsCompressed = $modx->getOption(\'compress_js\');
+        $withVersion    = $isJsCompressed ? \'\' : \'?v=\'.$version;
+        $modx->controller->addJavascript($babel->config[\'jsUrl\'].\'babel.class.js\'.$withVersion);
+        $modx->controller->addHtml(\'
+<script type="text/javascript">
+    Ext.onReady(function () {
+        var babel = new Babel(\'.json_encode($babel->config).\');
+        babel.getMenu(babel.config.menu);
+    });
+</script>\');
+        break;
+
+    case \'OnDocFormSave\':
+        $resource = & $modx->event->params[\'resource\'];
+        if (!$resource) {
+            $modx->log(modX::LOG_LEVEL_ERROR, \'No resource provided for OnDocFormSave event\');
+            break;
+        }
+        if ($modx->event->params[\'mode\'] == modSystemEvent::MODE_NEW) {
+            /* no TV synchronization for new resources, just init Babel TV */
+            $babel->initBabelTv($resource);
+            break;
+        }
+        $babel->synchronizeTvs($resource->get(\'id\'));
+        break;
+
+    case \'OnEmptyTrash\':
+        /* remove translation links to non-existing resources */
+        $deletedResourceIds = & $modx->event->params[\'ids\'];
+        if (is_array($deletedResourceIds)) {
+            foreach ($deletedResourceIds as $deletedResourceId) {
+                $babel->removeLanguageLinksToResource($deletedResourceId);
+            }
+        }
+        break;
+
+    case \'OnContextRemove\':
+        /* remove translation links to non-existing contexts */
+        $context = & $modx->event->params[\'context\'];
+        if ($context) {
+            $babel->removeLanguageLinksToContext($context->get(\'key\'));
+        }
+        break;
+
+    case \'OnResourceDuplicate\':
+        /* init Babel TV of duplicated resources */
+        $resource = & $modx->event->params[\'newResource\'];
+        $babel->initBabelTvsRecursive($modx, $babel, $resource->get(\'id\'));
+        break;
+
+    case \'OnResourceSort\':
+        $nodesAffected = & $modx->event->params[\'nodesAffected\'];
+        foreach ($nodesAffected as $node) {
+            $linkedResources = $babel->getLinkedResources($node->get(\'id\'));
+            foreach ($linkedResources as $key => $id) {
+                if ($id === $node->get(\'id\')) {
+                    unset($linkedResources[$key]);
+                }
+            }
+            $linkedResources[$node->get(\'context_key\')] = $node->get(\'id\');
+            $babel->updateBabelTv($linkedResources, $linkedResources);
+        }
+
+        break;
+
+    case \'OnSiteRefresh\':
+        $cacheManager = $modx->getCacheManager();
+        $cacheManager->refresh(array(
+            \'babel\' => array(),
+        ));
+        break;
+
+    default:
+        break;
+}
+return;',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => '',
+    ),
   ),
   'policies' => 
   array (
@@ -334,18 +732,186 @@ switch ($modx->event->name) {
         1 => 
         array (
           'principal' => 1,
-          'authority' => 9999,
+          'authority' => 0,
           'policy' => 
           array (
-            'load' => true,
+            'about' => true,
+            'access_permissions' => true,
+            'actions' => true,
+            'change_password' => true,
+            'change_profile' => true,
+            'charsets' => true,
+            'class_map' => true,
+            'components' => true,
+            'content_types' => true,
+            'countries' => true,
+            'create' => true,
+            'credits' => true,
+            'customize_forms' => true,
+            'dashboards' => true,
+            'database' => true,
+            'database_truncate' => true,
+            'delete_category' => true,
+            'delete_chunk' => true,
+            'delete_context' => true,
+            'delete_document' => true,
+            'delete_eventlog' => true,
+            'delete_plugin' => true,
+            'delete_propertyset' => true,
+            'delete_role' => true,
+            'delete_snippet' => true,
+            'delete_template' => true,
+            'delete_tv' => true,
+            'delete_user' => true,
+            'directory_chmod' => true,
+            'directory_create' => true,
+            'directory_list' => true,
+            'directory_remove' => true,
+            'directory_update' => true,
+            'edit_category' => true,
+            'edit_chunk' => true,
+            'edit_context' => true,
+            'edit_document' => true,
+            'edit_locked' => true,
+            'edit_plugin' => true,
+            'edit_propertyset' => true,
+            'edit_role' => true,
+            'edit_snippet' => true,
+            'edit_template' => true,
+            'edit_tv' => true,
+            'edit_user' => true,
+            'element_tree' => true,
+            'empty_cache' => true,
+            'error_log_erase' => true,
+            'error_log_view' => true,
+            'events' => true,
+            'export_static' => true,
+            'file_create' => true,
+            'file_list' => true,
+            'file_manager' => true,
+            'file_remove' => true,
+            'file_tree' => true,
+            'file_update' => true,
+            'file_upload' => true,
+            'file_unpack' => true,
+            'file_view' => true,
+            'flush_sessions' => true,
+            'frames' => true,
+            'help' => true,
+            'home' => true,
+            'import_static' => true,
+            'languages' => true,
+            'lexicons' => true,
             'list' => true,
-            'view' => true,
-            'save' => true,
+            'load' => true,
+            'logout' => true,
+            'logs' => true,
+            'menus' => true,
+            'menu_reports' => true,
+            'menu_security' => true,
+            'menu_site' => true,
+            'menu_support' => true,
+            'menu_system' => true,
+            'menu_tools' => true,
+            'menu_user' => true,
+            'messages' => true,
+            'namespaces' => true,
+            'new_category' => true,
+            'new_chunk' => true,
+            'new_context' => true,
+            'new_document' => true,
+            'new_document_in_root' => true,
+            'new_plugin' => true,
+            'new_propertyset' => true,
+            'new_role' => true,
+            'new_snippet' => true,
+            'new_static_resource' => true,
+            'new_symlink' => true,
+            'new_template' => true,
+            'new_tv' => true,
+            'new_user' => true,
+            'new_weblink' => true,
+            'packages' => true,
+            'policy_delete' => true,
+            'policy_edit' => true,
+            'policy_new' => true,
+            'policy_save' => true,
+            'policy_template_delete' => true,
+            'policy_template_edit' => true,
+            'policy_template_new' => true,
+            'policy_template_save' => true,
+            'policy_template_view' => true,
+            'policy_view' => true,
+            'property_sets' => true,
+            'providers' => true,
+            'publish_document' => true,
+            'purge_deleted' => true,
             'remove' => true,
-            'copy' => true,
+            'remove_locks' => true,
+            'resource_duplicate' => true,
+            'resourcegroup_delete' => true,
+            'resourcegroup_edit' => true,
+            'resourcegroup_new' => true,
+            'resourcegroup_resource_edit' => true,
+            'resourcegroup_resource_list' => true,
+            'resourcegroup_save' => true,
+            'resourcegroup_view' => true,
+            'resource_quick_create' => true,
+            'resource_quick_update' => true,
+            'resource_tree' => true,
+            'save' => true,
+            'save_category' => true,
+            'save_chunk' => true,
+            'save_context' => true,
+            'save_document' => true,
+            'save_plugin' => true,
+            'save_propertyset' => true,
+            'save_role' => true,
+            'save_snippet' => true,
+            'save_template' => true,
+            'save_tv' => true,
+            'save_user' => true,
+            'search' => true,
+            'set_sudo' => true,
+            'settings' => true,
+            'sources' => true,
+            'source_delete' => true,
+            'source_edit' => true,
+            'source_save' => true,
+            'source_view' => true,
+            'steal_locks' => true,
+            'tree_show_element_ids' => true,
+            'tree_show_resource_ids' => true,
+            'undelete_document' => true,
+            'unlock_element_properties' => true,
+            'unpublish_document' => true,
+            'usergroup_delete' => true,
+            'usergroup_edit' => true,
+            'usergroup_new' => true,
+            'usergroup_save' => true,
+            'usergroup_user_edit' => true,
+            'usergroup_user_list' => true,
+            'usergroup_view' => true,
+            'view' => true,
+            'view_category' => true,
+            'view_chunk' => true,
+            'view_context' => true,
+            'view_document' => true,
+            'view_element' => true,
+            'view_eventlog' => true,
+            'view_offline' => true,
+            'view_plugin' => true,
+            'view_propertyset' => true,
+            'view_role' => true,
+            'view_snippet' => true,
+            'view_sysinfo' => true,
+            'view_template' => true,
+            'view_tv' => true,
             'view_unpublished' => true,
+            'view_user' => true,
+            'workspaces' => true,
             'formit' => true,
-            'formit_encryptions' => false,
+            'formit_encryptions' => true,
           ),
         ),
       ),

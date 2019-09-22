@@ -5,6 +5,18 @@
     'path' => '/var/www/www-root/data/www/dev2.igornesov.ru/core/components/ace/',
     'assets_path' => '',
   ),
+  'ajaxform' => 
+  array (
+    'name' => 'ajaxform',
+    'path' => '/var/www/www-root/data/www/dev2.igornesov.ru/core/components/ajaxform/',
+    'assets_path' => '',
+  ),
+  'babel' => 
+  array (
+    'name' => 'babel',
+    'path' => '/var/www/www-root/data/www/dev2.igornesov.ru/core/components/babel/',
+    'assets_path' => '/var/www/www-root/data/www/dev2.igornesov.ru/assets/components/babel/',
+  ),
   'breadcrumbs' => 
   array (
     'name' => 'breadcrumbs',
@@ -40,6 +52,12 @@
     'name' => 'phpthumbon',
     'path' => '/var/www/www-root/data/www/dev2.igornesov.ru/core/components/phpthumbon/',
     'assets_path' => '',
+  ),
+  'recaptchav2' => 
+  array (
+    'name' => 'recaptchav2',
+    'path' => '/var/www/www-root/data/www/dev2.igornesov.ru/core/components/recaptchav2/',
+    'assets_path' => '/var/www/www-root/data/www/dev2.igornesov.ru/assets/components/recaptchav2/',
   ),
   'sdstore' => 
   array (

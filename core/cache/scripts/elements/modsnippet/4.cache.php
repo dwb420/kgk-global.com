@@ -1,4 +1,4 @@
-<?php  return '/** @var array $scriptProperties */
+<?php if(time() > 1568824203){return null;} return '/** @var array $scriptProperties */
 if (isset($parents) && $parents === \'\') {
     $scriptProperties[\'parents\'] = $modx->resource->id;
 }

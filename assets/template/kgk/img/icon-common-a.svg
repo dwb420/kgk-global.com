@@ -1,11 +1,11 @@
 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" y="29.3889" width="10.1111" height="10.1111" stroke="#5B5B5B"/>
 <rect x="0.5" y="0.5" width="10.1111" height="10.1111" fill="#5B5B5B" stroke="#5B5B5B"/>
-<rect x="0.5" y="14.9445" width="10.1111" height="10.1111" fill="#FDF415" stroke="#5B5B5B"/>
+<rect id="hovered" x="0.5" y="14.9445" width="10.1111" height="10.1111" fill="#FDF415" stroke="#5B5B5B"/>
 <rect x="14.9445" y="29.3889" width="10.1111" height="10.1111" stroke="#5B5B5B"/>
 <rect x="14.9445" y="0.5" width="10.1111" height="10.1111" stroke="#5B5B5B"/>
 <rect x="14.9445" y="14.9445" width="10.1111" height="10.1111" fill="#5B5B5B" stroke="#5B5B5B"/>
 <rect x="29.3889" y="29.3889" width="10.1111" height="10.1111" fill="#5B5B5B" stroke="#5B5B5B"/>
-<rect x="29.3889" y="0.5" width="10.1111" height="10.1111" fill="#FDF415" stroke="#5B5B5B"/>
+<rect id="hovered" x="29.3889" y="0.5" width="10.1111" height="10.1111" fill="#FDF415" stroke="#5B5B5B"/>
 <rect x="29.3889" y="14.9445" width="10.1111" height="10.1111" fill="#5B5B5B" stroke="#5B5B5B"/>
 </svg>

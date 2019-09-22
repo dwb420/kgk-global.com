@@ -1,4 +1,4 @@
-<?php  return '/** @var array $scriptProperties */
+<?php if(time() > 1568822480){return null;} return '/** @var array $scriptProperties */
 
 // Convert parameters from Wayfinder if exists
 if (isset($startId)) {

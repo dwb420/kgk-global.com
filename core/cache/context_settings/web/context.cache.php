@@ -1,66 +1,77 @@
-<?php  return array (
+<?php if(time() > 1569182271){return null;} return array (
   'config' => 
   array (
+    'base_url' => '/',
+    'cultureKey' => 'ru',
+    'error_page' => '21',
+    'friendly_alias_translit' => 'english',
+    'http_host' => 'dev2.igornesov.ru',
+    'site_name' => 'КГК - GPS/GLONASS мониторинг',
+    'site_start' => '1',
+    'site_url' => 'http://dev2.igornesov.ru',
   ),
   'aliasMap' => 
   array (
-    'index.html' => 1,
-    'monitoring.html' => 2,
-    'complexes.html' => 3,
-    'products.html' => 8,
-    'kgkcompany.html' => 18,
-    'mobile.html' => 14,
-    'articles.html' => 19,
-    'contacts.html' => 20,
-    '404.html' => 21,
-    'cargo.html' => 4,
-    'taxi.html' => 5,
-    'passengers.html' => 6,
-    'special.html' => 7,
-    'trackers.html' => 9,
-    'sensors.html' => 10,
-    'taho.html' => 11,
-    'cart.html' => 12,
-    'eberspacher-airtronic.html' => 13,
-    'tracker-t5.html' => 22,
-    'tracker-fort-112eg-m.html' => 25,
-    'tracker-t6me.html' => 23,
-    'tracker-t6me-285.html' => 24,
-    'over-speed-sounder.html' => 26,
-    'blocking.html' => 27,
-    'alarm.html' => 28,
-    'sensor-fuel.html' => 29,
-    'sensor-moto.html' => 30,
-    'sensor-rotate.html' => 31,
-    'sensor-angle.html' => 32,
-    'sensor-passenger.html' => 33,
-    'sensor-temperature.html' => 34,
-    'sensor-door-control.html' => 35,
-    'plug-cigarette-lighter.html' => 36,
-    'handsfree-kit.html' => 37,
-    'taho-atol.html' => 38,
-    'taho-shtrih.html' => 39,
-    'dut-prolong.html' => 40,
-    'glonass-na-avtomobil-s-2018-goda-dobrovolno-ili-prinuditelno.html' => 41,
-    'glonass-na-lichny-avto.html' => 42,
-    'sistema-slegenia-za-sotrudnikami.html' => 43,
-    'ustanovka-tahografa-na-gruzovik.html' => 44,
-    'ispolzovanie-tahografov-v-rossii.html' => 45,
-    'ustroistvo-monitoringa-cherez-vneshnie-datchiki-na-peredvignoi-spectehnike.html' => 46,
-    'kakie-tahografi-ustanavlivat-i-mogno-li-ih-obmanut.html' => 47,
-    'kak-kontrolirovat-rashod-topliva-na-transportnih-predpriyatiyah.html' => 48,
-    'popylyarizacia-apparatyri-spytnikovoi-navigacii.html' => 49,
-    'kak-uznat-srok-provedenia-kalibrovki-tahografa.html' => 50,
-    'trebovania-po-ustanovke-tahografov-na-gruzoviki.html' => 51,
-    'gps-datchik-kak-sredstvo-slegenia-za-avto-pri-ugone.html' => 52,
-    'stoimost-ustanovki-glonass-na-avtomobil.html' => 53,
-    'kak-razblokirovat-karty-predpriyatia-dlya-tohografa.html' => 54,
-    'sistema-kontrolya-gryzovogo-transporta.html' => 55,
-    'kak-vibrat-gps-treker-dlya-avtomobilya.html' => 56,
-    's-kakimi-oshibkami-mogno-stolknytsya-pri-vubore-sistemi-monitoringa-transporta.html' => 57,
-    'sputnikovi-monitoring-motociklov-skuterov-kvadrociklov-gps-glonass.html' => 58,
-    'taxi-tracking-systems-with-engine-lockout.html' => 59,
-    'how-to-control-the-operation-of-agricultural-machinery-using-gps.html' => 60,
+    'index' => 1,
+    'monitoring' => 2,
+    'complexes' => 3,
+    'calculator' => 63,
+    'products' => 8,
+    'kgkcompany' => 18,
+    'mobile' => 14,
+    'politika-konfidenczialnosti' => 64,
+    'test-page' => 65,
+    'articles' => 19,
+    'contacts' => 20,
+    403 => 62,
+    404 => 21,
+    'cargo' => 4,
+    'taxi' => 5,
+    'corporate' => 61,
+    'passengers' => 6,
+    'special' => 7,
+    'trackers' => 9,
+    'sensors' => 10,
+    'taho' => 11,
+    'cart' => 12,
+    'eberspacher-airtronic' => 13,
+    'tracker-fort-112eg-m' => 25,
+    'tracker' => 23,
+    'over-speed-sounder' => 26,
+    'blocking' => 27,
+    'alarm' => 28,
+    'sensor-fuel' => 29,
+    'sensor-moto' => 30,
+    'sensor-rotate' => 31,
+    'sensor-angle' => 32,
+    'sensor-passenger' => 33,
+    'sensor-temperature' => 34,
+    'sensor-door-control' => 35,
+    'plug-cigarette-lighter' => 36,
+    'handsfree-kit' => 37,
+    'taho-atol' => 38,
+    'taho-shtrih' => 39,
+    'dut-prolong' => 40,
+    'glonass-na-avtomobil-s-2018-goda-dobrovolno-ili-prinuditelno' => 41,
+    'glonass-na-lichny-avto' => 42,
+    'sistema-slegenia-za-sotrudnikami' => 43,
+    'ustanovka-tahografa-na-gruzovik' => 44,
+    'ispolzovanie-tahografov-v-rossii' => 45,
+    'ustroistvo-monitoringa-cherez-vneshnie-datchiki-na-peredvignoi-spectehnike' => 46,
+    'kakie-tahografi-ustanavlivat-i-mogno-li-ih-obmanut' => 47,
+    'kak-kontrolirovat-rashod-topliva-na-transportnih-predpriyatiyah' => 48,
+    'popylyarizacia-apparatyri-spytnikovoi-navigacii' => 49,
+    'kak-uznat-srok-provedenia-kalibrovki-tahografa' => 50,
+    'trebovania-po-ustanovke-tahografov-na-gruzoviki' => 51,
+    'gps-datchik-kak-sredstvo-slegenia-za-avto-pri-ugone' => 52,
+    'stoimost-ustanovki-glonass-na-avtomobil' => 53,
+    'kak-razblokirovat-karty-predpriyatia-dlya-tohografa' => 54,
+    'sistema-kontrolya-gryzovogo-transporta' => 55,
+    'kak-vibrat-gps-treker-dlya-avtomobilya' => 56,
+    's-kakimi-oshibkami-mogno-stolknytsya-pri-vubore-sistemi-monitoringa-transporta' => 57,
+    'sputnikovi-monitoring-motociklov-skuterov-kvadrociklov-gps-glonass' => 58,
+    'taxi-tracking-systems-with-engine-lockout' => 59,
+    'how-to-control-the-operation-of-agricultural-machinery-using-gps' => 60,
   ),
   'resourceMap' => 
   array (
@@ -69,19 +80,24 @@
       0 => 1,
       1 => 2,
       2 => 3,
-      3 => 8,
-      4 => 18,
-      5 => 14,
-      6 => 19,
-      7 => 20,
-      8 => 21,
+      3 => 63,
+      4 => 8,
+      5 => 18,
+      6 => 14,
+      7 => 64,
+      8 => 65,
+      9 => 19,
+      10 => 20,
+      11 => 62,
+      12 => 21,
     ),
     3 => 
     array (
       0 => 4,
       1 => 5,
-      2 => 6,
-      3 => 7,
+      2 => 61,
+      3 => 6,
+      4 => 7,
     ),
     8 => 
     array (
@@ -93,10 +109,8 @@
     ),
     9 => 
     array (
-      0 => 22,
-      1 => 25,
-      2 => 23,
-      3 => 24,
+      0 => 25,
+      1 => 23,
     ),
     10 => 
     array (
@@ -152,9 +166,22 @@
     array (
       1 => '1',
     ),
+    'OnContextRemove' => 
+    array (
+      8 => '8',
+    ),
     'OnDocFormPrerender' => 
     array (
+      8 => '8',
       1 => '1',
+    ),
+    'OnDocFormSave' => 
+    array (
+      8 => '8',
+    ),
+    'OnEmptyTrash' => 
+    array (
+      8 => '8',
     ),
     'OnFileCreateFormPrerender' => 
     array (
@@ -164,6 +191,10 @@
     array (
       1 => '1',
     ),
+    'OnHandleRequest' => 
+    array (
+      5 => '5',
+    ),
     'OnMODXInit' => 
     array (
       3 => '3',
@@ -172,14 +203,23 @@
     array (
       1 => '1',
     ),
+    'OnResourceDuplicate' => 
+    array (
+      8 => '8',
+    ),
+    'OnResourceSort' => 
+    array (
+      8 => '8',
+    ),
     'OnRichTextEditorRegister' => 
     array (
       1 => '1',
     ),
     'OnSiteRefresh' => 
     array (
-      2 => '2',
       3 => '3',
+      8 => '8',
+      2 => '2',
     ),
     'OnSnipFormPrerender' => 
     array (
@@ -450,6 +490,232 @@ switch ($modx->event->name) {
       'moduleguid' => '',
       'static' => '0',
       'static_file' => 'core/components/pdotools/elements/plugins/plugin.pdotools.php',
+    ),
+    5 => 
+    array (
+      'id' => '5',
+      'source' => '1',
+      'property_preprocess' => '0',
+      'name' => 'Switchlang',
+      'description' => '',
+      'editor_type' => '0',
+      'category' => '0',
+      'cache_type' => '0',
+      'plugincode' => '/* Запускаем плагин только на фронтенде и с включенными sef-url */
+if ($modx->context->key == \'mgr\' || !$modx->getOption(\'friendly_urls\') || $modx->event->name != \'OnHandleRequest\') {
+return;
+}
+/* Определяем текущий язык в cultureKey */
+switch ($_REQUEST[\'cultureKey\']) {
+/* Переключаем контекст */
+case \'en\':
+$modx->switchContext(\'web1\');
+break;
+case \'pt\':
+$modx->switchContext(\'web2\');
+break;
+case \'ua\':
+$modx->switchContext(\'web3\');
+break;
+case \'ur\':
+$modx->switchContext(\'web4\');
+break;
+/* Устанавливаем контекст по умолчанию */
+default:
+$modx->switchContext(\'web\');
+break;
+}
+/* Очищаем GET-параметр чтобы не допустить появлении ссылки вида cultureKey=xy при генерации URL других компонентов */
+unset($_GET[\'cultureKey\']);',
+      'locked' => '0',
+      'properties' => 'a:0:{}',
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => '',
+    ),
+    8 => 
+    array (
+      'id' => '8',
+      'source' => '0',
+      'property_preprocess' => '0',
+      'name' => 'Babel',
+      'description' => 'Links and synchronizes multilingual resources.',
+      'editor_type' => '0',
+      'category' => '0',
+      'cache_type' => '0',
+      'plugincode' => '/**
+ * Babel
+ *
+ * Copyright 2010 by Jakob Class <jakob.class@class-zec.de>
+ *
+ * This file is part of Babel.
+ *
+ * Babel is free software; you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software
+ * Foundation; either version 2 of the License, or (at your option) any later
+ * version.
+ *
+ * Babel is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * Babel; if not, write to the Free Software Foundation, Inc., 59 Temple Place,
+ * Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package babel
+ */
+/**
+ * Babel Plugin to link and synchronize multilingual resources
+ *
+ * Based on ideas of Sylvain Aerni <enzyms@gmail.com>
+ *
+ * Events:
+ * OnDocFormPrerender,OnDocFormSave,OnEmptyTrash,OnContextRemove,OnResourceDuplicate
+ *
+ * @author Jakob Class <jakob.class@class-zec.de>
+ *         goldsky <goldsky@virtudraft.com>
+ *
+ * @package babel
+ *
+ */
+$babel = $modx->getService(\'babel\', \'Babel\', $modx->getOption(\'babel.core_path\', null, $modx->getOption(\'core_path\').\'components/babel/\').\'model/babel/\');
+
+/* be sure babel TV is loaded */
+if (!($babel instanceof Babel) || !$babel->babelTv)
+    return;
+
+switch ($modx->event->name) {
+    case \'OnDocFormPrerender\':
+        $output       = \'\';
+        $errorMessage = \'\';
+        $resource     = & $modx->event->params[\'resource\'];
+        if (!$resource) {
+            /* a new resource is being to created
+             * -> skip rendering the babel box */
+            break;
+        }
+        $linkedResources = $babel->getLinkedResources($resource->get(\'id\'));
+        if (empty($linkedResources)) {
+            /* always be sure that the Babel TV is set */
+            $babel->initBabelTv($resource);
+        }
+
+        /* create babel-box with links to translations */
+        $outputLanguageItems = \'\';
+        if (!$modx->lexicon) {
+            $modx->getService(\'lexicon\', \'modLexicon\');
+        }
+        $languagesStore = array();
+        $contextKeys    = $babel->getGroupContextKeys($resource->get(\'context_key\'));
+        foreach ($contextKeys as $contextKey) {
+            /* for each (valid/existing) context of the context group a button will be displayed */
+            $context = $modx->getObject(\'modContext\', array(\'key\' => $contextKey));
+            if (!$context) {
+                $modx->log(modX::LOG_LEVEL_ERROR, \'Could not load context: \'.$contextKey);
+                continue;
+            }
+            $context->prepare();
+            $cultureKey       = $context->getOption(\'cultureKey\', $modx->getOption(\'cultureKey\'));
+            $languagesStore[] = array($modx->lexicon(\'babel.language_\'.$cultureKey)." ($contextKey)", $contextKey);
+        }
+
+        $babel->config[\'context_key\']    = $resource->get(\'context_key\');
+        $babel->config[\'languagesStore\'] = $languagesStore;
+        $babel->config[\'menu\']           = $babel->getMenu($resource);
+        if (empty($babel->config[\'menu\'])) {
+            $modx->log(modX::LOG_LEVEL_ERROR, \'[Babel] Could not load menu for context key: "\'.$babel->config[\'context_key\'].\'". Try to check "babel.contextKeys" in System Settings. If this is intended, you can ignore this warning.\');
+            return;
+        }
+        $version         = str_replace(\' \', \'\', $babel->config[\'version\']);
+        $isCSSCompressed = $modx->getOption(\'compress_css\');
+        $withVersion     = $isCSSCompressed ? \'\' : \'?v=\'.$version;
+        $modx->controller->addCss($babel->config[\'cssUrl\'].\'babel.css\'.$withVersion);
+
+        $modx->controller->addLexiconTopic(\'babel:default\');
+        $isJsCompressed = $modx->getOption(\'compress_js\');
+        $withVersion    = $isJsCompressed ? \'\' : \'?v=\'.$version;
+        $modx->controller->addJavascript($babel->config[\'jsUrl\'].\'babel.class.js\'.$withVersion);
+        $modx->controller->addHtml(\'
+<script type="text/javascript">
+    Ext.onReady(function () {
+        var babel = new Babel(\'.json_encode($babel->config).\');
+        babel.getMenu(babel.config.menu);
+    });
+</script>\');
+        break;
+
+    case \'OnDocFormSave\':
+        $resource = & $modx->event->params[\'resource\'];
+        if (!$resource) {
+            $modx->log(modX::LOG_LEVEL_ERROR, \'No resource provided for OnDocFormSave event\');
+            break;
+        }
+        if ($modx->event->params[\'mode\'] == modSystemEvent::MODE_NEW) {
+            /* no TV synchronization for new resources, just init Babel TV */
+            $babel->initBabelTv($resource);
+            break;
+        }
+        $babel->synchronizeTvs($resource->get(\'id\'));
+        break;
+
+    case \'OnEmptyTrash\':
+        /* remove translation links to non-existing resources */
+        $deletedResourceIds = & $modx->event->params[\'ids\'];
+        if (is_array($deletedResourceIds)) {
+            foreach ($deletedResourceIds as $deletedResourceId) {
+                $babel->removeLanguageLinksToResource($deletedResourceId);
+            }
+        }
+        break;
+
+    case \'OnContextRemove\':
+        /* remove translation links to non-existing contexts */
+        $context = & $modx->event->params[\'context\'];
+        if ($context) {
+            $babel->removeLanguageLinksToContext($context->get(\'key\'));
+        }
+        break;
+
+    case \'OnResourceDuplicate\':
+        /* init Babel TV of duplicated resources */
+        $resource = & $modx->event->params[\'newResource\'];
+        $babel->initBabelTvsRecursive($modx, $babel, $resource->get(\'id\'));
+        break;
+
+    case \'OnResourceSort\':
+        $nodesAffected = & $modx->event->params[\'nodesAffected\'];
+        foreach ($nodesAffected as $node) {
+            $linkedResources = $babel->getLinkedResources($node->get(\'id\'));
+            foreach ($linkedResources as $key => $id) {
+                if ($id === $node->get(\'id\')) {
+                    unset($linkedResources[$key]);
+                }
+            }
+            $linkedResources[$node->get(\'context_key\')] = $node->get(\'id\');
+            $babel->updateBabelTv($linkedResources, $linkedResources);
+        }
+
+        break;
+
+    case \'OnSiteRefresh\':
+        $cacheManager = $modx->getCacheManager();
+        $cacheManager->refresh(array(
+            \'babel\' => array(),
+        ));
+        break;
+
+    default:
+        break;
+}
+return;',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => '',
     ),
   ),
   'policies' => 

@@ -1,4 +1,4 @@
-<?php  return array (
+<?php if(time() > 1568822449){return null;} return array (
   'access' => 'Доступ',
   'access_denied' => 'Доступ запрещён.',
   'action' => 'Действие',

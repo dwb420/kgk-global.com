@@ -1,4 +1,4 @@
-<?php  return array (
+<?php if(time() > 1568822449){return null;} return array (
   'access' => 'Access',
   'access_denied' => 'Access denied.',
   'action' => 'Action',

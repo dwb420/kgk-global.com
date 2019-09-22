@@ -1,4 +1,4 @@
-<?php  return array (
+<?php if(time() > 1568822449){return null;} return array (
   'categories' => 'Категории',
   'category_confirm_delete' => 'Вы уверены, что хотите удалить эту категорию? Все элементы в ней будут помечены как &laquo;Без категории&raquo;.',
   'category_create' => 'Создать категорию',
