@@ -2,91 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f8e71e-9dbd-451a-a2ad-aa986ba24469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-001-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-002-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-003-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-004-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-005-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-006-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-007-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-008-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-009-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-010-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-010.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-011-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-011.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-012-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-012.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-013-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-013.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-014-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-014.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-015-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-015.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-016-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-016.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-017-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-018-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-018.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-019-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-019.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-020-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-020.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-021-thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/articles/ru/art-021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-blocks.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-001-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-002-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-003-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-004-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-005-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-006-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-007-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-008-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-008.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-009-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-009.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-010-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-011-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-011.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-012-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-012.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-013-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-014-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-015-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-015.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-016-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-016.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-017-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-017.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-018-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-018.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-019-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-020-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-021-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/articles/art-021.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,6 +33,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,8 +63,16 @@
       <option name="presentableId" value="Default" />
       <updated>1569186232445</updated>
       <workItem from="1569186234124" duration="1237000" />
-      <workItem from="1569238477465" duration="903000" />
+      <workItem from="1569238477465" duration="10455000" />
     </task>
+    <task id="LOCAL-00001" summary="images rebuild">
+      <created>1569239651910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569239651910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,5 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="images rebuild" />
+    <option name="LAST_COMMIT_MESSAGE" value="images rebuild" />
   </component>
 </project>

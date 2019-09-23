@@ -1,0 +1,87 @@
+<!-- login to monitoring -->
+<div class="modal fade" id="loginMon" tabindex="-1" role="dialog" aria-labelledby="loginMon" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form name="loginMon" id="loginMon" action="/login.php" target="_blank" autocomplete="on" method="post" role="form" accept-charset="UTF-8">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">+</button>
+                    <h4 class="modal-title">Вход в личный кабинет</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label class="input-group__label">Введите логин</label>
+                            <input type="text" name="loginMonUserName" id="loginMonUserName" class="required form-control" placeholder="Логин" value="[[!+fi.loginMonUserName]]" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label class="input-group__label">Введите пароль</label>
+                            <input type="password" name="loginMonUserPwd" id="loginMonUserPwd" onkeypress="loginEnter(event)" class="required form-control input-av" placeholder="Пароль" name="user_password" id="user_password" value="[[!+fi.loginMonUserPwd]]" />
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" name="loginMonSubmit" id="loginMonSubmit" class="button-warning-inverse button-xxl" onClick="login(false, false)" value="Войти" /><br>
+                    <a class="button-normal button-l" onclick="pwdMon">Забыли пароль?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- pwd request for monitoring-->
+<div class="modal fade" id="pwdMon" tabindex="-1" role="dialog" aria-labelledby="pwdMon" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="content">
+            <form name="pwdMon" id="pwdMon" action="/login.php" method="post" target="_blank" autocomplete="on" method="post" role="form" accept-charset="UTF-8">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">+</button>
+                    <h4 class="modal-title">Восстановление пароля от личного кабинета</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label class="input-group__label">Введите ваш email</label>
+                            <input type="email" name="loginMonUserMail" id="loginMonUserMail" class="required form-control input-av" placeholder="email" value="[[!+fi.loginMonUserMail]]" />
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" name="pwdMonSubmit" id="pwdMonSubmit" class="button-warning-inverse button-xl" onClick="sendMailForLoginMon" value="Отправить" /><br>
+                    <a class="button-normal button-l" onclick="loginMon">Назад</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- callback form -->
+<div class="modal fade" id="callBack" tabindex="-1" aria-labelledby="callBack" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            [[AjaxForm? &snippet=`FormIt` &form=`UR-CallBack-ajax` &emailTpl=`UR-CallBack` &hooks=`email,FormItSaveForm` &submitVar=`callBackSubmit` &emailFrom=`robot@igornesov.ru` &emailTo=`kgk.glob@yandex.ru,robot@igornesov.ru` &emailSubject=`Запрос обратного звонка`
+            &validate=`callBackName:required,callBackPhone:required,callBackAgree:required` ]]
+        </div>
+    </div>
+</div>
+
+<!-- device order form -->
+<div class="modal fade" id="orderForm" tabindex="-1" role="dialog" aria-labelledby="orderForm" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            [[AjaxForm? &snippet=`FormIt` &form=`UR-OrderForm-ajax` &emailTpl=`UR-OrderForm` &hooks=`email,FormItSaveForm` &submitVar=`orderFormSubmit` &emailFrom=`robot@igornesov.ru` &emailTo=`kgk.glob@yandex.ru,robot@igornesov.ru` &emailSubject=`Заказ устройства
+            [[*pagetitle]]` &validate=`orderFormName:required,orderFormPhone:required,orderFormAgree:required` ]]
+        </div>
+    </div>
+</div>
+
+<!-- test access form -->
+<div class="modal fade" id="testAccess" tabindex="-1" aria-labelledby="testAccess" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            [[AjaxForm? &snippet=`FormIt` &form=`UR-TestAccess-ajax` &emailTpl=`UR-TestAccess` &hooks=`email,FormItSaveForm` &submitVar=`testAccessSubmit` &emailFrom=`robot@igornesov.ru` &emailTo=`kgk.glob@yandex.ru,robot@igornesov.ru` &emailSubject=`Запрос демо-доступа
+            в систему мониторинга` &validate=`testAccessName:required,testAccessMail:required,testAccessPhone:required,testAccessAgree:required` ]]
+        </div>
+    </div>
+</div>
