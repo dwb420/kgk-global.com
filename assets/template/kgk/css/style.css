@@ -3,7 +3,7 @@
 /***************************************************************************************/
 
 
-/* CONTENT: 
+/* CONTENT:
 01. GLOBALS             [32]
 02. HEADER              [85]
 03. SECTIONS            [155]
@@ -22,7 +22,7 @@
     md                  [9127]
     sm                  [10743]
     xs                  [12337]
-12. OTHER               [13935] 
+12. OTHER               [13935]
 */
 
 
@@ -941,7 +941,7 @@ form {
     -moz-border-radius: 52px;
     -webkit-border-radius: 52px;
     border-radius: 52px;
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.16);
     position: relative;
 }
 
@@ -4271,6 +4271,21 @@ ul.section-survey__item-panlist li span {
 .section-devicepage__descr-sub {
     font: normal 14px/140% 'OpenSans-Regular', sans-serif;
     color: rgba(0, 0, 0, .6);
+}
+
+.section-devicepage__item {
+    width: calc(100% / 4 - 20px);
+    text-align: center;
+}
+
+.section-devicepage__item img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.section-devicepage__item h3 {
+    font: 600 16px/140% 'OpenSans-Regular', sans-serif;
 }
 
 .section-devicepage__extra {
@@ -11825,6 +11840,16 @@ ul.section-survey__item-panlist li span {
         justify-content: center;
         margin: 0 auto 25px;
     }
+
+    .section-devicepage__item {
+        width: calc(100% / 2 - 20px);
+        text-align: center;
+    }
+
+    .section-devicepage__item h3 {
+        font: 600 15px/140% 'OpenSans-Regular', sans-serif;
+    }
+
     .section-devicepage__extra {
         display: flex;
         flex-flow: row wrap;
@@ -13496,6 +13521,22 @@ ul.section-survey__item-panlist li span {
         justify-content: center;
         margin: 0 auto 20px;
     }
+
+    .section-devicepage__item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-devicepage__item img {
+        max-width: 80%;
+        margin: auto 10% -20px;
+        text-align: center;
+    }
+
+    .section-devicepage__item h3 {
+        font: 600 14px/140% 'OpenSans-Regular', sans-serif;
+    }
+
     .section-devicepage__extra {
         display: flex;
         flex-flow: row wrap;
