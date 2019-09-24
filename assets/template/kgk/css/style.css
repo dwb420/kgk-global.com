@@ -941,7 +941,7 @@ form {
     -moz-border-radius: 52px;
     -webkit-border-radius: 52px;
     border-radius: 52px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.16);
     position: relative;
 }
 
@@ -3344,7 +3344,7 @@ form {
 }
 
 .section-survey__descr {
-    width: 50%;
+    width: 100%;
     margin-bottom: 40px;
     font: 300 18px/140% 'OpenSans-Regular', sans-serif;
 }
@@ -3402,9 +3402,9 @@ form {
 }
 
 .section-survey__items .section-survey__item-menu div p {
-    width: 100%;
+    min-width: 100%;
     margin: 0 0 0 -70px;
-    font: 300 16px/140% 'OpenSans-Regular', sans-serif;
+    font: 300 14px/120% 'OpenSans-Regular', sans-serif;
     color: #000000;
 }
 
@@ -3454,8 +3454,8 @@ ul.section-survey__item-panlist li {
     -webkit-transform: translateY(50px);
     transform: translateY(50px);
     position: absolute;
-    margin: -50px 0 0 50px;
-    width: calc(100% - 50px);
+    margin: 0;
+    width: calc(100% - 10px);
     list-style: none;
     text-align: center;
     -moz-transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -3477,6 +3477,10 @@ ul.section-survey__item-panlist li p,
 ul.section-survey__item-panlist li span {
     margin: 0;
     padding: 0;
+}
+
+ul.section-survey__item-panlist li img {
+    max-width: 100%;
 }
 
 
@@ -6088,7 +6092,7 @@ ul.section-survey__item-panlist li span {
         text-align: center;
     }
     .section-survey__descr {
-        width: calc(100% / 2 - 10px);
+        width: 100%;
         font: 300 20px/140% 'OpenSans-Regular', sans-serif;
         text-align: left;
     }
@@ -6120,7 +6124,7 @@ ul.section-survey__item-panlist li span {
     }
     .section-survey__item-pans {
         width: calc(100% / 2 - 10px);
-        margin: -50px auto 0;
+        margin: 0 auto;
     }
     ul.section-survey__item-panlist li {
         margin: 0 10px 20px;
@@ -7484,7 +7488,7 @@ ul.section-survey__item-panlist li span {
         text-align: center;
     }
     .section-survey__descr {
-        width: calc(100% / 2 - 10px);
+        width: 100%;
         margin-bottom: 40px;
         font: 300 18px/140% 'OpenSans-Regular', sans-serif;
         text-align: left;
@@ -7517,7 +7521,7 @@ ul.section-survey__item-panlist li span {
     }
     .section-survey__item-pans {
         width: calc(100% / 2 - 10px);
-        margin: -50px auto 0;
+        margin: 0 auto;
     }
     ul.section-survey__item-panlist li {
         margin: 0 10px 20px;
@@ -9016,7 +9020,7 @@ ul.section-survey__item-panlist li span {
         text-align: center;
     }
     .section-survey__descr {
-        width: calc(100% / 2 - 10px);
+        width: 100%;
         margin-bottom: 35px;
         font: 300 18px/140% 'OpenSans-Regular', sans-serif;
         text-align: left;
@@ -9049,7 +9053,7 @@ ul.section-survey__item-panlist li span {
     }
     .section-survey__item-pans {
         width: calc(100% / 2 - 10px);
-        margin: -50px auto 0;
+        margin: 0 auto;
     }
     ul.section-survey__item-panlist li {
         margin: 0 10px 20px;
@@ -10630,7 +10634,7 @@ ul.section-survey__item-panlist li span {
         text-align: center;
     }
     .section-survey__descr {
-        width: calc(100% / 2 - 10px);
+        width: 100%;
         margin-bottom: 30px;
         font: 300 16px/140% 'OpenSans-Regular', sans-serif;
         text-align: left;
@@ -10663,7 +10667,7 @@ ul.section-survey__item-panlist li span {
     }
     .section-survey__item-pans {
         width: calc(100% / 2 - 10px);
-        margin: -50px auto 0;
+        margin: 0 auto;
     }
     ul.section-survey__item-panlist li {
         margin: 0 10px 20px;
@@ -12258,6 +12262,9 @@ ul.section-survey__item-panlist li span {
     ul.section-survey__item-panlist li {
         margin: 0 10px 20px;
         width: calc(100% - 20px);
+    }
+    ul.section-survey__item-panlist li img {
+        max-width: 80%;
     }
     /**/
     .section-tasks {
