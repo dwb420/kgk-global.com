@@ -53,6 +53,12 @@ input:active {
     outline: 0;
 }
 
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    border: 0 !important;
+}
+
 html,
 body {
     width: 100%;
@@ -3893,6 +3899,10 @@ ul.section-survey__item-panlist li img {
     flex-flow: row wrap;
 }
 
+.section-contacts__items:nth-child(2) {
+    flex-flow: row-reverse wrap;
+}
+
 .section-contacts__title {
     width: 100%;
     margin: 0 auto 30px;
@@ -3924,7 +3934,7 @@ ul.section-survey__item-panlist li img {
 .section-contacts__adress-title {
     width: 100%;
     margin: 0 auto 15px;
-    font: normal 22px/120% 'OpenSans-Regular', sans-serif;
+    font: 600 22px/120% 'OpenSans-Regular', sans-serif;
 }
 
 .section-contacts__adress-section {
@@ -4600,7 +4610,7 @@ ul.section-survey__item-panlist li img {
     width: calc(100% / 3);
     display: flex;
     position: relative;
-    margin: 0 0 -58px;
+    margin: 0;
 }
 
 .section-mobileapps__text {
@@ -5451,7 +5461,7 @@ ul.section-survey__item-panlist li img {
         font: 600 32px/120% 'OpenSans-Regular', sans-serif;
     }
     .section-contacts__adress {
-        width: 100%;
+        width: calc(100% / 2 - 20px);
     }
     .section-contacts__adress-title {
         width: 100%;
@@ -5465,7 +5475,7 @@ ul.section-survey__item-panlist li img {
     }
     .section-contacts__mappoint {
         margin: 0 -20px auto;
-        width: 100%;
+        width: calc(100% / 2 - 20px);
     }
     /**/
     .section-contactform {
@@ -6824,7 +6834,7 @@ ul.section-survey__item-panlist li img {
         font: 600 32px/120% 'OpenSans-Regular', sans-serif;
     }
     .section-contacts__adress {
-        width: 100%;
+        width: calc(100% / 2 - 20px);
     }
     .section-contacts__adress-title {
         width: 100%;
@@ -6838,7 +6848,7 @@ ul.section-survey__item-panlist li img {
     }
     .section-contacts__mappoint {
         margin: 0 -20px auto;
-        width: 100%;
+        width: calc(100% / 2 - 20px);
     }
     /**/
     .section-contactform {
@@ -8339,7 +8349,7 @@ ul.section-survey__item-panlist li img {
         font: 600 30px/120% 'OpenSans-Regular', sans-serif;
     }
     .section-contacts__adress {
-        width: 100%;
+        width: calc(100% / 2 - 20px);
     }
     .section-contacts__adress-title {
         width: 100%;
@@ -8353,7 +8363,7 @@ ul.section-survey__item-panlist li img {
     }
     .section-contacts__mappoint {
         margin: 0 -20px auto;
-        width: 100%;
+        width: calc(100% / 2 - 20px);
     }
     /**/
     .section-contactform {
@@ -9950,7 +9960,7 @@ ul.section-survey__item-panlist li img {
         font: 600 26px/120% 'OpenSans-Regular', sans-serif;
     }
     .section-contacts__adress {
-        width: 100%;
+        width: calc(100% / 2 - 20px);
     }
     .section-contacts__adress-title {
         width: 100%;
@@ -9964,7 +9974,7 @@ ul.section-survey__item-panlist li img {
     }
     .section-contacts__mappoint {
         margin: 0 -20px auto;
-        width: 100%;
+        width: calc(100% / 2 - 20px);
     }
     /**/
     .section-contactform {
@@ -11537,7 +11547,7 @@ ul.section-survey__item-panlist li img {
         font: 600 22px/120% 'OpenSans-Regular', sans-serif;
     }
     .section-contacts__adress {
-        width: 100%;
+        width: calc(100% / 2 - 20px);
     }
     .section-contacts__adress-title {
         width: 100%;
@@ -11551,7 +11561,7 @@ ul.section-survey__item-panlist li img {
     }
     .section-contacts__mappoint {
         margin: 0 -20px auto;
-        width: 100%;
+        width: calc(100% / 2 - 20px);
     }
     /**/
     .section-contactform {
@@ -13265,6 +13275,9 @@ ul.section-survey__item-panlist li img {
     .section-contacts__title {
         margin: 0 auto 20px;
         font: 600 20px/120% 'OpenSans-Regular', sans-serif;
+    }
+    .section-contacts__items:nth-child(2) {
+        flex-flow: row wrap;
     }
     .section-contacts__adress {
         width: 100%;
