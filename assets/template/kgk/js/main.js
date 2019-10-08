@@ -80,7 +80,7 @@ function loginEnter(e) {
     if (e.keyCode == 13) {
         // console.log('Enter press key')
         login(false, false)
-            // return false;
+        // return false;
     }
 }
 
@@ -189,12 +189,12 @@ $(document).ready(function() {
         slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [{
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                }
-            },
+            breakpoint: 1199,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+            }
+        },
             {
                 breakpoint: 991,
                 settings: {
@@ -236,7 +236,8 @@ $(document).ready(function() {
 // Slick slider for 'functions' section
 $(document).ready(function() {
     $('.section-functions__items').slick({
-        dots: false,
+        dots: true,
+        controls: true,
         autoplay: true,
         autoplaySpeed: 6000,
         infinite: true,
@@ -261,6 +262,49 @@ $(document).ready(function() {
 });
 
 
+// Slick slider for 'stepline' section
+$(document).ready(function() {
+    $('.section-stepline__items').slick({
+        dots: false,
+        autoplay: false,
+        autoplaySpeed: 6000,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [{
+            breakpoint: 1199,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+            }
+        },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+});
+
+
 // Slick slider for 'timeline' section
 $(document).ready(function() {
     $('.section-timeline__items').slick({
@@ -272,12 +316,12 @@ $(document).ready(function() {
         slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [{
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                }
-            },
+            breakpoint: 1199,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+            }
+        },
             {
                 breakpoint: 991,
                 settings: {

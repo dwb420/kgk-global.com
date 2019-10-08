@@ -1,4 +1,4 @@
-<?php if(time() > 1568822461){return null;} return array (
+<?php if(time() > 1570528160){return null;} return array (
   'directory' => 'Каталог',
   'file_confirm_remove' => 'Вы уверены, что хотите удалить этот файл? Это может нарушить работу сайта.',
   'file_create' => 'Создать файл',

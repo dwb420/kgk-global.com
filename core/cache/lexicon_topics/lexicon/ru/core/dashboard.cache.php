@@ -1,4 +1,4 @@
-<?php if(time() > 1568822461){return null;} return array (
+<?php if(time() > 1570528160){return null;} return array (
   'active_users_none' => 'Сейчас нет пользователей онлайн.',
   'add_user' => 'Добавить пользователя',
   'create_resource' => 'Создать ресурс',

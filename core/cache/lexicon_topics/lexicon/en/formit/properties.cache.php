@@ -1,4 +1,4 @@
-<?php if(time() > 1569182271){return null;} return array (
+<?php if(time() > 1570554162){return null;} return array (
   'prop_formit.hooks_desc' => 'What scripts to fire, if any, after the form passes validation. This can be a comma-separated list of hooks, and if the first fails, the proceeding ones will not fire. A hook can also be a Snippet name that will execute that Snippet.',
   'prop_formit.prehooks_desc' => 'What scripts to fire, if any, once the form loads. You can pre-set form fields via $scriptProperties[`hook`]->fields[`fieldname`]. This can be a comma-separated list of hooks, and if the first fails, the proceeding ones will not fire. A hook can also be a Snippet name that will execute that Snippet.',
   'prop_formit.submitvar_desc' => 'If set, will not begin form processing if this POST variable is not passed.',

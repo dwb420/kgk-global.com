@@ -1,4 +1,4 @@
-<?php if(time() > 1568822453){return null;} return array (
+<?php if(time() > 1570528160){return null;} return array (
   'access' => 'Доступ',
   'cache_output' => 'Кэш ресурса',
   'changes' => 'Изменения',

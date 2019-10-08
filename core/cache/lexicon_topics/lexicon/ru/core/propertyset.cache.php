@@ -1,4 +1,4 @@
-<?php if(time() > 1568822449){return null;} return array (
+<?php if(time() > 1570450554){return null;} return array (
   'area' => 'Раздел',
   'areas' => 'Разделы',
   'class_name' => 'Имя класса',

@@ -1,4 +1,4 @@
-<?php if(time() > 1568822462){return null;} return array (
+<?php if(time() > 1570462019){return null;} return array (
   'binary' => 'Двоичный',
   'binary_desc' => 'Файл двоичный или text/ascii?',
   'content_type' => 'Тип содержимого',

@@ -1,4 +1,4 @@
-<?php if(time() > 1568822461){return null;} return array (
+<?php if(time() > 1570528160){return null;} return array (
   'action' => 'Действие',
   'action_confirm_remove' => 'Вы уверены, что хотите удалить это действие? Это может нарушить работу панели управления MODX.',
   'action_create' => 'Добавить действие',

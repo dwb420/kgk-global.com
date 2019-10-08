@@ -1,4 +1,4 @@
-<?php if(time() > 1569182271){return null;} return array (
+<?php if(time() > 1570554162){return null;} return array (
   'ajaxform_prop_form' => 'Chunk with form for submit.',
   'ajaxform_prop_snippet' => 'Snippet, that will process specified form.',
   'ajaxform_prop_frontend_css' => 'File with css styles for frontend.',

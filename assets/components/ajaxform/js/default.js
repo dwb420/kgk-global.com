@@ -7,11 +7,11 @@ var AjaxForm = {
         if (!jQuery().jGrowl) {
             document.write('<script src="' + afConfig['assetsUrl'] + 'js/lib/jquery.jgrowl.min.js"><\/script>');
         }
-
+        
         $(document).ready(function () {
             $.jGrowl.defaults.closerTemplate = '<div>[ ' + afConfig['closeMessage'] + ' ]</div>';
         });
-
+        
         $(document).off('submit', afConfig['formSelector']).on('submit', afConfig['formSelector'], function (e) {
             $(this).ajaxSubmit({
                 dataType: 'json',

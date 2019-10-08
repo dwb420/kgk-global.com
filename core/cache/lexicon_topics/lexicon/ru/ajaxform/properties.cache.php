@@ -1,4 +1,4 @@
-<?php if(time() > 1569182271){return null;} return array (
+<?php if(time() > 1570554162){return null;} return array (
   'ajaxform_prop_form' => 'Чанк с формой для отправки.',
   'ajaxform_prop_snippet' => 'Сниппет, который будет обрабатывать указанную форму.',
   'ajaxform_prop_frontend_css' => 'Файл с css стилями для подключения на фронтенде.',

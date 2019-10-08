@@ -1,4 +1,4 @@
-<?php if(time() > 1568822461){return null;} return array (
+<?php if(time() > 1570528160){return null;} return array (
   'trash_menu' => 'Корзина',
   'trash_menu_desc' => 'Управление удаленными ресурсами.',
   'trash.page_title' => 'Корзина - управление удаленными ресурсами',

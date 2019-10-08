@@ -1,4 +1,4 @@
-<?php if(time() > 1568822461){return null;} return array (
+<?php if(time() > 1570528160){return null;} return array (
   'about' => 'О проекте',
   'about_desc' => 'Более подробная информация о MODX Revolution',
   'access_permissions' => 'Права доступа',

@@ -1,4 +1,4 @@
-<?php if(time() > 1569182271){return null;} return array (
+<?php if(time() > 1570554161){return null;} return array (
   'config' => 
   array (
     'base_url' => '/',
@@ -19,7 +19,7 @@
     'products' => 8,
     'kgkcompany' => 18,
     'mobile' => 14,
-    'politika-konfidenczialnosti' => 64,
+    'privacy-policy' => 64,
     'test-page' => 65,
     'articles' => 19,
     'contacts' => 20,
@@ -172,8 +172,8 @@
     ),
     'OnDocFormPrerender' => 
     array (
-      8 => '8',
       1 => '1',
+      8 => '8',
     ),
     'OnDocFormSave' => 
     array (

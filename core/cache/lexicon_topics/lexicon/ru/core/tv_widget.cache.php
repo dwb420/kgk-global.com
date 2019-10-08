@@ -1,4 +1,4 @@
-<?php if(time() > 1568822461){return null;} return array (
+<?php if(time() > 1570462018){return null;} return array (
   'attributes' => 'Атрибуты',
   'capitalize' => 'Прописные',
   'checkbox' => 'Флажки (checkbox)',

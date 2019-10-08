@@ -1,4 +1,4 @@
-<?php if(time() > 1568822461){return null;} return array (
+<?php if(time() > 1570462008){return null;} return array (
   'babel.tv_caption' => 'Babel Translation Links',
   'babel.tv_description' => 'Используется плагином Babel. Не изменяйте!',
   'babel.create_translation' => 'Создать перевод',

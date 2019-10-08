@@ -1,4 +1,4 @@
-<?php if(time() > 1568822449){return null;} return array (
+<?php if(time() > 1570528164){return null;} return array (
   'element' => 'Элемент',
   'element_err_nf' => 'Элемент не найден.',
   'element_err_ns' => 'Элемент не указан.',

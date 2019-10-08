@@ -1,4 +1,4 @@
-<?php if(time() > 1568822453){return null;} return array (
+<?php if(time() > 1570462015){return null;} return array (
   'context' => 'Контекст',
   'context_add' => 'Добавить контекст',
   'context_create' => 'Создать контекст',
